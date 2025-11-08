@@ -5,5 +5,5 @@ export type PlaceType = {
   address: string
   map: string
   url: string
-  x_url: string
+  x_url?: string
 } & CommonType

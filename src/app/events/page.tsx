@@ -1,10 +1,10 @@
 import { SingleViewLayout } from '@/layouts/SingleViewLayout'
+import { EventListView } from '@/views/eventListView'
 import { FooterView } from '@/views/footerView'
 import { HeaderView } from '@/views/headerView'
-import { NewsListView } from '@/views/newsListView'
 
-export default function News() {
+export default function Events() {
   return (
-    <SingleViewLayout header={<HeaderView />} main={<NewsListView />} footer={<FooterView />} />
+    <SingleViewLayout header={<HeaderView />} main={<EventListView />} footer={<FooterView />} />
   )
 }

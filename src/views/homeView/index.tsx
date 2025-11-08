@@ -5,14 +5,10 @@ import Link from 'next/link'
 import { PropsWithChildren } from 'react'
 import { Container } from '@mui/material'
 import SlideUpAnimation from '@/components/animation/slideUpAnimation'
-import { useEventsApi } from '@/api/eventsApi'
-import { EventContentsType } from '@/domain/event'
+import { eventPresenter } from '@/presenter/eventPresenter'
 
 export const HomeView = () => {
-  const { getEvents } = useEventsApi()
-  const events: EventContentsType[] = getEvents.data
-    ? (getEvents.data.contents as unknown as EventContentsType[])
-    : []
+  const { events } = eventPresenter()
 
   const Section = ({ children }: PropsWithChildren) => {
     return (

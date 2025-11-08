@@ -11,11 +11,11 @@ export type EventContentsType = {
   title: string
   categories: CategoryType
   date: string
-  open: string
-  start: string
+  open?: string
+  start?: string
   place: PlaceType[]
   context: string
-  ticket: string
+  ticket?: string
   img: ImgUrlType[]
-  publish: string
+  publish?: string
 } & CommonType
