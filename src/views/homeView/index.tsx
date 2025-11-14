@@ -6,9 +6,10 @@ import { PropsWithChildren } from 'react'
 import { Container } from '@mui/material'
 import SlideUpAnimation from '@/components/animation/slideUpAnimation'
 import { eventPresenter } from '@/presenter/eventPresenter'
+import { Img } from '@/components/Image'
 
 export const HomeView = () => {
-  const { events } = eventPresenter()
+  const { bombEvents } = eventPresenter()
 
   const Section = ({ children }: PropsWithChildren) => {
     return (
@@ -29,7 +30,14 @@ export const HomeView = () => {
       </Section>
       <Section>
         <Heading tag={2} label="Girl's Bomb!!" />
-        <Container maxWidth='md'></Container>
+        <Container maxWidth='md'>
+          {bombEvents.map((e, index) => (
+            <div key={index}>
+              <Img src={e.img[0].url} />
+              <div>{e.title}</div>
+            </div>
+          ))}
+        </Container>
         <Link href='/events'>
           <span className='flex px-20 py-4 mt-8 border bg-white'>全てのイベントを見る</span>
         </Link>
@@ -94,7 +102,7 @@ export const HomeView = () => {
           <p>その他のお問い合わせは下記までお願いします。</p>
         </div>
         <Link href='/contact'>
-          <span className='flex px-20 py-4 mt-8 border bg-black'>お問い合わせはこちら</span>
+          <span className='flex px-20 py-4 mt-8 border'>お問い合わせはこちら</span>
         </Link>
       </Section>
     </div>
