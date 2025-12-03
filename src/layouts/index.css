@@ -1,0 +1,77 @@
+.base-view {
+  position: relative;
+  overflow: hidden;
+}
+.header-space {
+  height: 50px;
+}
+header {
+  position: fixed;
+  z-index: 50;
+  width: 100vw;
+  height: 50px;
+  background-color: #febcbc;
+  background-image: repeating-linear-gradient(45deg, #e14014 0px 1px, transparent 1px 10px),
+    repeating-linear-gradient(-45deg, #e14014 0px 1px, transparent 1px 10px);
+  top: 0;
+}
+main {
+  width: 100vw;
+  height: auto;
+  min-height: calc(100vh - 120px);
+}
+.errorMsg {
+  color: red;
+  margin: 0;
+  align-self: flex-start;
+  width: 100%;
+  text-align: start;
+  font-size: small;
+}
+.door-left {
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: -50vw;
+  z-index: 100;
+  animation-name: slideOutLeft;
+  animation-duration: 1s;
+  background-image: url('../image/door.png');
+  background-size: cover;
+}
+.door-right {
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: -50vw;
+  z-index: 100;
+  animation-name: slideOutRight;
+  animation-duration: 1s;
+  background-image: url('../image/door.png');
+  background-size: cover;
+}
+@keyframes slideOutLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

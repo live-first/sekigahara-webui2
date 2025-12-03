@@ -1,7 +1,7 @@
 .h1 {
 }
 .h1-label {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .h2 {
@@ -12,7 +12,7 @@
 
 .h3 {
   border-radius: 10px;
-  background-color: var(--color-krf-blue);
+  background-color: #e14040;
   padding: 0 10px;
 }
 .h3-label {
@@ -21,7 +21,7 @@
 }
 
 .h4 {
-  border-left: 5px var(--color-krf-blue) solid;
+  border-left: 5px #e14040 solid;
   padding: 0 10px;
 }
 .h4-label {
@@ -30,7 +30,7 @@
 }
 
 .h5 {
-  border-bottom: 2px var(--color-krf-blue) solid;
+  border-bottom: 2px #e14040 solid;
   padding: 0 10px;
 }
 .h5-label {

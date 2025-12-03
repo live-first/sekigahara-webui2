@@ -9,9 +9,3 @@ export const imgInit: ImgType = {
   alt: '',
   cName: '',
 }
-
-export type ImgUrlType = {
-  url: string
-  height: number
-  width: number
-}
