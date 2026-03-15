@@ -1,5 +1,7 @@
+'use client'
+
 import { useState } from 'react'
-import './style.scss'
+import './style.css'
 import timeData from '../../resource/time.json'
 import { TimeTableCellType } from '@/domain/timetable'
 

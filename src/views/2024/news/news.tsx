@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container } from '@mui/material'
 import NewsList from './newsList.tsx'
-import './news.scss'
 import { Title } from '@/components/title/title.tsx'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout.tsx'
 

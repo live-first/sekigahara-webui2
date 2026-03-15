@@ -2,7 +2,7 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   images: {
-    remotePatterns: [new URL('https://wonder-weed.com/**')],
+    remotePatterns: [new URL('https://sekigahara-idolwars.net/**')],
     unoptimized: true,
   },
   output: 'export',

@@ -1,6 +1,8 @@
+'use client'
+
 import React from 'react'
 import { Container } from '@mui/material'
-import './newsDetail.scss'
+import './newsDetail.css'
 import newsList from '../../../resource/news.json'
 import Link from 'next/link'
 import { useParams } from 'next/navigation'

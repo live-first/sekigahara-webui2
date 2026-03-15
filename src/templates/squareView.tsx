@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react'
-import './squareView.scss'
+import './squareView.css'
 import Link from 'next/link'
 import { Img } from '@/components/Image'
 
@@ -10,7 +10,7 @@ type SquareViewProps = {
 }
 
 export const SquareView = (props: PropsWithChildren<SquareViewProps>) => {
-  const {page, imgUrl, alt, children} = props
+  const { page, imgUrl, alt, children } = props
 
   return (
     <Link href={page}>

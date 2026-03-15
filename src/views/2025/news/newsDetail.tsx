@@ -1,6 +1,8 @@
+'use client'
+
 import React from 'react'
 import { Container } from '@mui/material'
-import './newsDetail.scss'
+import './newsDetail.css'
 import newsList from '../../../resource/2025/news.json'
 import { BaseView2025 } from '../layout/index.tsx'
 import Link from 'next/link'

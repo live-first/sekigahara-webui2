@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react'
 import './header.scss'
 import { Img } from '@/components/Image'

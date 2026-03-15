@@ -1,5 +1,4 @@
 import { Container } from '@mui/material'
-import './attention.scss'
 import { Title } from '@/components/title/title'
 import { Frame } from '@/components/Frame'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout'

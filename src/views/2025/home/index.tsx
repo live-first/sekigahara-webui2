@@ -1,8 +1,9 @@
+'use client'
+
 import { useEffect, useRef } from 'react'
 import { BaseView2025 } from '../layout/index.tsx'
 import { Container } from '@mui/material'
 import { NewsList } from '../news/newsList.tsx'
-import SponsorshipView from '../../2024/home/sponsorship.tsx'
 import cooporationData from '../../../resource/2025/cooperation.json'
 import sponsorData from '../../../resource/2025/sponsor.json'
 import { ContentTitle } from '@/components/title/contentTitle.tsx'

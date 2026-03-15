@@ -1,6 +1,8 @@
+'use client'
+
 import React from 'react'
 import { motion } from 'framer-motion'
-import '../index.css'
+import './index.css'
 
 export type BaseViewProps = {
   header?: React.ReactNode
