@@ -1,3 +1,5 @@
+'use client'
+
 import { Container } from '@mui/material'
 import { Title } from '@/components/title/title'
 import { Frame } from '@/components/Frame'

@@ -1,3 +1,5 @@
+'use client'
+
 import React, { PropsWithChildren } from 'react'
 import { Container } from '@mui/material'
 import './yosen.scss'

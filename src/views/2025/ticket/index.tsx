@@ -1,3 +1,5 @@
+'use client'
+
 import { Alert, Container } from '@mui/material'
 import { BaseView2025 } from '../layout/index.tsx'
 import './index.css'

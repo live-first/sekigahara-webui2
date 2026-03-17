@@ -1,3 +1,5 @@
+'use client'
+
 import { Container } from '@mui/material'
 import '../timetable.scss'
 

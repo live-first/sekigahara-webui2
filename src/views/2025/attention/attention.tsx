@@ -1,3 +1,5 @@
+'use client'
+
 import { Container } from '@mui/material'
 import { BaseView2025 } from '../layout/index.tsx'
 import { Frame } from '@/components/Frame/index.tsx'

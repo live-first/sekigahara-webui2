@@ -3,7 +3,7 @@
 import React from 'react'
 import { Container } from '@mui/material'
 import './newsDetail.css'
-import newsList from '../../../resource/2025/news.json'
+import { news2025 } from '@/resource/2025/news'
 import { BaseView2025 } from '../layout/index.tsx'
 import Link from 'next/link'
 import { Img } from '@/components/Image/index.tsx'
@@ -11,8 +11,8 @@ import NotFoundView from '@/views/common/notfound/notFound.tsx'
 
 export const NewsDetail2025View = (props: { id: string | number }) => {
   const { id } = props
-  const newsIndex = newsList.findIndex((news) => news.id === Number(id))
-  const newsData = newsList[newsIndex]
+  const newsIndex = news2025.findIndex((news) => news.id === Number(id))
+  const newsData = news2025[newsIndex]
   if (newsData) {
     return (
       <BaseView2025>

@@ -1,24 +1,15 @@
-import { MetaType } from './meta'
+import { ImgProps } from '@/components/Image'
+
+type UrlType = {
+  title: string
+  url: string
+}
 
 export type NewsType = {
-  contents: NewsContentsType[]
-} & MetaType
-
-export type NewsContentsType = {
-  id: string
-  createdAt: string
-  updatedAt: string
-  publishedAt: string
-  revisedAt: string
+  id: number
+  date: string
   title: string
-  content: string
-  category: {
-    id: string
-    createdAt: string
-    updatedAt: string
-    publishedAt: string
-    revisedAt: string
-    name: string
-  }
-  open: string
+  context: string[]
+  urls: UrlType[]
+  img: ImgProps[]
 }

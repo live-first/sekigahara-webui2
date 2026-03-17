@@ -1,3 +1,5 @@
+'use client'
+
 import { Alert, Container } from '@mui/material'
 import { useEffect, useState } from 'react'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'

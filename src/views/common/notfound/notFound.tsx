@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { Container } from '@mui/material'
 import Link from 'next/link'

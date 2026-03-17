@@ -1,3 +1,5 @@
+'use client'
+
 import { Container } from '@mui/material'
 import './access.scss'
 import { BaseView2025 } from '../../2025/layout/index.tsx'
