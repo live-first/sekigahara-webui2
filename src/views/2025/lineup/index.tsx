@@ -66,7 +66,7 @@ const LineUp = () => {
     )
       .then((response) => response.json())
       .then((data) => {
-        const unitData = data.map((unit): ArtistType => {
+        const unitData = data.map((unit: ArtistType): ArtistType => {
           return {
             ...unit,
             img: {

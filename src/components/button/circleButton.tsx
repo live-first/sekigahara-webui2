@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './button.tsx'
+import { Button } from './button.tsx'
 import './button.css'
 
 type Props = {
@@ -13,9 +13,19 @@ type Props = {
 }
 
 export const CircleButton = (props: Props) => {
-  const {className,children,onClick,width,height,color,disabled} = props
+  const { className, children, onClick, disabled } = props
   return (
-    <Button className={`circle-btn ${className}`} radius='50%' width={width} height={height} color={color} onClick={onClick} disabled={disabled}>{children}</Button>
+    <Button
+      className={`circle-btn ${className}`}
+      // radius='50%'
+      // width={width}
+      // height={height}
+      // color={color}
+      onClick={onClick}
+      disabled={disabled}
+    >
+      {children}
+    </Button>
   )
 }
 

@@ -11,6 +11,7 @@ import Link from 'next/link'
 import { Img } from '@/components/Image/index.tsx'
 import { Frame } from '@/components/Frame/index.tsx'
 import { EllipseButton } from '@/components/button/ellipseButton.tsx'
+import { SponsorshipView } from '@/views/2024/home/sponsorship.tsx'
 
 export const Home2025View = () => {
   const videoRef = useRef<HTMLVideoElement>(null)

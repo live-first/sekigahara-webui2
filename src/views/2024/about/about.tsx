@@ -13,8 +13,8 @@ import { Title } from '@/components/title/title.tsx'
 import { YouTube } from '@/components/YouTube/index.tsx'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout.tsx'
 
-interface Data {
-  data: Array<string>
+type Data = {
+  data: string[]
 }
 
 const Slider = (props: Data) => {

@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, ChangeEvent } from 'react'
 import './newsList.scss'
 import { Container } from '@mui/material'
 import newsData from '../../../resource/2025/news.json'
@@ -35,7 +35,7 @@ export const NewsList = (props: NewsListProps) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  const handleChange = (event, index) => {
+  const handleChange = (event: ChangeEvent<unknown>, index: number) => {
     setPage(index)
     setDisplayedItems(newsData.slice((index - 1) * maxContent, index * maxContent))
   }

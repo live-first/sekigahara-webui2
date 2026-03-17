@@ -1,4 +1,4 @@
-import { TimeTableType } from '../../../../sgh-domain/timetable'
+import { TimeTableType } from '@/domain/timetable'
 
 export const day1Stage1: TimeTableType = {
   date: '2025-07-19',

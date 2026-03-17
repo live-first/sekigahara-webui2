@@ -31,13 +31,13 @@ export const phoneNumber: z.ZodString = z
   .regex(/^0[3789]([0-9]{8}|[0-9]{9})$/, { message: '電話番号の形式が不正です' })
 
 export const member_num = z
-  .string()
+  .number()
   .min(1, { message: '入力が必須の項目です' })
   .transform((v) => Number(v))
   .refine((v) => !isNaN(v), { message: '数値で入力してください' })
 
 export const mic_num = z
-  .string()
+  .number()
   .min(1, '入力が必須の項目です')
   .transform((v) => Number(v))
   .refine((v) => !isNaN(v), { message: '数値で入力してください' })

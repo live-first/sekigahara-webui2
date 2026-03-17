@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, ChangeEvent } from 'react'
 import './newsList.scss'
 import { Container } from '@mui/material'
 import newsData from '../../../resource/news.json'
@@ -22,7 +22,7 @@ type NewsProps = {
   img: string[]
 }
 
-const NewsList = (props: NewsListProps) => {
+export const NewsList = (props: NewsListProps) => {
   const { max, isPagination } = props
   const maxContent = max ? max : 10
   const pageCount = Math.ceil(newsData.length / maxContent)
@@ -35,7 +35,7 @@ const NewsList = (props: NewsListProps) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  const handleChange = (event, index) => {
+  const handleChange = (event: ChangeEvent<unknown>, index: number) => {
     setPage(index)
     setDisplayedItems(newsData.slice((index - 1) * maxContent, index * maxContent))
   }
@@ -72,5 +72,3 @@ const NewsList = (props: NewsListProps) => {
     </div>
   )
 }
-
-export default NewsList

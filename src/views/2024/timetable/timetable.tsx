@@ -40,7 +40,7 @@ interface date {
   other: string
 }
 
-const saveAsImage = (uri) => {
+const saveAsImage = (uri: string) => {
   const downloadLink = document.createElement('a')
 
   if (typeof downloadLink.download === 'string') {

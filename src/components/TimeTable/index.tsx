@@ -4,6 +4,7 @@ import { useState } from 'react'
 import './style.css'
 import timeData from '../../resource/time.json'
 import { TimeTableCellType } from '@/domain/timetable'
+import { Img } from '../Image'
 
 type StageType = {
   config: ConfigType
@@ -93,7 +94,7 @@ export const TimeTable = (props: StageType) => {
       >
         {stageName && img === undefined && <span>{stageName}</span>}
         <div className='table-head-image'>
-          {img && <img src={img} alt='' />}
+          {img && <Img src={img} alt='' />}
           {open && <div className={`open ${props.class}`}>{open} OPEN</div>}
         </div>
       </div>

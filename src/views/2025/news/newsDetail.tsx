@@ -8,11 +8,10 @@ import { BaseView2025 } from '../layout/index.tsx'
 import Link from 'next/link'
 import { Img } from '@/components/Image/index.tsx'
 import NotFoundView from '@/views/common/notfound/notFound.tsx'
-import { useParams } from 'next/navigation'
 
-export const NewsDetail2025View = () => {
-  const newsId = useParams()
-  const newsIndex = newsList.findIndex((news) => news.id === Number(newsId.newsId))
+export const NewsDetail2025View = (props: { id: string | number }) => {
+  const { id } = props
+  const newsIndex = newsList.findIndex((news) => news.id === Number(id))
   const newsData = newsList[newsIndex]
   if (newsData) {
     return (

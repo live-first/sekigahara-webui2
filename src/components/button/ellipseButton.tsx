@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './button.tsx'
+import { Button } from './button.tsx'
 import './button.css'
 
 type Props = {
@@ -14,14 +14,14 @@ type Props = {
 }
 
 export const EllipseButton = (props: Props) => {
-  const { className, children, onClick, radius, width, height, color, disabled } = props
+  const { className, children, onClick, disabled } = props
   return (
     <Button
       className={`ellipse-btn ${className}`}
-      radius={radius}
-      width={width}
-      height={height}
-      color={color}
+      // radius={radius}
+      // width={width}
+      // height={height}
+      // color={color}
       onClick={onClick}
       disabled={disabled}
     >

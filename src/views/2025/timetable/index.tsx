@@ -39,7 +39,7 @@ interface date {
   other: string
 }
 
-const saveAsImage = (uri) => {
+const saveAsImage = (uri: string) => {
   const downloadLink = document.createElement('a')
 
   if (typeof downloadLink.download === 'string') {
@@ -189,14 +189,14 @@ const MainView = () => {
         </div>
         <div className='target-area' id='target-2025-component2'>
           <div className='timetable-top'>
-            <img
-              className='logo'
+            <Img
+              cName='logo'
               src='https://sekigahara-idolwars.net/images/2025/app_logo.png'
               alt='logo'
             />
             <DateView year='2025' month='7' day='20' youbi='日' other='DAY2' />
-            <img
-              className='logo'
+            <Img
+              cName='logo'
               src='https://sekigahara-idolwars.net/images/2025/logo.png'
               alt='logo'
             />
@@ -273,14 +273,14 @@ const MainView = () => {
         </div>
         <div className='target-area' id='target-2025-component3'>
           <div className='timetable-top'>
-            <img
-              className='logo'
+            <Img
+              cName='logo'
               src='https://sekigahara-idolwars.net/images/2025/app_logo.png'
               alt='logo'
             />
             <DateView year='2025' month='7' day='21' youbi='月祝' other='DAY3' />
-            <img
-              className='logo'
+            <Img
+              cName='logo'
               src='https://sekigahara-idolwars.net/images/2025/logo.png'
               alt='logo'
             />

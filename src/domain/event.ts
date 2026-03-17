@@ -1,5 +1,5 @@
 import { CategoryType } from './category'
-import { ImgUrlType } from './img'
+import { ImgType } from './img'
 import { CommonType, MetaType } from './meta'
 import { PlaceType } from './place'
 
@@ -16,6 +16,6 @@ export type EventContentsType = {
   place: PlaceType[]
   context: string
   ticket?: string
-  img: ImgUrlType[]
+  img: ImgType[]
   publish?: string
 } & CommonType

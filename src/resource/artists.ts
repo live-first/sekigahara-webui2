@@ -1,4 +1,4 @@
-import { ArtistType } from '../sgh-domain/artist'
+import { ArtistType } from '@/domain/artist'
 
 export const artists: ArtistType[] = [
   {

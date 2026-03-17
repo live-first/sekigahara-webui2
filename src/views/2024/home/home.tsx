@@ -1,13 +1,12 @@
 'use client'
 
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import { Container } from '@mui/material'
 import './home.scss'
-import NewsList from '../news/newsList.tsx'
-import SponsorshipView from './sponsorship.tsx'
+import { NewsList } from '../news/newsList.tsx'
+import { SponsorshipView } from './sponsorship.tsx'
 import cooperationData from '../../../resource/cooperation.json'
 import sponsorData from '../../../resource/sponsor.json'
-import Modal from 'react-modal'
 // import { Swiper, SwiperSlide } from 'swiper/react'
 // import { Autoplay, Navigation, Pagination } from 'swiper/modules'
 // import imgUrls from '../resource/homeSlide.json'
@@ -30,27 +29,6 @@ import { SquareView } from '@/templates/squareView.tsx'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout.tsx'
 
 const Home = () => {
-  const videoRef = useRef<HTMLVideoElement>(null)
-  const [introShow, isIntroShow] = useState(false)
-  const [introLogoShow, isIntroLogoShow] = useState(false)
-  const [anivLogoShow, isAnivLogoShow] = useState(false)
-
-  useEffect(() => {
-    if (!localStorage.getItem('isIntroShowed')) {
-      isIntroShow(true)
-      localStorage.setItem('isIntroShowed', 'true')
-      isIntroLogoShow(true)
-      setTimeout(() => {
-        isIntroLogoShow(false)
-        isAnivLogoShow(true)
-      }, 3000)
-      setTimeout(() => {
-        isIntroShow(false)
-      }, 6000)
-    }
-    videoRef.current?.play()
-  }, [])
-
   return (
     <div className='home'>
       <div className='top-view'>
@@ -231,22 +209,6 @@ const Home = () => {
           <div className='ticket-fs'>チケット情報</div>
         </CircleButton>
       </Link>
-
-      <Modal isOpen={introShow} className='intro-view intro-modal' overlayClassName='overlay'>
-        <div className='intro-logo'>
-          <Img
-            style={{ display: `${introLogoShow ? 'block' : 'none'}` }}
-            src='https://sekigahara-idolwars.net/images/2024/logo/logo_white.png'
-            alt='イントロロゴ'
-          />
-          <div className='anv-logo' style={{ display: `${anivLogoShow ? 'block' : 'none'}` }}>
-            <div className='logo-10'>
-              10<span className='th'>th</span>
-            </div>
-            <div className='aniv'>Anniversary</div>
-          </div>
-        </div>
-      </Modal>
     </div>
   )
 }
@@ -254,4 +216,3 @@ const Home = () => {
 export const Home2024View = () => {
   return <BaseViewLayout main={<Home />} />
 }
-
