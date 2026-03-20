@@ -1,4 +1,4 @@
-import newsList from '@/resource/news.json'
+import newsList from '@/resource/2024/news.json'
 import { NewsDetail2024View } from '@/views/2024/news/newsDetail'
 
 export async function generateStaticParams() {

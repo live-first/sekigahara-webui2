@@ -3,7 +3,7 @@
 import React, { useState, useEffect, ChangeEvent } from 'react'
 import './newsList.css'
 import { Container } from '@mui/material'
-import newsData from '../../../resource/news.json'
+import newsData from '@/resource/2024/news.json'
 import Pagination from '@mui/material/Pagination'
 import PaginationItem from '@mui/material/PaginationItem'
 import { HiArrowLeft, HiArrowRight } from 'react-icons/hi2'

@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import { Container } from '@mui/material'
 import './lineup.scss'
-import { artists } from '../../../resource/artists.ts'
+import { artists } from '@/resource/2024/artists.ts'
 import { ArtistType } from '@/domain/artist.ts'
 import { Title } from '@/components/title/title.tsx'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout.tsx'
