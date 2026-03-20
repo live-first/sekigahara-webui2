@@ -2,7 +2,6 @@
 
 import React from 'react'
 import { Container } from '@mui/material'
-import './foods.scss'
 import { CommingSoonView } from '../../common/commingSoon/commingSoon.tsx'
 import { Title } from '@/components/title/title.tsx'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout.tsx'

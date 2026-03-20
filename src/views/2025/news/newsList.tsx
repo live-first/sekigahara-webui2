@@ -1,9 +1,9 @@
 'use client'
 
 import React, { useState, useEffect, ChangeEvent } from 'react'
-import './newsList.scss'
+import './newsList.css'
 import { Container } from '@mui/material'
-import newsData from '../../../resource/2025/news.json'
+import { news2025 } from '@/resource/2025/news.ts'
 import Pagination from '@mui/material/Pagination'
 import PaginationItem from '@mui/material/PaginationItem'
 import { HiArrowLeft, HiArrowRight } from 'react-icons/hi2'
@@ -25,19 +25,19 @@ type NewsProps = {
 export const NewsList = (props: NewsListProps) => {
   const { max, isPagination } = props
   const maxContent = max ? max : 10
-  const pageCount = Math.ceil(newsData.length / maxContent)
+  const pageCount = Math.ceil(news2025.length / maxContent)
   const [page, setPage] = useState(1)
   const [displayedItems, setDisplayedItems] = useState(Array<NewsProps>)
 
   useEffect(() => {
     //表示データを抽出
-    setDisplayedItems(newsData.slice((page - 1) * maxContent, page * maxContent))
+    setDisplayedItems(news2025.slice((page - 1) * maxContent, page * maxContent))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const handleChange = (event: ChangeEvent<unknown>, index: number) => {
     setPage(index)
-    setDisplayedItems(newsData.slice((index - 1) * maxContent, index * maxContent))
+    setDisplayedItems(news2025.slice((index - 1) * maxContent, index * maxContent))
   }
 
   return (

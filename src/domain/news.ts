@@ -1,15 +1,39 @@
-import { ImgProps } from '@/components/Image'
-
 type UrlType = {
   title: string
   url: string
 }
 
-export type NewsType = {
+export type LegacyNewsType = {
   id: number
   date: string
   title: string
   context: string[]
-  urls: UrlType[]
-  img: ImgProps[]
+  urls: string[] | UrlType[]
+  img: string[]
+}
+
+export type NewsType = {
+  contents: NewsContentsType[]
+  totalCount: number
+  offset: number
+  limit: number
+}
+
+export type NewsContentsType = {
+  id: string
+  createdAt: string
+  updatedAt: string
+  publishedAt: string
+  revisedAt: string
+  title: string
+  content: string
+  category: {
+    id: string
+    createdAt: string
+    updatedAt: string
+    publishedAt: string
+    revisedAt: string
+    name: string
+  }
+  open: string
 }

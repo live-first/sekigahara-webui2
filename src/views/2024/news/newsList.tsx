@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect, ChangeEvent } from 'react'
-import './newsList.scss'
+import './newsList.css'
 import { Container } from '@mui/material'
 import newsData from '../../../resource/news.json'
 import Pagination from '@mui/material/Pagination'

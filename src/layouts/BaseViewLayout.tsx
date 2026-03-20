@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import { motion } from 'framer-motion'
 import './index.css'
 
 export type BaseViewProps = {
@@ -13,24 +12,15 @@ export type BaseViewProps = {
 
 export const BaseViewLayout: React.FC<BaseViewProps> = (props: BaseViewProps) => {
   const { header, main, footer, semiModal } = props
-  const pageTransition = {
-    duration: 1,
-    opacity: { ease: 'easeOut', duration: 1 },
-  }
 
   return (
     <div className='base-view'>
       <div className='header-space'></div>
       <header>{header}</header>
       <main>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={pageTransition}
-        >
+        <div>
           {main}
-        </motion.div>
+        </div>
       </main>
       <footer>{footer}</footer>
       {semiModal}

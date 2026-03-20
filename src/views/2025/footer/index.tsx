@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { Img } from '@/components/Image/index.tsx'
 import Link from 'next/link'

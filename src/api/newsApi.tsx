@@ -1,8 +1,8 @@
 'use client'
 
 import { useQuery } from '@tanstack/react-query'
-import { NewsContentsType, NewsType } from '@/domain/news'
 import { client } from './microApi'
+import { NewsContentsType, NewsType } from '@/domain/news'
 
 export const useNewsApi = (id?: string) => {
   const getNews = useQuery({

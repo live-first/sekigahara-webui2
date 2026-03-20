@@ -1,6 +1,6 @@
-import { NewsType } from '@/domain/news'
+import { LegacyNewsType } from '@/domain/news'
 
-export const news2025: NewsType[] = [
+export const news2025: LegacyNewsType[] = [
   {
     id: 24,
     date: '2025.07.18',
@@ -607,12 +607,7 @@ export const news2025: NewsType[] = [
       '新たな夏の幕開けに相応しい唄姫は',
       '私たちだ。',
     ],
-    urls: [
-      {
-        title: '予戦会エントリーページ',
-        url: 'https://sekigahara-idolwars.net/entry',
-      },
-    ],
+    urls: ['https://sekigahara-idolwars.net/entry'],
     img: ['https://yosen2025.sekigahara-idolwars.net/picture/yosen-20250405.jpeg'],
   },
   {
