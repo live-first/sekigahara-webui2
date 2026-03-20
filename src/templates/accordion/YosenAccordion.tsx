@@ -2,7 +2,6 @@ import Accordion from '@mui/material/Accordion'
 import AccordionSummary from '@mui/material/AccordionSummary'
 import AccordionDetails from '@mui/material/AccordionDetails'
 import { SlArrowDown } from 'react-icons/sl'
-import './accordion.scss'
 import Link from 'next/link'
 import { Img } from '@/components/Image'
 
@@ -23,18 +22,21 @@ export const YosenAccordion = (props: AccordionProps) => {
   const { className, title, date, open, start, place, artists, ticket, image1, image2 } = props
   return (
     <Accordion>
-      <AccordionSummary expandIcon={<SlArrowDown />} className={`${className} accordion-title`}>
+      <AccordionSummary
+        expandIcon={<SlArrowDown />}
+        className={`bg-${className} text-lg font-bold text-black`}
+      >
         {title}
       </AccordionSummary>
       <AccordionDetails>
-        <div className='col-head'>日時</div>
-        <div className='col-content'>{date}</div>
-        <div className='col-head'>会場</div>
-        <div className='col-content'>{place}</div>
+        <div className='font-bold'>日時</div>
+        <div className='pl-2'>{date}</div>
+        <div className='font-bold'>会場</div>
+        <div className='pl-2'>{place}</div>
         {open ? (
           <>
-            <div className='col-head'>開場{start ? '/開演' : ''}</div>
-            <div className='col-content'>
+            <div className='font-bold'>開場{start ? '/開演' : ''}</div>
+            <div className='pl-2'>
               {open}
               {start ? <span> / {start}</span> : <></>}
             </div>
@@ -42,12 +44,12 @@ export const YosenAccordion = (props: AccordionProps) => {
         ) : (
           <></>
         )}
-        <div className='col-head'>出演者</div>
-        <div className='col-content'>{artists}</div>
+        <div className='font-bold'>出演者</div>
+        <div className='pl-2'>{artists}</div>
         {ticket ? (
           <>
-            <div className='col-head'>チケット</div>
-            <div className='col-content'>
+            <div className='font-bold'>チケット</div>
+            <div className='pl-2'>
               <Link target='_blank' href={ticket}>
                 {ticket}
               </Link>
@@ -56,9 +58,9 @@ export const YosenAccordion = (props: AccordionProps) => {
         ) : (
           <></>
         )}
-        <div className='accordion-img'>
-          <Img cName='img' src={image1 ?? ''} alt='' />
-          <Img cName='img' src={image2 ?? ''} alt='' />
+        <div className='pt-2'>
+          <Img src={image1 ?? ''} alt='' />
+          <Img src={image2 ?? ''} alt='' />
         </div>
       </AccordionDetails>
     </Accordion>
