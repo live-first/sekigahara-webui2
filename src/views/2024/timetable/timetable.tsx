@@ -24,6 +24,8 @@ import { EllipseButton } from '@/components/button/ellipseButton'
 import { Img } from '@/components/Image'
 import { TimeTable } from '@/components/TimeTable'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout'
+import Header from '../header/header'
+import Footer from '../footer/footer'
 
 const config = {
   tableHeadCellHeight: 100,
@@ -352,7 +354,7 @@ const MainView = () => {
 }
 
 const Timetable2024View = () => {
-  return <BaseViewLayout main={<MainView />} />
+  return <BaseViewLayout header={<Header />} footer={<Footer />} main={<MainView />} />
 }
 
 export default Timetable2024View

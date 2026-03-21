@@ -8,6 +8,8 @@ import { ArtistType } from '@/domain/artist.ts'
 import { Title } from '@/components/title/title.tsx'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout.tsx'
 import { ArtistBoxModal } from '@/templates/modal/ArtistBoxModal.tsx'
+import Header from '../header/header'
+import Footer from '../footer/footer'
 
 const MainView = () => {
   const [units, setUnit] = useState<ArtistType[]>(artists)
@@ -90,7 +92,7 @@ const MainView = () => {
 }
 
 const Lineup2024View = () => {
-  return <BaseViewLayout main={<MainView />} />
+  return <BaseViewLayout header={<Header />} footer={<Footer />} main={<MainView />} />
 }
 
 export default Lineup2024View

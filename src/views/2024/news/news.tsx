@@ -5,6 +5,8 @@ import { Container } from '@mui/material'
 import { NewsList } from './newsList.tsx'
 import { Title } from '@/components/title/title.tsx'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout.tsx'
+import Header from '../header/header.tsx'
+import Footer from '../footer/footer.tsx'
 
 const MainView = () => {
   return (
@@ -18,7 +20,7 @@ const MainView = () => {
 }
 
 const News2024View = () => {
-  return <BaseViewLayout main={<MainView />} />
+  return <BaseViewLayout header={<Header />} footer={<Footer />} main={<MainView />} />
 }
 
 export default News2024View

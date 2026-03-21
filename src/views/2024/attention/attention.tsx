@@ -4,6 +4,8 @@ import { Container } from '@mui/material'
 import { Title } from '@/components/title/title'
 import { Frame } from '@/components/Frame'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout'
+import Header from '../header/header'
+import Footer from '../footer/footer'
 
 const MainView = () => {
   return (
@@ -91,5 +93,5 @@ const MainView = () => {
 }
 
 export const Attention2024View = () => {
-  return <BaseViewLayout main={<MainView />} />
+  return <BaseViewLayout header={<Header />} footer={<Footer />} main={<MainView />} />
 }

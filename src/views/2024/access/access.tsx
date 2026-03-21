@@ -7,10 +7,14 @@ import { Title } from '@/components/title/title'
 import Link from 'next/link'
 import { Img } from '@/components/Image'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout'
+import Header from '../header/header'
+import Footer from '../footer/footer'
 
 export const Access2024View = () => {
   return (
     <BaseViewLayout
+      header={<Header />}
+      footer={<Footer />}
       main={
         <div className='access'>
           <Container maxWidth='md'>

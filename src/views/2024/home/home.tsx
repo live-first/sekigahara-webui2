@@ -27,6 +27,8 @@ import { Frame } from '@/components/Frame/index.tsx'
 import CircleButton from '@/components/button/circleButton.tsx'
 import { SquareView } from '@/templates/squareView.tsx'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout.tsx'
+import Header from '../header/header.tsx'
+import Footer from '../footer/footer.tsx'
 
 const Home = () => {
   return (
@@ -214,5 +216,5 @@ const Home = () => {
 }
 
 export const Home2024View = () => {
-  return <BaseViewLayout main={<Home />} />
+  return <BaseViewLayout header={<Header />} footer={<Footer />} main={<Home />} />
 }

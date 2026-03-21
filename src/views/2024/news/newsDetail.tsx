@@ -8,6 +8,8 @@ import Link from 'next/link'
 import { NotFoundView } from '@/views/common/notfound/notFound'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout'
 import { Img } from '@/components/Image'
+import Header from '../header/header'
+import Footer from '../footer/footer'
 
 export const NewsDetail2024View = (props: { id: string | number }) => {
   const { id } = props
@@ -16,6 +18,8 @@ export const NewsDetail2024View = (props: { id: string | number }) => {
   if (newsData) {
     return (
       <BaseViewLayout
+        header={<Header />}
+        footer={<Footer />}
         main={
           <div className='news-detail'>
             <Container maxWidth='md'>

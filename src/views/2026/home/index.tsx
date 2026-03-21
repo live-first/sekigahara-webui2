@@ -80,13 +80,6 @@ export const Home2026View = () => {
               </div>
             </Frame>
           </div>
-
-          <div>
-            <ContentTitle>協賛</ContentTitle>
-            <Frame>
-              <SponsorshipView data={sponsorData} />
-            </Frame>
-          </div>
           <div>
             <ContentTitle>協力</ContentTitle>
             <Frame>

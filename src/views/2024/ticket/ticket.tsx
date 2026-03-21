@@ -7,6 +7,8 @@ import { Title } from '@/components/title/title'
 import { Img } from '@/components/Image'
 import Link from 'next/link'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout'
+import Header from '../header/header'
+import Footer from '../footer/footer'
 
 const MainView = () => {
   return (
@@ -30,7 +32,7 @@ const MainView = () => {
 }
 
 const Ticket2024View = () => {
-  return <BaseViewLayout main={<MainView />} />
+  return <BaseViewLayout header={<Header />} footer={<Footer />} main={<MainView />} />
 }
 
 export default Ticket2024View

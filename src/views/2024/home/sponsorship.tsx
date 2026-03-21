@@ -25,7 +25,7 @@ export const SponsorshipView = (props: Logo) => {
     )
   }
   return (
-    <div className='grid grid-cols-2 sm:grid-cols-3 gap-2 md:gap-6'>
+    <div className='grid grid-cols-2 sm:grid-cols-3 gap-2 md:gap-6 items-center justify-items-center'>
       {Object.values(data).map((data, index) => {
         return data.link ? (
           <Link href={data.link} target='_blank' key={index}>

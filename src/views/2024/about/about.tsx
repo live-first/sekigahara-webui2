@@ -14,6 +14,8 @@ import { Img } from '@/components/Image/index.tsx'
 import { Title } from '@/components/title/title.tsx'
 import { YouTube } from '@/components/YouTube/index.tsx'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout.tsx'
+import Header from '../header/header.tsx'
+import Footer from '../footer/footer.tsx'
 
 type Data = {
   data: string[]
@@ -95,5 +97,5 @@ const MainView = () => {
 }
 
 export const About2024View = () => {
-  return <BaseViewLayout main={<MainView />} />
+  return <BaseViewLayout header={<Header />} footer={<Footer />} main={<MainView />} />
 }

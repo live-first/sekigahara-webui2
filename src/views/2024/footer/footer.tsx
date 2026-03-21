@@ -1,5 +1,4 @@
 import React from 'react'
-import './footer.scss'
 import { Img } from '@/components/Image/index.tsx'
 import Link from 'next/link'
 
