@@ -5,7 +5,7 @@ import { Container } from '@mui/material'
 import './newsDetail.css'
 import newsList from '@/resource/2024/news.json'
 import Link from 'next/link'
-import NotFoundView from '@/views/common/notfound/notFound'
+import { NotFoundView } from '@/views/common/notfound/notFound'
 import { BaseViewLayout } from '@/layouts/BaseViewLayout'
 import { Img } from '@/components/Image'
 

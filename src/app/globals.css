@@ -3,6 +3,7 @@
 :root {
   --background: #f1f1f1;
   --foreground: #171717;
+  --sekigahara: #e14040;
   --edo: #ff6464;
   --owari: #ffbf52;
   --osaka: #5f7fff;
@@ -11,6 +12,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-sekigahara: var(--sekigahara);
   --color-edo: var(--edo);
   --color-owari: var(--owari);
   --color-osaka: var(--osaka);

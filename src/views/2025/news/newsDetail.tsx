@@ -7,7 +7,7 @@ import { news2025 } from '@/resource/2025/news'
 import { BaseView2025 } from '../layout/index.tsx'
 import Link from 'next/link'
 import { Img } from '@/components/Image/index.tsx'
-import NotFoundView from '@/views/common/notfound/notFound.tsx'
+import { NotFoundView } from '@/views/common/notfound/notFound.tsx'
 
 export const NewsDetail2025View = (props: { id: string | number }) => {
   const { id } = props

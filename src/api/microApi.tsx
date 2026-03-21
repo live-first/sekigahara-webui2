@@ -1,6 +1,6 @@
 import { createClient } from 'microcms-js-sdk'
 
 export const client = createClient({
-  serviceDomain: 'girlsbomb',
-  apiKey: '4aPwli1USajsFrsYgifvjzeU5dGRhvxJwnxW',
+  serviceDomain: 'sekigahara-idolwars',
+  apiKey: 'MNBabcgOX1eix7V6mcIEjZvtRFEv0jRCY3iB',
 })

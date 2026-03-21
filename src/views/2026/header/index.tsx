@@ -4,6 +4,7 @@ import { useState } from 'react'
 import './header.scss'
 import { Img } from '@/components/Image'
 import Link from 'next/link'
+import logo from '@/image/2026/logo_2026.png'
 
 export const Header = () => {
   const [value, setValue] = useState(false)
@@ -15,8 +16,8 @@ export const Header = () => {
   return (
     <div className='header-body'>
       <h1>
-        <Link href='/2025' className='logo'>
-          <Img cName='logo' src='https://sekigahara-idolwars.net/images/2025/logo.png' alt='logo' />
+        <Link href='/' className='logo'>
+          <Img cName='logo' src={logo.src} alt='logo' />
         </Link>
       </h1>
       <div className='menu-nav-pc'>
@@ -44,17 +45,17 @@ const Menu = (props: MenuProp) => {
     <div className='menu-view' style={{ display: `${displayMode}` }}>
       <ul className='nav-ul'>
         <li className='nav-li'>
-          <Link href='/2025/about' className='nav-link'>
+          <Link href='/about' className='nav-link'>
             ABOUT<div>関ケ原唄姫合戦</div>
           </Link>
         </li>
         <li className='nav-li'>
-          <Link href='/2025/ticket' className='nav-link'>
+          <Link href='/ticket' className='nav-link'>
             TICKET<div>チケット</div>
           </Link>
         </li>
         <li className='nav-li'>
-          <Link href='/2025/lineup' className='nav-link'>
+          <Link href='/lineup' className='nav-link'>
             LINE UP<div>出演者情報</div>
           </Link>
         </li>
@@ -64,19 +65,26 @@ const Menu = (props: MenuProp) => {
           </div>
           <ul className='dropdown-menu'>
             <li className='dropdown-li'>
-              <Link href='/2025/live' className='nav-link'>
+              <Link href='/live' className='nav-link'>
                 LIVE<div>ライブ</div>
               </Link>
             </li>
             <li className='dropdown-li'>
-              <Link href='/2025/greeting' className='nav-link'>
+              <Link href='/greeting' className='nav-link'>
                 GREETING<div>物販・特典会</div>
               </Link>
             </li>
           </ul>
         </li>
+        {/* <li className='nav-li'>
+          <div className='nav-link'>SHOP<div>ショップ</div></div>
+          <ul className='dropdown-menu'>
+            <li className='dropdown-li'><Link href='/2024/goods' className='nav-link'>GOODS<div>グッズ</div></Link></li>
+            <li className='dropdown-li'><Link href='/2024/foods' className='nav-link'>FOODS<div>飲食情報</div></Link></li>
+          </ul>
+        </li> */}
         <li className='nav-li'>
-          <Link href='/2025/notice' className='nav-link'>
+          <Link href='/notice' className='nav-link'>
             NOTICE<div>注意事項</div>
           </Link>
         </li>
@@ -86,12 +94,12 @@ const Menu = (props: MenuProp) => {
           </div>
           <ul className='dropdown-menu'>
             <li className='dropdown-li'>
-              <Link href='/2025/map' className='nav-link'>
+              <Link href='/map' className='nav-link'>
                 MAP<div>マップ</div>
               </Link>
             </li>
             <li className='dropdown-li'>
-              <Link href='/2025/access' className='nav-link'>
+              <Link href='/access' className='nav-link'>
                 ACCESS<div>アクセス</div>
               </Link>
             </li>
@@ -109,17 +117,17 @@ const MenuSp = (props: MenuProp) => {
     <div className='menu-sp-view' style={{ display: `${displayMode}` }}>
       <ul className='nav-ul'>
         <li className='nav-li'>
-          <Link href='/2025/about' className='nav-link'>
+          <Link href='/about' className='nav-link'>
             ABOUT<span>関ケ原唄姫合戦</span>
           </Link>
         </li>
         <li className='nav-li'>
-          <Link href='/2025/ticket' className='nav-link'>
+          <Link href='/ticket' className='nav-link'>
             TICKET<span>チケット</span>
           </Link>
         </li>
         <li className='nav-li'>
-          <Link href='/2025/lineup' className='nav-link'>
+          <Link href='/lineup' className='nav-link'>
             LINE UP<span>出演者情報</span>
           </Link>
         </li>
@@ -129,19 +137,26 @@ const MenuSp = (props: MenuProp) => {
           </div>
           <ul className='dropdown-ul'>
             <li className='dropdown-li'>
-              <Link href='/2025/live' className='nav-link'>
+              <Link href='/live' className='nav-link'>
                 LIVE<span>ライブ</span>
               </Link>
             </li>
             <li className='dropdown-li'>
-              <Link href='/2025/greeting' className='nav-link'>
+              <Link href='/greeting' className='nav-link'>
                 GREETING<span>物販・特典会</span>
               </Link>
             </li>
           </ul>
         </li>
+        {/* <li className='nav-li'>
+          <div className='nav-link'>SHOP<span>ショップ</span></div>
+          <ul className='dropdown-ul'>
+            <li className='dropdown-li'><Link href='/goods' className='nav-link'>GOODS<span>グッズ</span></Link></li>
+            <li className='dropdown-li'><Link href='/foods' className='nav-link'>FOODS<span>飲食情報</span></Link></li>
+          </ul>
+        </li> */}
         <li className='nav-li'>
-          <Link href='/2025/notice' className='nav-link'>
+          <Link href='/notice' className='nav-link'>
             NOTICE<span>注意事項</span>
           </Link>
         </li>
@@ -151,12 +166,12 @@ const MenuSp = (props: MenuProp) => {
           </div>
           <ul className='dropdown-ul'>
             <li className='dropdown-li'>
-              <Link href='/2025/map' className='nav-link'>
+              <Link href='/map' className='nav-link'>
                 MAP<span>マップ</span>
               </Link>
             </li>
             <li className='dropdown-li'>
-              <Link href='/2025/access' className='nav-link'>
+              <Link href='/access' className='nav-link'>
                 ACCESS<span>アクセス</span>
               </Link>
             </li>
