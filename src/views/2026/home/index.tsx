@@ -13,6 +13,7 @@ import { NewsList } from '@/templates/newsList'
 import { useRouter } from 'next/navigation'
 import { useNewsApi } from '@/api/newsApi'
 import { NewsContentsType } from '@/domain/news'
+import { useEffect, useRef } from 'react'
 
 export const Home2026View = () => {
   const router = useRouter()
@@ -21,40 +22,22 @@ export const Home2026View = () => {
     ? (getNews.data.contents as unknown as NewsContentsType[])
     : []
 
+  const videoRef = useRef<HTMLVideoElement>(null)
+  useEffect(() => {
+    videoRef.current?.play()
+  }, [])
+
   return (
     <div className='flex flex-col gap-5 pb-10'>
       <div>
-        {/* <Swiper
-            modules={[Autoplay, Navigation, Pagination]}
-            pagination={{ clickable: false, el: '#pagination' }}
-            mousewheel={true}
-            autoplay={{ delay: 5000, disableOnInteraction: false }}
-            speed={500}
-            centeredSlides={true}
-            loop={true}
-            breakpoints={{
-              0: {
-                slidesPerView: 1,
-                spaceBetween: 30,
-              },
-            }}
-          >
-            {Object.values(imgUrls).map((data, index) => {
-              return (
-                <SwiperSlide key={index}>
-                  <ImgView
-                    imgUrl={data}
-                    height='500px'
-                    backImg='https://sekigahara-idolwars.net/images/2025/topBack.png'
-                  />
-                </SwiperSlide>
-              )
-            })}
-          </Swiper> */}
-        <Img
-          src='https://sekigahara-idolwars.net/images/2025/sekigahara_thanks_top.png'
-          alt='top'
-        />
+        <video
+          className='w-full h-full object-cover'
+          src='https://sekigahara-idolwars.net/images/2026/Sekigahara2026_Aori.mp4'
+          autoPlay
+          muted
+          loop
+          playsInline
+        ></video>
       </div>
       <Container maxWidth='md'>
         <div className='flex flex-col gap-8'>
@@ -87,7 +70,7 @@ export const Home2026View = () => {
           <div>
             <ContentTitle>予戦会エントリー</ContentTitle>
             <Frame>
-              <div className='text-center'>
+              <div className='flex justify-center'>
                 <EllipseButton
                   className='bg-sekigahara text-white hover:bg-[#fe7e7e] px-4'
                   onClick={() => router.push('/entry')}

@@ -15,9 +15,9 @@ export const Header = () => {
 
   return (
     <div className='header-body'>
-      <h1>
-        <Link href='/' className='logo'>
-          <Img cName='logo' src={logo.src} alt='logo' />
+      <h1 className='flex flex-col max-h-full'>
+        <Link href='/' className='flex flex-col h-full'>
+          <Img cName='h-[44px] w-auto' src={logo.src} alt='logo' notNext />
         </Link>
       </h1>
       <div className='menu-nav-pc'>

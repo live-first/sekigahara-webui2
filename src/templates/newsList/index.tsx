@@ -37,7 +37,7 @@ export const NewsList = (props: NewsListProps) => {
       {displayedItems.map((data, index) => {
         return (
           <div
-            className='p-1 bg-white mx-3 mb-3 rounded-md border border-sekigahara shadow-[2px_2px_0_0_#e14040]'
+            className='p-1 bg-white mx-3 mb-3 rounded-md border border-sekigahara shadow-[2px_2px_0_0_#e14040] hover:shadow-none hover:translate-y-2'
             key={index}
           >
             <Link href={`/news/${data.id}`}>
