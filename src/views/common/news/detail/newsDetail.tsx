@@ -31,7 +31,7 @@ export const NewsDetailView = (props: { id: string | number }) => {
             />
           </div>
           <div className='py-12'>
-            <Link href='/news' className=''>
+            <Link href='/news' className='hover:text-sekigahara'>
               ＜ ニュース一覧に戻る
             </Link>
           </div>

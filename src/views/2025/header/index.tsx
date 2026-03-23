@@ -14,9 +14,14 @@ export const Header = () => {
 
   return (
     <div className='header-body'>
-      <h1>
-        <Link href='/2025' className='logo'>
-          <Img cName='logo' src='https://sekigahara-idolwars.net/images/2025/logo.png' alt='logo' />
+      <h1 className='flex flex-col max-h-full'>
+        <Link href='/2025' className='flex flex-col h-full'>
+          <Img
+            cName='h-[44px] w-auto'
+            src='https://sekigahara-idolwars.net/images/2025/logo.png'
+            alt='logo'
+            notNext
+          />
         </Link>
       </h1>
       <div className='menu-nav-pc'>

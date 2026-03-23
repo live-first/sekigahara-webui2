@@ -8,7 +8,6 @@ export const CommingSoonView = (props: PropsWithChildren) => {
   return (
     <div className='com-soon'>
       <Img cName='p-6' src='https://sekigahara-idolwars.net/images/2026/logo_2026.png' alt='logo' />
-      <div className='message'>Comming Soon ...</div>
       <div>{children}</div>
     </div>
   )

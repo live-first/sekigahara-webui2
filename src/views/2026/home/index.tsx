@@ -82,7 +82,13 @@ export const Home2026View = () => {
           <div>
             <ContentTitle>協力</ContentTitle>
             <Frame>
-              <SponsorshipView data={cooporationData} />
+              <div className='flex justify-center'>
+                <Img
+                  src='https://sekigahara-idolwars.net/images/2024/cooperation/girlsbomb_logo.jpg'
+                  alt='Girls Bomb!!'
+                  cName='w-1/3'
+                />
+              </div>
             </Frame>
           </div>
           <div>
