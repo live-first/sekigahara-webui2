@@ -27,7 +27,7 @@ export const NewsList = (props: NewsListProps) => {
   const maxContent = max ? max : 10
   const pageCount = Math.ceil(newsData.length / maxContent)
   const [page, setPage] = useState(1)
-  const [displayedItems, setDisplayedItems] = useState(Array<NewsProps>)
+  const [displayedItems, setDisplayedItems] = useState<NewsProps[]>([])
 
   useEffect(() => {
     //表示データを抽出

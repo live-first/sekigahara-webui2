@@ -2,7 +2,6 @@
 
 import { Container } from '@mui/material'
 import cooporationData from '../../../resource/2025/cooperation.json'
-import sponsorData from '../../../resource/2025/sponsor.json'
 import { ContentTitle } from '@/components/title/contentTitle.tsx'
 import Link from 'next/link'
 import { Img } from '@/components/Image/index.tsx'
