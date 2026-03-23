@@ -19,13 +19,14 @@ import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { HiOutlineChevronDoubleDown } from 'react-icons/hi'
 import { PiArrowSquareOutLight } from 'react-icons/pi'
-import { edoLive, osakaLive, owariLive } from '../../../../resource/2025/yosen.ts'
+import { edoLive, osakaLive, owariLive } from '@/resource/2026/yosen.ts'
 import { Title } from '@/components/title/title.tsx'
 import { Frame } from '@/components/Frame/index.tsx'
 import Link from 'next/link'
 import { TextFieldForm } from '@/templates/form/TextFieldForm.tsx'
 import { FormField } from '@/templates/form/index.tsx'
 import { Img } from '@/components/Image/index.tsx'
+import { Marker } from '@/components/Marker/index.tsx'
 
 export const Entry2026DetailView = () => {
   const [emailStatusMessage, setEmailStatusMessage] = useState<boolean>(false)
@@ -101,9 +102,9 @@ export const Entry2026DetailView = () => {
           <Header title='予戦会概要' />
           <div className='flex flex-col gap-1 pl-3'>
             <p>
-              本イベントは「関ケ原唄姫合戦2025（本戦）」への出演をかけたイベントです。
+              本イベントは「関ケ原唄姫合戦2026（本戦）」への出演をかけたイベントです。
               <br />
-              期間は5/1〜5/25（ライブは5/9〜5/25）で行います。
+              期間は5/1〜5/31（ライブは5/9〜5/30）で行います。
               <br />
               参戦者の上位20組が本戦出演が決定します。
             </p>
@@ -137,11 +138,15 @@ export const Entry2026DetailView = () => {
               </li>
               <li>・予戦会有観客ライブに3回以上の出演ができること（出演は最大10回まで）</li>
               <li>
-                ・関ケ原唄姫合戦2025本戦の出演日程（7/19,20,21）の3日間スケジュールを空けておけること
+                ・関ケ原唄姫合戦2026本戦の出演日程（7/18,19,20）の3日間スケジュールを空けておけること
               </li>
-              <li>・METALIVEを期間中（5/10〜5/25）で25時間以上の配信ができること</li>
               <li>
-                ・Withコレを期間中（5/1〜5/25）で20万ポイント以上のデジタルコンテンツ販売ができること
+                ・METALIVEを期間中<Marker theme='yellow'>（5/1〜5/31）</Marker>で
+                <Marker theme='pink'>30時間以上</Marker>の配信ができること
+              </li>
+              <li>
+                ・Withコレを期間中<Marker theme='yellow'>（4/20〜5/31）</Marker>で
+                <Marker theme='pink'>20万ポイント以上</Marker>のデジタルコンテンツ販売ができること
               </li>
             </ul>
           </div>
@@ -178,11 +183,11 @@ export const Entry2026DetailView = () => {
                 本年の特典は未定ですが、参考までに昨年の特典は昨年の予戦会ページをご確認ください。
                 <br />
                 <Link
-                  href='https://sekigahara-idolwars.net/2024/yosen'
+                  href='https://yosen2025.sekigahara-idolwars.net'
                   className='text-blue-600 flex gap-1 my-4 items-center'
                   target='_blank'
                 >
-                  関ケ原唄姫合戦2024 予戦会
+                  関ケ原唄姫合戦2025 予戦会 特設サイト
                   <PiArrowSquareOutLight />
                 </Link>
               </div>
@@ -387,7 +392,7 @@ export const Entry2026DetailView = () => {
                 </p>
                 <p className='flex items-center'>
                   <Checkbox onChange={() => setRuleChecked(true)} />
-                  関ケ原歌姫合戦2025予戦会の内容や条件に同意します。
+                  関ケ原歌姫合戦2026予戦会の内容や条件に同意します。
                 </p>
               </div>
 
@@ -407,7 +412,7 @@ export const Entry2026DetailView = () => {
               </button>
               {emailStatusMessage && (
                 <Alert severity='success'>
-                  関ケ原唄姫合戦2025 予戦会へのエントリーありがとうございます。
+                  関ケ原唄姫合戦2026 予戦会へのエントリーありがとうございます。
                 </Alert>
               )}
               {error && (
