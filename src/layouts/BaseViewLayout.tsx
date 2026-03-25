@@ -15,12 +15,14 @@ export const BaseViewLayout: React.FC<BaseViewProps> = (props: BaseViewProps) =>
 
   return (
     <div className='base-view'>
-      <div className='header-space'></div>
-      <header>{header}</header>
+      {header && (
+        <>
+          <div className='header-space'></div>
+          <header>{header}</header>
+        </>
+      )}
       <main>
-        <div>
-          {main}
-        </div>
+        <div>{main}</div>
       </main>
       <footer>{footer}</footer>
       {semiModal}

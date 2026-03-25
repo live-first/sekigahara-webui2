@@ -6,13 +6,14 @@ import Link from 'next/link'
 import { Img } from '@/components/Image/index.tsx'
 import { Frame } from '@/components/Frame/index.tsx'
 import { NewsList } from '@/templates/newsList'
-// import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import { useNewsApi } from '@/api/newsApi'
 import { NewsContentsType } from '@/domain/news'
 import { useEffect, useRef } from 'react'
+import { EllipseButton } from '@/components/button/ellipseButton'
 
 export const Home2026View = () => {
-  // const router = useRouter()
+  const router = useRouter()
   const { getNews } = useNewsApi()
   const news: NewsContentsType[] = getNews.data
     ? (getNews.data.contents as unknown as NewsContentsType[])
@@ -63,7 +64,7 @@ export const Home2026View = () => {
                 </div>
               </Frame>
             </div> */}
-          {/* <div>
+          <div>
             <ContentTitle>予戦会エントリー</ContentTitle>
             <Frame>
               <div className='flex justify-center'>
@@ -75,7 +76,7 @@ export const Home2026View = () => {
                 </EllipseButton>
               </div>
             </Frame>
-          </div> */}
+          </div>
           <div>
             <ContentTitle>協力</ContentTitle>
             <Frame>
