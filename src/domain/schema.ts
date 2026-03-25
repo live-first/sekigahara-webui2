@@ -32,15 +32,11 @@ export const phoneNumber: z.ZodString = z
 
 export const member_num = z
   .number()
-  .min(1, { message: '入力が必須の項目です' })
-  .transform((v) => Number(v))
-  .refine((v) => !isNaN(v), { message: '数値で入力してください' })
+  .min(1, { message: '1以上の数値を入力してください' })
 
 export const mic_num = z
   .number()
-  .min(1, '入力が必須の項目です')
-  .transform((v) => Number(v))
-  .refine((v) => !isNaN(v), { message: '数値で入力してください' })
+  .min(1, { message: '1以上の数値を入力してください' })
 
 export const url: z.ZodString = z
   .string()

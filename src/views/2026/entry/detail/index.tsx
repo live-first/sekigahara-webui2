@@ -326,7 +326,8 @@ export const Entry2026DetailView = () => {
                     description='予戦会に参加するメンバー数をご記入ください。'
                     required
                     placeholder='0'
-                    register={register('member_num')}
+                    type='number'
+                    register={register('member_num', { valueAsNumber: true })}
                     error={errors.member_num?.message}
                   />
                   <TextFieldForm
@@ -334,7 +335,8 @@ export const Entry2026DetailView = () => {
                     description='ライブに使用するマイクの本数をご記入ください。'
                     required
                     placeholder='0'
-                    register={register('mic_num')}
+                    type='number'
+                    register={register('mic_num', { valueAsNumber: true })}
                     error={errors.mic_num?.message}
                   />
                   <TextFieldForm

@@ -79,7 +79,7 @@ export const Entry2025DetailView = () => {
       await send('service_livefirst', 'sekigahara_notification', data)
 
       setEmailStatusMessage(true)
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       setError(true)
     }
@@ -255,7 +255,8 @@ export const Entry2025DetailView = () => {
                     description='予戦会に参加するメンバー数をご記入ください。'
                     required
                     placeholder='0'
-                    register={register('member_num')}
+                    type='number'
+                    register={register('member_num', { valueAsNumber: true })}
                     error={errors.member_num?.message}
                   />
                   <TextFieldForm
@@ -263,7 +264,8 @@ export const Entry2025DetailView = () => {
                     description='ライブに使用するマイクの本数をご記入ください。'
                     required
                     placeholder='0'
-                    register={register('mic_num')}
+                    type='number'
+                    register={register('mic_num', { valueAsNumber: true })}
                     error={errors.mic_num?.message}
                   />
                   <TextFieldForm
