@@ -130,7 +130,7 @@ export const Entry2026DetailView = () => {
               <p className='pl-2'>・WithCollection　4/20(月)〜5/31(日)</p>
               <div className='text-sekigahara font-bold text-xl'>開催地域</div>
               <p className='pl-2'>
-                東京（江戸の乱）、名古屋（尾張・美濃の乱）、大阪（大阪の乱）の地域で開催されます。
+                東京（江戸の陣）、名古屋（尾張・美濃の陣）、大阪（大阪の陣）の地域で開催されます。
               </p>
               <div className='text-sekigahara font-bold text-xl'>ルール</div>
               <p className='pl-2'>
@@ -223,7 +223,7 @@ export const Entry2026DetailView = () => {
                   <Marker theme='pink'>30時間以上</Marker>の配信ができること
                 </li>
                 <li>
-                  ・Withコレを期間中<Marker theme='yellow'>（4/20〜5/31）</Marker>で
+                  ・With コレを期間中<Marker theme='yellow'>（4/20〜5/31）</Marker>で
                   <Marker theme='pink'>20万ポイント以上</Marker>のデジタルコンテンツ販売ができること
                 </li>
               </ul>
@@ -258,7 +258,7 @@ export const Entry2026DetailView = () => {
                   関ケ原本戦出場以外に豪華な権利を得られる可能性がある
                 </div>
                 <div className='p-2'>
-                  予戦会での特典会の他にWIthコレクションポイントランキングでも特典を得られます。
+                  予戦会での特典会の他にWith コレポイントランキングでも特典を得られます。
                 </div>
               </div>
             </div>
@@ -271,13 +271,13 @@ export const Entry2026DetailView = () => {
             <Header title='Withコレについて' />
             <div className='flex flex-col gap-1'>
               本イベントではWith
-              Collectionの販売ポイントに応じて順位が決められます。その上位には協賛企業である株式会社WithLIVEより景品が贈られます。
+              コレの販売ポイントに応じて順位が決められます。その上位には協賛企業である株式会社WithLIVEより景品が贈られます。
               <Link
                 className='text-blue-600 flex gap-1 items-center justify-center my-4'
                 href='https://www.withlive.jp/lp/withlive_collection_cast_sakigahara2025.html'
                 target='_blank'
               >
-                WithLIVEコレクション
+                With コレ
                 <PiArrowSquareOutLight />
               </Link>
             </div>
@@ -300,8 +300,8 @@ export const Entry2026DetailView = () => {
                 <HiOutlineChevronDoubleDown className='w-[100px] h-[50px]' />
                 <TodoContent
                   src='https://www.withlive.jp/img/withlive-logo.png'
-                  alt='WithLIVEコレクション'
-                  message='WithLIVEコレクションのアカウントの作成'
+                  alt='With コレ'
+                  message='With コレのアカウントの作成'
                 />
               </div>
             </div>
