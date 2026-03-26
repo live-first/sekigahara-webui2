@@ -10,6 +10,8 @@ import { company, email, group_name, phoneNumber, name } from '@/domain/schema.t
 import { Title } from '@/components/title/title.tsx'
 import { Frame } from '@/components/Frame/index.tsx'
 import { TextFieldForm } from '@/templates/form/TextFieldForm.tsx'
+import keyvisual from '@/image/2026/yosen_keyvisual.jpg'
+import { Img } from '@/components/Image'
 
 export const Entry2026View = () => {
   const [emailStatusMessage, setEmailStatusMessage] = useState<boolean>(false)
@@ -54,6 +56,7 @@ export const Entry2026View = () => {
     <Container maxWidth='sm'>
       <Title english='Pre ENTRY' japaniese='プレエントリー' />
       <div className='flex flex-col gap-6 py-6'>
+        <Img src={keyvisual.src} alt='keyvisual' />
         <Frame>
           関ケ原唄姫合戦2026
           予戦会エントリーに関する情報は下記項目を記入の上、進めていただけますようお願い申し上げます。

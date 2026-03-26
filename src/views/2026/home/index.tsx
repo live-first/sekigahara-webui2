@@ -10,7 +10,7 @@ import { useRouter } from 'next/navigation'
 import { useNewsApi } from '@/api/newsApi'
 import { NewsContentsType } from '@/domain/news'
 import { useEffect, useRef } from 'react'
-import { EllipseButton } from '@/components/button/ellipseButton'
+import banner from '@/image/2026/yosenkai2026_hp_banner.jpg'
 
 export const Home2026View = () => {
   const router = useRouter()
@@ -66,16 +66,11 @@ export const Home2026View = () => {
             </div> */}
           <div>
             <ContentTitle>予戦会エントリー</ContentTitle>
-            <Frame>
-              <div className='flex justify-center'>
-                <EllipseButton
-                  className='bg-sekigahara text-white hover:bg-[#fe7e7e] px-4'
-                  onClick={() => router.push('/entry')}
-                >
-                  エントリーフォームへ
-                </EllipseButton>
-              </div>
-            </Frame>
+            <div className='flex justify-center py-8'>
+              <button onClick={() => router.push('/entry')} className='hover:cursor-pointer'>
+                <Img src={banner.src} alt='banner' />
+              </button>
+            </div>
           </div>
           <div>
             <ContentTitle>協力</ContentTitle>

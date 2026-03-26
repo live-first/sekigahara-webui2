@@ -120,13 +120,13 @@ export const Entry2026DetailView = () => {
               <br />
               <div className='text-sekigahara font-bold text-xl'>開催期間</div>
               <p className='pl-2'>
-                ・予戦会　　　　 5/1(月)〜5/31(日)
+                ・予戦会　　　　 5/1(金)〜5/31(日)
                 <br />
-                　　METALIVE　 5/1(月)～5/31(日)
+                　　METALIVE　 5/1(金)～5/31(日)
                 <br />
                 　　有観客LIVE　5/9(土)〜5/30(土)
               </p>
-              <p className='pl-2'>・最終決戦　　 　6/21(日)</p>
+              <p className='pl-2'>・最終決戦　　　 6/21(日)</p>
               <p className='pl-2'>・WithCollection　4/20(月)〜5/31(日)</p>
               <div className='text-sekigahara font-bold text-xl'>開催地域</div>
               <p className='pl-2'>
