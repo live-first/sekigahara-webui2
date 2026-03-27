@@ -10,7 +10,7 @@ import { company, email, group_name, phoneNumber, name } from '@/domain/schema.t
 import { Title } from '@/components/title/title.tsx'
 import { Frame } from '@/components/Frame/index.tsx'
 import { TextFieldForm } from '@/templates/form/TextFieldForm.tsx'
-import keyvisual from '@/image/2026/yosen_keyvisual.jpg'
+import keyvisual from '@/image/2026/yosenkai2026_keyvisual_yoko.jpg'
 import { Img } from '@/components/Image'
 
 export const Entry2026View = () => {

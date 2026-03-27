@@ -38,6 +38,8 @@ export const Entry2026DetailView = () => {
   const [ruleChecked, setRuleChecked] = useState<boolean>(false)
   const [isSubmit, setSubmit] = useState<boolean>(false)
 
+  const withColleUrl = 'https://www.withlive.jp/lp/withlive_collection_cast_sakigahara2026.html'
+
   const EntrySchema = z.object({
     company: company, // 事務所名
     group_name: group_name, // グループ名
@@ -274,7 +276,7 @@ export const Entry2026DetailView = () => {
               コレの販売ポイントに応じて順位が決められます。その上位には協賛企業である株式会社WithLIVEより景品が贈られます。
               <Link
                 className='text-blue-600 flex gap-1 items-center justify-center my-4'
-                href='https://www.withlive.jp/lp/withlive_collection_cast_sakigahara2025.html'
+                href={withColleUrl}
                 target='_blank'
               >
                 With コレ
@@ -440,7 +442,7 @@ export const Entry2026DetailView = () => {
                   <p className='flex flex-col sm:flex-row sm:flex-wrap'>
                     <Link
                       className='text-blue-600 flex gap-1 items-center whitespace-nowrap'
-                      href='https://www.withlive.jp/lp/withlive_collection_cast_sakigahara2025.html'
+                      href={withColleUrl}
                       target='_blank'
                       onClick={() => setWith(true)}
                     >
