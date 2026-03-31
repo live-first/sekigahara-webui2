@@ -14,8 +14,11 @@
   --color-foreground: var(--foreground);
   --color-sekigahara: var(--sekigahara);
   --color-edo: var(--edo);
+  --color-edo_bg: #ffbfbf;
   --color-owari: var(--owari);
+  --color-owari_bg: #ffdea5;
   --color-osaka: var(--osaka);
+  --color-osaka_bg: #bccaff;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

@@ -18,11 +18,11 @@ export function middleware(request: NextRequest) {
   const subdomain = host.split('.')[0]
 
   if (subdomain === 'yosen2026') {
-    return NextResponse.rewrite(new URL('/yosen2026', request.url))
+    return NextResponse.rewrite(new URL('/yosen2026' + path, request.url))
   }
 
   if (subdomain === 'admin') {
-    return NextResponse.rewrite(new URL('/admin', request.url))
+    return NextResponse.rewrite(new URL('/admin' + path, request.url))
   }
 
   return NextResponse.next()

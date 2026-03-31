@@ -18,8 +18,8 @@ export const HalfMenuLayout = ({ header, menu, main, footer }: HalfMenuLayoutPro
         </header>
       )}
       <div className='flex'>
-        {menu && <div className='flex flex-col overflow-scroll'>{menu}</div>}
-        {main && <main className='flex-1'>{main}</main>}
+        {menu && <div className='flex flex-col sticky top-0'>{menu}</div>}
+        {main && <main className='flex-1 h-screen overflow-scroll bg-gray-200'>{main}</main>}
       </div>
       {footer && <footer className='h-16 flex items-center justify-center'>{footer}</footer>}
     </div>

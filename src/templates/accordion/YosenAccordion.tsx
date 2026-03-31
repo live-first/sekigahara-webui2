@@ -5,8 +5,8 @@ import { SlArrowDown } from 'react-icons/sl'
 import Link from 'next/link'
 import { Img } from '@/components/Image'
 
-type AccordionProps = {
-  className?: string
+export type YosenAccordionProps = {
+  cName?: string
   title: string
   date: string
   open?: string
@@ -18,13 +18,13 @@ type AccordionProps = {
   image2?: string
 }
 
-export const YosenAccordion = (props: AccordionProps) => {
-  const { className, title, date, open, start, place, artists, ticket, image1, image2 } = props
+export const YosenAccordion = (props: YosenAccordionProps) => {
+  const { cName, title, date, open, start, place, artists, ticket, image1, image2 } = props
   return (
     <Accordion>
       <AccordionSummary
         expandIcon={<SlArrowDown />}
-        className={`bg-${className} text-lg font-bold text-black`}
+        className={`bg-${cName} text-lg font-bold text-black`}
       >
         {title}
       </AccordionSummary>
