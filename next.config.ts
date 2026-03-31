@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
     remotePatterns: [new URL('https://sekigahara-idolwars.net/**')],
     unoptimized: true,
   },
-  output: 'export',
-  trailingSlash: true,
+  // output: 'export',
+  // trailingSlash: true,
 }
 
 export default nextConfig
