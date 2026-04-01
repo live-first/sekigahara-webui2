@@ -51,13 +51,13 @@ export const MenuView = () => {
           <PiArrowSquareOutLight />
         </MenuContents>
       </Link>
-      <Link href='/artists' target='_blank'>
+      <Link href='/artists'>
         <MenuContents>
           <GiMicrophone />
           参戦者
         </MenuContents>
       </Link>
-      <Link href='/rules' target='_blank'>
+      <Link href='/rules'>
         <MenuContents>
           <GiOpenBook />
           ルール
