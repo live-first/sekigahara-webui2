@@ -1,0 +1,3 @@
+export const YosenRulesView = () => {
+  return <></>
+}
