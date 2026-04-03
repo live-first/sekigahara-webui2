@@ -1,3 +1,10 @@
+import { Img } from '@/components/Image'
+import keyvisual from '@/image/2026/yosenkai2026_keyvisual_yoko.jpg'
+
 export const YosenTopView = () => {
-  return <></>
+  return (
+    <div className='flex flex-col'>
+      <Img src={keyvisual.src} />
+    </div>
+  )
 }

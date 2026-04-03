@@ -4,6 +4,7 @@ import { edoEvents } from './edo'
 import { YosenAccordion } from '@/templates/accordion/YosenAccordion'
 import { owariEvents } from './owari'
 import { osakaEvents } from './osaka'
+import { YosenTitle } from '@/components/title/title'
 
 export const YosenLiveView = () => {
   const [value, setValue] = useState<number>(0)
@@ -20,41 +21,44 @@ export const YosenLiveView = () => {
   }
 
   return (
-    <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs
-          variant='fullWidth'
-          value={value}
-          onChange={handleChange}
-          aria-label='basic tabs example'
-        >
-          <Tab className='!text-lg !bg-edo f-textshadow' label='江戸の陣' {...a11yProps(0)} />
-          <Tab className='!text-lg !bg-owari f-textshadow' label='尾張の陣' {...a11yProps(1)} />
-          <Tab className='!text-lg !bg-osaka f-textshadow' label='大阪の陣' {...a11yProps(2)} />
-        </Tabs>
+    <div className='flex flex-col gap-6 pb-12 p-2 md:px-20 lg:px-36'>
+      <YosenTitle title='〜 LIVE 〜' />
+      <Box sx={{ width: '100%' }}>
+        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+          <Tabs
+            variant='fullWidth'
+            value={value}
+            onChange={handleChange}
+            aria-label='basic tabs example'
+          >
+            <Tab className='!text-lg !bg-edo f-textshadow' label='江戸の陣' {...a11yProps(0)} />
+            <Tab className='!text-lg !bg-owari f-textshadow' label='尾張の陣' {...a11yProps(1)} />
+            <Tab className='!text-lg !bg-osaka f-textshadow' label='大阪の陣' {...a11yProps(2)} />
+          </Tabs>
+        </Box>
+        <CustomTabPanel value={value} index={0}>
+          <div className='p-4 bg-edo_bg border-x-2 border-x-edo border-b-2 border-b-edo'>
+            {edoEvents.map((event, index) => (
+              <YosenAccordion {...event} key={`edo-${index}`} />
+            ))}
+          </div>
+        </CustomTabPanel>
+        <CustomTabPanel value={value} index={1}>
+          <div className='p-4 bg-owari_bg border-x-2 border-x-owari border-b-2 border-b-owari'>
+            {owariEvents.map((event, index) => (
+              <YosenAccordion {...event} key={`owari-${index}`} />
+            ))}
+          </div>
+        </CustomTabPanel>
+        <CustomTabPanel value={value} index={2}>
+          <div className='p-4 bg-osaka_bg border-x-2 border-x-osaka border-b-2 border-b-osaka'>
+            {osakaEvents.map((event, index) => (
+              <YosenAccordion {...event} key={`osaka-${index}`} />
+            ))}
+          </div>
+        </CustomTabPanel>
       </Box>
-      <CustomTabPanel value={value} index={0}>
-        <div className='p-4 bg-edo_bg border-x-2 border-x-edo border-b-2 border-b-edo'>
-          {edoEvents.map((event, index) => (
-            <YosenAccordion {...event} key={`edo-${index}`} />
-          ))}
-        </div>
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={1}>
-        <div className='p-4 bg-owari_bg border-x-2 border-x-owari border-b-2 border-b-owari'>
-          {owariEvents.map((event, index) => (
-            <YosenAccordion {...event} key={`owari-${index}`} />
-          ))}
-        </div>
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
-        <div className='p-4 bg-osaka_bg border-x-2 border-x-osaka border-b-2 border-b-osaka'>
-          {osakaEvents.map((event, index) => (
-            <YosenAccordion {...event} key={`osaka-${index}`} />
-          ))}
-        </div>
-      </CustomTabPanel>
-    </Box>
+    </div>
   )
 }
 

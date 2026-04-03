@@ -3,6 +3,7 @@ import { artists } from '@/resource/2026/yosen/artists'
 import { RankingBox } from '@/templates/rankingBox'
 import { useEffect, useState } from 'react'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
+import { YosenTitle } from '@/components/title/title'
 
 export const YosenRankingView = () => {
   const [ranking, setRanking] = useState<RankingType | null>(null)
@@ -35,7 +36,8 @@ export const YosenRankingView = () => {
   }, [])
 
   return (
-    <>
+    <div className='flex flex-col gap-6 pb-12 p-2 md:px-20 lg:px-36'>
+      <YosenTitle title='〜 RANKING 〜' />
       {ranking && (
         <div className='flex flex-col w-full text-end text-sm text-black py-2'>
           更新日時：{`${ranking.date} ${ranking.time}`}
@@ -65,6 +67,6 @@ export const YosenRankingView = () => {
           />
         )}
       </div>
-    </>
+    </div>
   )
 }

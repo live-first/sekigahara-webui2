@@ -21,6 +21,7 @@
   --color-osaka_bg: #bccaff;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-font-blue: rgb(120, 200, 204);
 }
 
 @media (prefers-color-scheme: dark) {
