@@ -6,7 +6,7 @@ export const EdoView = () => {
   return (
     <div className='edo-view'>
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の十六'
         date='2024年5月26日（日）'
         place='シアターマーキュリー新宿'
@@ -17,7 +17,7 @@ export const EdoView = () => {
         ticket='https://tiget.net/events/322794'
       />
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の十五'
         date='2024年5月26日（日）'
         place='シアターマーキュリー新宿'
@@ -28,7 +28,7 @@ export const EdoView = () => {
         ticket='https://tiget.net/events/322792'
       />
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の十四'
         date='2024年5月25日（土）'
         place='シアターマーキュリー新宿'
@@ -39,7 +39,7 @@ export const EdoView = () => {
         ticket='https://tiget.net/events/322555'
       />
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の十三'
         date='2024年5月25日（土）'
         place='シアターマーキュリー新宿'
@@ -50,7 +50,7 @@ export const EdoView = () => {
         ticket='https://tiget.net/events/322553'
       />
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の十二'
         date='2024年5月22日（水）'
         place='GOTANDA G7'
@@ -61,7 +61,7 @@ export const EdoView = () => {
         ticket='https://tiget.net/events/321654'
       />
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の十一'
         date='2024年5月21日（火）'
         place='TwinBoxAKIHABARA/TwinBoxGARAGE'
@@ -72,7 +72,7 @@ export const EdoView = () => {
         ticket='https://tiget.net/events/321503'
       />
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の十'
         date='2024年5月20日（月）'
         place='GOTANDA  G7'
@@ -84,7 +84,7 @@ export const EdoView = () => {
         ticket='https://tiget.net/events/321384'
       />
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の九'
         date='2024年5月19日（日）'
         place='シアターマーキュリー新宿'
@@ -96,7 +96,7 @@ export const EdoView = () => {
         ticket='https://tiget.net/events/321132'
       />
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の八'
         date='2024年5月19日（日）'
         place='シアターマーキュリー新宿'
@@ -108,7 +108,7 @@ export const EdoView = () => {
         ticket='https://tiget.net/events/321130'
       />
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の七'
         date='2024年5月18日（土）'
         place='シアターマーキュリー新宿'
@@ -121,7 +121,7 @@ export const EdoView = () => {
       />
 
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の六'
         date='2024年5月18日（土）'
         place='シアターマーキュリー新宿'
@@ -134,7 +134,7 @@ export const EdoView = () => {
       />
 
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の五'
         date='2024年5月16日（木）'
         place='TwinBoxGARAGE'
@@ -147,7 +147,7 @@ export const EdoView = () => {
       />
 
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の四'
         date='2024年5月14日（火）'
         place='TwinBoxGARAGE'
@@ -160,7 +160,7 @@ export const EdoView = () => {
       />
 
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の三'
         date='2024年5月12日（日）'
         place='TwinBoxGARAGE'
@@ -173,7 +173,7 @@ export const EdoView = () => {
       />
 
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の二'
         date='2024年5月12日（日）'
         place='TwinBoxGARAGE'
@@ -184,7 +184,7 @@ export const EdoView = () => {
       />
 
       <YosenAccordion
-        className='edo'
+        cName='edo'
         title='其の一'
         date='2024年5月11日（土）'
         open='15:45'

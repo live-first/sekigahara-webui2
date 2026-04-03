@@ -6,7 +6,7 @@ export const OsakaView = () => {
   return (
     <div className='osaka-view'>
       <YosenAccordion
-        className='osaka'
+        cName='osaka'
         title='其の四'
         date='2024年5月26日（日）'
         place='京橋Arc'
@@ -17,7 +17,7 @@ export const OsakaView = () => {
         ticket='https://tiget.net/events/322809'
       />
       <YosenAccordion
-        className='osaka'
+        cName='osaka'
         title='其の三'
         date='2024年5月26日（日）'
         place='京橋Arc'
@@ -28,7 +28,7 @@ export const OsakaView = () => {
         ticket='https://tiget.net/events/322808'
       />
       <YosenAccordion
-        className='osaka'
+        cName='osaka'
         title='其の二'
         date='2024年5月24日（金）'
         place='心斎橋SUNHALL'
@@ -40,7 +40,7 @@ export const OsakaView = () => {
       />
 
       <YosenAccordion
-        className='osaka'
+        cName='osaka'
         title='其の一'
         date='2024年5月17日（金）'
         place='OSAKA RUIDO'

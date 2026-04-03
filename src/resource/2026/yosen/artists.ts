@@ -1,4 +1,4 @@
-import { UnitProps } from '@/src/sgh-templates/unitBox'
+import { UnitProps } from '@/templates/unitBox'
 
 export const artists: UnitProps[] = [
   {
