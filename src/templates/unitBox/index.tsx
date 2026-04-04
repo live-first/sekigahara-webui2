@@ -24,7 +24,7 @@ export const UnitBox = (props: UnitProps) => {
       </div>
       {x && (
         <div className='flex gap-4 justify-center'>
-          <Link href={`${x}`} target='_blank' className='w-6'>
+          <Link href={`https://x.com/${x}`} target='_blank' className='w-6'>
             <Img src='https://yosen2025.sekigahara-idolwars.net/picture/x-logo.png' alt='x' />
           </Link>
         </div>
