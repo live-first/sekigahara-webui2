@@ -4,6 +4,7 @@ import { shuffleArray } from '@/components/utils'
 import { artists } from '@/resource/2026/yosen/artists'
 import { UnitBox } from '@/templates/unitBox'
 import { Grid } from '@mui/material'
+import Link from 'next/link'
 
 export const YosenArtistsView = () => {
   return (
@@ -13,7 +14,9 @@ export const YosenArtistsView = () => {
         {shuffleArray(artists).map((artist, index) => (
           <Grid size={{ xs: 6, sm: 6, md: 4 }} key={`artist-${index}`}>
             <SlideUpAnimation>
-              <UnitBox name={artist.name} img={artist.img} x={artist.x} />
+              <Link href={`/artists/${artist.x}`} target='_blank'>
+                <UnitBox name={artist.name} img={artist.img} x={artist.x} />
+              </Link>
             </SlideUpAnimation>
           </Grid>
         ))}

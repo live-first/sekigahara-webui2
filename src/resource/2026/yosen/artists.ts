@@ -2,12 +2,20 @@ import { UnitProps } from '@/templates/unitBox'
 
 export const artists: UnitProps[] = [
   {
+    name: '白地図プロローグ',
+    img: {
+      src: 'https://hakuchizu-prologue.com/_next/static/media/%E7%99%BD%E5%9C%B0%E5%9B%B3%E3%83%97%E3%83%AD%E3%83%AD%E3%83%BC%E3%82%B0.09e1a7e1.jpg',
+      alt: '白地図プロローグ',
+    },
+    x: 'hcpl_official',
+  },
+  {
     name: 'アクアリウム。',
     img: {
       src: 'https://yosen2025.lime-light.tv/picture/artists/アクアリウム。.png',
       alt: 'アクアリウム。',
     },
-    x: 'https://x.com/aquariumu_info',
+    x: 'aquariumu_info',
   },
   {
     name: 'いざ参らん',
@@ -15,7 +23,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/いざ参らん.jpeg',
       alt: 'いざ参らん',
     },
-    x: 'https://x.com/izamairan2023',
+    x: 'izamairan2023',
   },
   {
     name: '奏音コレクト',
@@ -23,7 +31,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/奏音コレクト.jpg',
       alt: '奏音コレクト',
     },
-    x: 'https://x.com/MYREALIZM_oc',
+    x: 'MYREALIZM_oc',
   },
   {
     name: 'カリスマめんざいふっ！',
@@ -31,7 +39,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/カリスマめんざいふっ！.jpeg',
       alt: 'カリスマめんざいふっ！',
     },
-    x: 'https://x.com/KariMen_idol',
+    x: 'KariMen_idol',
   },
   {
     name: 'Qu♡Aly',
@@ -39,7 +47,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/Qu♡Aly.jpeg',
       alt: 'Qu♡Aly',
     },
-    x: 'https://x.com/qualy_info',
+    x: 'qualy_info',
   },
   {
     name: '恋セ界-koiseka-',
@@ -47,7 +55,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/恋セ界-koiseka-.jpeg',
       alt: '恋セ界-koiseka-',
     },
-    x: 'https://x.com/koisekai_',
+    x: 'koisekai_',
   },
   {
     name: 'ja惹句ck',
@@ -55,7 +63,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/ja惹句ck.jpeg',
       alt: 'ja惹句ck',
     },
-    x: 'https://x.com/JACKK__official',
+    x: 'JACKK__official',
   },
   {
     name: 'STELLASTELLA',
@@ -63,7 +71,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/STELLASTELLA.jpg',
       alt: 'STELLASTELLA',
     },
-    x: 'https://x.com/STESTE_official',
+    x: 'STESTE_official',
   },
   {
     name: '青春のフロンティア',
@@ -71,7 +79,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/青春のフロンティア.png',
       alt: '青春のフロンティア',
     },
-    x: 'https://x.com/FRONTIERofYOUTH',
+    x: 'FRONTIERofYOUTH',
   },
   {
     name: 'ゼロキョリハーツ',
@@ -79,7 +87,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/ゼロキョリハーツ.jpeg',
       alt: 'ゼロキョリハーツ',
     },
-    x: 'https://x.com/ZKH_official',
+    x: 'ZKH_official',
   },
   {
     name: 'チキータ',
@@ -87,7 +95,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/チキータ.png',
       alt: 'チキータ',
     },
-    x: 'https://x.com/Chegattz',
+    x: 'Chegattz',
   },
   {
     name: 'なないろ∞ミルキーウェイ',
@@ -95,7 +103,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/なないろ∞ミルキーウェイ.jpeg',
       alt: 'なないろ∞ミルキーウェイ',
     },
-    x: 'https://x.com/7__Milkyway',
+    x: '7__Milkyway',
   },
   {
     name: 'Party chuuuN!',
@@ -103,7 +111,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/Party chuuuN!.jpg',
       alt: 'Party chuuuN!',
     },
-    x: 'https://x.com/party_chuuun',
+    x: 'party_chuuun',
   },
   {
     name: "parfait d'ange",
@@ -111,7 +119,7 @@ export const artists: UnitProps[] = [
       src: "https://yosen2025.lime-light.tv/picture/artists/parfait d'ange.jpg",
       alt: "parfait d'ange",
     },
-    x: 'https://x.com/info_parfait',
+    x: 'info_parfait',
   },
   {
     name: 'ひとつキラリ',
@@ -119,7 +127,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/ひとつキラリ.jpeg',
       alt: 'ひとつキラリ',
     },
-    x: 'https://x.com/hitotsukirari',
+    x: 'hitotsukirari',
   },
   {
     name: 'ビーバイユー',
@@ -127,7 +135,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/ビーバイユー.jpg',
       alt: 'ビーバイユー',
     },
-    x: 'https://x.com/bebyu_official',
+    x: 'bebyu_official',
   },
   {
     name: 'ふぁんたす！',
@@ -135,7 +143,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/ふぁんたす！.jpeg',
       alt: 'ふぁんたす！',
     },
-    x: 'https://x.com/fantas_idol',
+    x: 'fantas_idol',
   },
   {
     name: 'ぷりしえーる',
@@ -143,7 +151,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/ぷりしえーる.JPG',
       alt: 'ぷりしえーる',
     },
-    x: 'https://x.com/Pricie_official',
+    x: 'Pricie_official',
   },
   {
     name: "Poppin' Parade",
@@ -151,7 +159,7 @@ export const artists: UnitProps[] = [
       src: "https://yosen2025.lime-light.tv/picture/artists/Poppin' Parade.jpg",
       alt: "Poppin' Parade",
     },
-    x: 'https://x.com/official_popipa',
+    x: 'official_popipa',
   },
   {
     name: 'むげんこんぜ',
@@ -159,7 +167,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/むげんこんぜ.png',
       alt: 'むげんこんぜ',
     },
-    x: 'https://x.com/comze_FPE',
+    x: 'comze_FPE',
   },
   {
     name: 'Y∀KiN',
@@ -167,7 +175,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/Y∀KiN.png',
       alt: 'Y∀KiN',
     },
-    x: 'https://x.com/YAKiN_0209',
+    x: 'YAKiN_0209',
   },
   {
     name: 'ラビットビット',
@@ -175,7 +183,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/ラビットビット.jpg',
       alt: 'ラビットビット',
     },
-    x: 'https://x.com/rabbitbit2022',
+    x: 'rabbitbit2022',
   },
   {
     name: 'ルシフェルの園。',
@@ -183,7 +191,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/ルシフェルの園。.PNG',
       alt: 'ルシフェルの園。',
     },
-    x: 'https://x.com/felsono_info',
+    x: 'felsono_info',
   },
   {
     name: '縷々',
@@ -191,7 +199,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/縷々.jpeg',
       alt: '縷々',
     },
-    x: 'https://x.com/ru_ru_idol',
+    x: 'ru_ru_idol',
   },
   {
     name: 'LOTUS MARRY',
@@ -199,7 +207,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/LOTUS MARRY.png',
       alt: 'LOTUS MARRY',
     },
-    x: 'https://x.com/LOTUSMARRY',
+    x: 'LOTUSMARRY',
   },
   {
     name: '≪√PlusF✯rt≫~ﾙｰﾄﾌﾟﾘｭﾌｫｰﾙ~',
@@ -207,7 +215,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/≪√PlusF✯rt≫~ﾙｰﾄﾌﾟﾘｭﾌｫｰﾙ~.jpeg',
       alt: '≪√PlusF✯rt≫~ﾙｰﾄﾌﾟﾘｭﾌｫｰﾙ~',
     },
-    x: 'https://x.com/root_plus_fort',
+    x: 'root_plus_fort',
   },
   {
     name: 'Lollipop♡CHU',
@@ -215,7 +223,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/Lollipop♡CHU.jpg',
       alt: 'Lollipop♡CHU',
     },
-    x: 'https://x.com/Lollipop__CHU',
+    x: 'Lollipop__CHU',
   },
   {
     name: 'ノルニル',
@@ -223,7 +231,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/ノルニル.jpeg',
       alt: 'ノルニル',
     },
-    x: 'https://x.com/nornir_0611',
+    x: 'nornir_0611',
   },
   {
     name: 'IDOLEST',
@@ -231,7 +239,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/IDOLEST.jpeg',
       alt: 'IDOLEST',
     },
-    x: 'https://x.com/tokyoidolest',
+    x: 'tokyoidolest',
   },
   {
     name: 'あおぞらをキミに',
@@ -239,7 +247,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/%E3%81%82%E3%81%8A%E3%81%9E%E3%82%89%E3%82%92%E3%82%AD%E3%83%9F%E3%81%AB.png',
       alt: 'あおぞらをキミに',
     },
-    x: 'https://x.com/aozorawokimini',
+    x: 'aozorawokimini',
   },
   {
     name: 'プエラの絶対値',
@@ -247,7 +255,7 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/%E3%83%97%E3%82%A8%E3%83%A9%E3%81%AE%E7%B5%B6%E5%AF%BE%E5%80%A4.jpeg',
       alt: 'プエラの絶対値',
     },
-    x: 'https://x.com/Puella_official',
+    x: 'Puella_official',
   },
   {
     name: 'ハレとハレ！',
@@ -255,6 +263,6 @@ export const artists: UnitProps[] = [
       src: 'https://yosen2025.lime-light.tv/picture/artists/ハレとハレ！.jpeg',
       alt: 'ハレとハレ！',
     },
-    x: 'https://x.com/_HARETOHARE',
+    x: '_HARETOHARE',
   },
 ]
