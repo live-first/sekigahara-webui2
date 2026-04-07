@@ -10,7 +10,7 @@ const Map = () => {
     <Container maxWidth='lg'>
       <Title english='MAP' japaniese='エリアマップ' />
       <div className='flex flex-col py-6'>
-        <Img src='https://sekigahara-idolwars.net/images/2025/map/area_map.JPG' alt='area_map' />
+        <Img src='https://lime-light.tv/images/2025/map/area_map.JPG' alt='area_map' />
       </div>
     </Container>
   )

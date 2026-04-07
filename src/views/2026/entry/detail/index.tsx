@@ -454,7 +454,7 @@ export const Entry2026DetailView = () => {
                   <p className='flex flex-col sm:flex-row sm:flex-wrap'>
                     <Link
                       className='text-blue-600 flex gap-1 items-center whitespace-nowrap'
-                      href='https://sekigahara-idolwars.net/doc/プライバシーポリシー.pdf'
+                      href='https://lime-light.tv/doc/プライバシーポリシー.pdf'
                       target='_blank'
                       onClick={() => setPrivacyChecked(true)}
                     >

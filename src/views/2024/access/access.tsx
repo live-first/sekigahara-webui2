@@ -46,10 +46,7 @@ export const Access2024View = () => {
                   <div>JR関ケ原駅↔︎桃配運動公園</div>
                   <div>金額：片道 ¥500-</div>
                   <div className='bus-image'>
-                    <Img
-                      src='https://sekigahara-idolwars.net/images/2024/home/access2.jpg'
-                      alt='bus'
-                    />
+                    <Img src='https://lime-light.tv/images/2024/home/access2.jpg' alt='bus' />
                   </div>
                 </div>
               </div>
@@ -59,10 +56,7 @@ export const Access2024View = () => {
                 <div className='col-head'>駐車場情報</div>
                 <div className='col'>
                   <div className='bus-image'>
-                    <Img
-                      src='https://sekigahara-idolwars.net/images/2024/home/access1.jpg'
-                      alt='bus'
-                    />
+                    <Img src='https://lime-light.tv/images/2024/home/access1.jpg' alt='bus' />
                   </div>
                   <Link href='https://tiget.net/events/333907'>第一駐車場チケット</Link>
                 </div>

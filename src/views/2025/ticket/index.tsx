@@ -92,7 +92,7 @@ export const Ticket = () => {
       </Container>
       <Container maxWidth='lg'>
         <div className='py-4'>
-          <Img src='https://sekigahara-idolwars.net/images/2025/ticket.jpg' alt='チケット情報' />
+          <Img src='https://lime-light.tv/images/2025/ticket.jpg' alt='チケット情報' />
         </div>
         <Link href='https://tiget.net/events/407817'>
           <div className='ticket-link-btn'>チケットの購入はこちら</div>

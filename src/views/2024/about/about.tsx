@@ -66,10 +66,7 @@ const MainView = () => {
       <Container maxWidth='md'>
         <Title english='ABOUT' japaniese='イベント概要' />
         <div className='about-view'>
-          <Img
-            src='https://sekigahara-idolwars.net/images/2024/logo/concept-back.png'
-            alt='concept-view'
-          />
+          <Img src='https://lime-light.tv/images/2024/logo/concept-back.png' alt='concept-view' />
           <div className='concept'>
             <div className='concept-font'>十回目の夏に</div>
             <div className='concept-font'>この景色を目の当たりにする</div>
@@ -87,7 +84,7 @@ const MainView = () => {
           title='SEKIGAHARA IDOL WARS2022 Special Thank You Movie'
         />
         <OutlineView
-          logo='https://sekigahara-idolwars.net/images/2024/logo.svg'
+          logo='https://lime-light.tv/images/2024/logo.svg'
           title='SEKIGAHARA IDOL WARS 2024 - 関ケ原唄姫合戦- 10thAnniversary '
           date='2024年7月19日(金)、20日(土)、21日(日)'
         />

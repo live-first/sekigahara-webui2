@@ -40,7 +40,7 @@ export const MenuView = () => {
       <Link href='/' target='_blank'>
         <MenuContents>
           <Img
-            src='https://sekigahara-idolwars.net/images/with_collection_icon.png'
+            src='https://lime-light.tv/images/with_collection_icon.png'
             alt='Withコレ'
             cName='rounded-full w-6 h-6'
             notNext
@@ -65,16 +65,13 @@ export const MenuView = () => {
       </Link>
       <div className='flex gap-8 p-4 justify-center'>
         <Link href='https://x.com/_IDOLWARS' className='bg-white rounded-full w-16 h-16 p-4'>
-          <Img src='https://sekigahara-idolwars.net/images/x-logo-black.png' alt='x-logo' />
+          <Img src='https://lime-light.tv/images/x-logo-black.png' alt='x-logo' />
         </Link>
         <Link
           href='https://www.instagram.com/_idolwars'
           className='bg-white rounded-full w-16 h-16 p-2'
         >
-          <Img
-            src='https://sekigahara-idolwars.net/images/Instagram-logo-color.png'
-            alt='instagram-logo'
-          />
+          <Img src='https://lime-light.tv/images/Instagram-logo-color.png' alt='instagram-logo' />
         </Link>
       </div>
     </div>

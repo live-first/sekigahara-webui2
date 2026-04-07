@@ -8,7 +8,7 @@ const Footer = () => {
       <Link href='/2024/' className='flex justify-center pt-4'>
         <Img
           cName='w-[50%] min-w-[200px] max-w-[500px]'
-          src='https://sekigahara-idolwars.net/images/2024/logo/headerlogo.svg'
+          src='https://lime-light.tv/images/2024/logo/headerlogo.svg'
           alt='logo'
         />
       </Link>

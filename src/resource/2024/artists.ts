@@ -6,7 +6,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/2.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/2.jpg', alt: '' },
     read: 'アイコル',
   },
   {
@@ -14,7 +14,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/3.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/3.jpg', alt: '' },
     read: 'アイスパイ',
   },
   {
@@ -22,7 +22,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/92.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/92.jpg', alt: '' },
     read: 'アイデアルペコ',
   },
   {
@@ -30,7 +30,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/5.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/5.jpg', alt: '' },
     read: 'アイドルカレッジ',
   },
   {
@@ -38,7 +38,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/6.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/6.jpg', alt: '' },
     read: 'アイマイミーマイ',
   },
   {
@@ -46,7 +46,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/7.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/7.jpg', alt: '' },
     read: 'アイライフ',
   },
   {
@@ -54,7 +54,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/8.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/8.jpg', alt: '' },
     read: 'アイライフコウホセイ',
   },
   {
@@ -62,7 +62,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/9.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/9.jpg', alt: '' },
     read: 'アキシブプロジェクト',
   },
   {
@@ -70,7 +70,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/93.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/93.jpg', alt: '' },
     read: 'アクア',
   },
   {
@@ -78,7 +78,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/94.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/94.jpg', alt: '' },
     read: 'アクマデテンシ',
   },
   {
@@ -86,7 +86,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/155.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/155.jpg', alt: '' },
     read: 'アステリア',
   },
   {
@@ -94,7 +94,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/95.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/95.jpg', alt: '' },
     read: 'アダン',
   },
   {
@@ -102,7 +102,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/96.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/96.jpg', alt: '' },
     read: 'アップ',
   },
   {
@@ -110,7 +110,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/10.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/10.jpg', alt: '' },
     read: 'アップアップガールズ（２）',
   },
   {
@@ -118,7 +118,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/11.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/11.jpg', alt: '' },
     read: 'アップアップガールズ（仮）',
   },
   {
@@ -126,7 +126,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/97.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/97.jpg', alt: '' },
     read: 'アモーレ',
   },
   {
@@ -134,7 +134,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/12.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/12.jpg', alt: '' },
     read: 'アルキュート',
   },
   {
@@ -142,7 +142,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/13.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/13.jpg', alt: '' },
     read: 'アルテミスのツバサ',
   },
   {
@@ -150,7 +150,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/98.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/98.jpg', alt: '' },
     read: 'アルマ',
   },
   {
@@ -158,7 +158,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/25.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/25.jpg', alt: '' },
     read: 'アンコール',
   },
   {
@@ -166,7 +166,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/14.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/14.jpg', alt: '' },
     read: 'アンジュレーブ',
   },
   {
@@ -174,7 +174,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/99.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/99.jpg', alt: '' },
     read: 'アンビス',
   },
   {
@@ -182,7 +182,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/100.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/100.jpg', alt: '' },
     read: 'ヴァルテット',
   },
   {
@@ -190,7 +190,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/15.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/15.jpg', alt: '' },
     read: 'ウタカタパーティーズ',
   },
   {
@@ -198,7 +198,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/101.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/101.jpg', alt: '' },
     read: 'エスアイアール',
   },
   {
@@ -206,7 +206,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/102.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/102.jpg', alt: '' },
     read: 'エスレアル',
   },
   {
@@ -214,7 +214,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/103.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/103.jpg', alt: '' },
     read: 'エン',
   },
   {
@@ -222,7 +222,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/91.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/91.jpg', alt: '' },
     read: 'エンラ',
   },
   {
@@ -230,7 +230,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/104.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/104.jpg', alt: '' },
     read: 'オーエスケー',
   },
   {
@@ -238,7 +238,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/105.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/105.jpg', alt: '' },
     read: 'オーエスユー',
   },
   {
@@ -246,7 +246,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/106.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/106.jpg', alt: '' },
     read: 'オーツー',
   },
   {
@@ -254,7 +254,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/16.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/16.jpg', alt: '' },
     read: 'ガガピエロ',
   },
   {
@@ -262,7 +262,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/17.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/17.jpg', alt: '' },
     read: 'カスミソウ',
   },
   {
@@ -270,7 +270,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/18.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/18.jpg', alt: '' },
     read: 'カメンジョシ',
   },
   {
@@ -278,7 +278,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/19.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/19.jpg', alt: '' },
     read: 'カラフルスクリーム',
   },
   {
@@ -286,7 +286,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/107.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/107.jpg', alt: '' },
     read: 'カリスマ',
   },
   {
@@ -294,7 +294,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/108.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/108.jpg', alt: '' },
     read: 'キスビー',
   },
   {
@@ -302,7 +302,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/109.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/109.jpg', alt: '' },
     read: 'キミニハネ',
   },
   {
@@ -310,7 +310,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/20.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/20.jpg', alt: '' },
     read: 'キミニムネキュン',
   },
   {
@@ -318,7 +318,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/110.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/110.jpg', alt: '' },
     read: 'ギャクテン',
   },
   {
@@ -326,7 +326,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/21.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/21.jpg', alt: '' },
     read: 'キャンディーチューン',
   },
   {
@@ -334,7 +334,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/111.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/111.jpg', alt: '' },
     read: 'キュウキョク',
   },
   {
@@ -342,7 +342,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/22.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/22.jpg', alt: '' },
     read: 'キュウシュウジョシリュウ',
   },
   {
@@ -350,7 +350,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/112.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/112.jpg', alt: '' },
     read: 'キュンコイオチ',
   },
   {
@@ -358,7 +358,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/23.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/23.jpg', alt: '' },
     read: 'ギルティギルティ',
   },
   {
@@ -366,7 +366,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/160.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/160.jpg', alt: '' },
     read: 'グリムアセンブラー',
   },
   {
@@ -374,7 +374,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/113.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/113.jpg', alt: '' },
     read: 'ケーアール',
   },
   {
@@ -382,7 +382,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/114.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/114.jpg', alt: '' },
     read: 'ケッパッテ',
   },
   {
@@ -390,7 +390,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/161.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/161.jpg', alt: '' },
     read: 'サイサイリウム',
   },
   {
@@ -398,7 +398,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/24.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/24.jpg', alt: '' },
     read: 'サクヤコノハナ',
   },
   {
@@ -406,7 +406,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/115.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/115.jpg', alt: '' },
     read: 'シーオン',
   },
   {
@@ -414,7 +414,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/26.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/26.jpg', alt: '' },
     read: 'シークレットシャノワール',
   },
   {
@@ -422,7 +422,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/27.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/27.jpg', alt: '' },
     read: 'ジエメイ',
   },
   {
@@ -430,7 +430,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/116.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/116.jpg', alt: '' },
     read: 'シスターズアニマ',
   },
   {
@@ -438,7 +438,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/117.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/117.jpg', alt: '' },
     read: 'シトラ',
   },
   {
@@ -446,7 +446,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/29.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/29.jpg', alt: '' },
     read: 'ジャパナリズム',
   },
   {
@@ -454,7 +454,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/28.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/28.jpg', alt: '' },
     read: 'シャプフラ',
   },
   {
@@ -462,7 +462,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/30.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/30.jpg', alt: '' },
     read: 'ジャムズコレクション',
   },
   {
@@ -470,7 +470,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/118.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/118.jpg', alt: '' },
     read: 'シュピネス',
   },
   {
@@ -478,7 +478,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/31.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/31.jpg', alt: '' },
     read: 'シュレディンガー',
   },
   {
@@ -486,7 +486,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/32.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/32.jpg', alt: '' },
     read: 'ジュンジョウノアフィリア',
   },
   {
@@ -494,7 +494,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/119.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/119.jpg', alt: '' },
     read: 'シロモン',
   },
   {
@@ -502,7 +502,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/33.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/33.jpg', alt: '' },
     read: 'シンシゴトク',
   },
   {
@@ -510,7 +510,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/34.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/34.jpg', alt: '' },
     read: 'シンデレラセンゲン',
   },
   {
@@ -518,7 +518,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/35.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/35.jpg', alt: '' },
     read: 'シンドリック',
   },
   {
@@ -526,7 +526,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/157.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/157.jpg', alt: '' },
     read: 'スイセイドロップチューン',
   },
   {
@@ -534,7 +534,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/36.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/36.jpg', alt: '' },
     read: 'スウィートアレイ',
   },
   {
@@ -542,7 +542,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/120.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/120.jpg', alt: '' },
     read: 'スーパープー',
   },
   {
@@ -550,7 +550,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/156.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/156.jpg', alt: '' },
     read: 'スターシャイニュー',
   },
   {
@@ -558,7 +558,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/121.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/121.jpg', alt: '' },
     read: 'スタンピ',
   },
   {
@@ -566,7 +566,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/37.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/37.jpg', alt: '' },
     read: 'ズットモット',
   },
   {
@@ -574,7 +574,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/38.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/38.jpg', alt: '' },
     read: 'スプライズ',
   },
   {
@@ -582,7 +582,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/39.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/39.jpg', alt: '' },
     read: 'スポポポポニー',
   },
   {
@@ -590,7 +590,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/122.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/122.jpg', alt: '' },
     read: 'セイラ',
   },
   {
@@ -598,7 +598,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/40.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/40.jpg', alt: '' },
     read: 'セゾン',
   },
   {
@@ -606,7 +606,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/123.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/123.jpg', alt: '' },
     read: 'セントヘブン',
   },
   {
@@ -614,7 +614,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/41.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/41.jpg', alt: '' },
     read: 'タイトルミテイ',
   },
   {
@@ -622,7 +622,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/42.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/42.jpg', alt: '' },
     read: 'タスクハブファン',
   },
   {
@@ -630,7 +630,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/43.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/43.jpg', alt: '' },
     read: 'ダブルウィー',
   },
   {
@@ -638,7 +638,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/44.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/44.jpg', alt: '' },
     read: 'チューズ',
   },
   {
@@ -646,7 +646,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/45.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/45.jpg', alt: '' },
     read: 'ツインペイル',
   },
   {
@@ -654,7 +654,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/124.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/124.jpg', alt: '' },
     read: 'ツキニアシアト',
   },
   {
@@ -662,7 +662,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/125.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/125.jpg', alt: '' },
     read: 'ティアーズ',
   },
   {
@@ -670,7 +670,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/46.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/46.jpg', alt: '' },
     read: 'テバサキ',
   },
   {
@@ -678,7 +678,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/47.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/47.jpg', alt: '' },
     read: 'デラ',
   },
   {
@@ -686,7 +686,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/126.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/126.jpg', alt: '' },
     read: 'テラス×テラス',
   },
   {
@@ -694,7 +694,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/127.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/127.jpg', alt: '' },
     read: 'テンシニハ',
   },
   {
@@ -702,7 +702,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/48.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/48.jpg', alt: '' },
     read: 'テンシメシ',
   },
   {
@@ -710,7 +710,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/49.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/49.jpg', alt: '' },
     read: 'テンセンテンセイ',
   },
   {
@@ -718,7 +718,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/50.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/50.jpg', alt: '' },
     read: 'テンリン',
   },
   {
@@ -726,7 +726,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/128.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/128.jpg', alt: '' },
     read: 'トウキョウ',
   },
   {
@@ -734,7 +734,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/51.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/51.jpg', alt: '' },
     read: 'トウキョウガールズブラボー',
   },
   {
@@ -742,7 +742,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/52.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/52.jpg', alt: '' },
     read: 'トュラブ',
   },
   {
@@ -750,7 +750,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/129.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/129.jpg', alt: '' },
     read: 'ドリーミング',
   },
   {
@@ -758,7 +758,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/53.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/53.jpg', alt: '' },
     read: 'ドレミファ',
   },
   {
@@ -766,7 +766,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/158.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/158.jpg', alt: '' },
     read: 'ナトカン',
   },
   {
@@ -774,7 +774,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/130.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/130.jpg', alt: '' },
     read: 'ナナコロビ',
   },
   {
@@ -782,7 +782,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/54.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/54.jpg', alt: '' },
     read: 'ナナランド',
   },
   {
@@ -790,7 +790,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/55.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/55.jpg', alt: '' },
     read: 'ナミダイロ',
   },
   {
@@ -798,7 +798,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/56.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/56.jpg', alt: '' },
     read: 'ナンキニ',
   },
   {
@@ -806,7 +806,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/57.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/57.jpg', alt: '' },
     read: 'ニイニ',
   },
   {
@@ -814,7 +814,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/58.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/58.jpg', alt: '' },
     read: 'ニジイロ',
   },
   {
@@ -822,7 +822,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/59.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/59.jpg', alt: '' },
     read: 'ニッポンワチャチャ',
   },
   {
@@ -830,7 +830,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/131.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/131.jpg', alt: '' },
     read: 'ニトクリ',
   },
   {
@@ -838,7 +838,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/132.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/132.jpg', alt: '' },
     read: 'ネオブレイク',
   },
   {
@@ -846,7 +846,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/60.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/60.jpg', alt: '' },
     read: 'ノウナイ',
   },
   {
@@ -854,7 +854,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/61.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/61.jpg', alt: '' },
     read: 'ノンフィク',
   },
   {
@@ -862,7 +862,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/62.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/62.jpg', alt: '' },
     read: 'ハイスピリッツ',
   },
   {
@@ -870,7 +870,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/133.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/133.jpg', alt: '' },
     read: 'ハチミツ',
   },
   {
@@ -878,7 +878,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/63.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/63.jpg', alt: '' },
     read: 'ハナイロハ',
   },
   {
@@ -886,7 +886,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/65.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/65.jpg', alt: '' },
     read: 'ハニースパイス',
   },
   {
@@ -894,7 +894,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/66.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/66.jpg', alt: '' },
     read: 'パニックモンスター',
   },
   {
@@ -902,7 +902,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/134.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/134.jpg', alt: '' },
     read: 'ハニバニ',
   },
   {
@@ -910,7 +910,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/64.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/64.jpg', alt: '' },
     read: 'バニラクルー',
   },
   {
@@ -918,7 +918,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/67.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/67.jpg', alt: '' },
     read: 'ババババンビ',
   },
   {
@@ -926,7 +926,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/135.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/135.jpg', alt: '' },
     read: 'パラディーク',
   },
   {
@@ -934,7 +934,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/68.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/68.jpg', alt: '' },
     read: 'パレットパレード',
   },
   {
@@ -942,7 +942,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/69.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/69.jpg', alt: '' },
     read: 'ピールジ',
   },
   {
@@ -950,7 +950,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/136.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/136.jpg', alt: '' },
     read: 'ピーロコ',
   },
   {
@@ -958,7 +958,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/137.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/137.jpg', alt: '' },
     read: 'ヒトノユメ',
   },
   {
@@ -966,7 +966,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/70.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/70.jpg', alt: '' },
     read: 'フェスティブ',
   },
   {
@@ -974,7 +974,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/71.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/71.jpg', alt: '' },
     read: 'フューチャーサイダー',
   },
   {
@@ -982,7 +982,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/138.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/138.jpg', alt: '' },
     read: 'ブランカニエ',
   },
   {
@@ -990,7 +990,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/139.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/139.jpg', alt: '' },
     read: 'プリンセスガーデンナゴヤ',
   },
   {
@@ -998,7 +998,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/72.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/72.jpg', alt: '' },
     read: 'プリンセスガーデンヒメニワ',
   },
   {
@@ -1006,7 +1006,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/73.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/73.jpg', alt: '' },
     read: 'フルーティー',
   },
   {
@@ -1014,7 +1014,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/140.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/140.jpg', alt: '' },
     read: 'ベロティカ',
   },
   {
@@ -1022,7 +1022,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/74.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/74.jpg', alt: '' },
     read: 'ベンジャス',
   },
   {
@@ -1030,7 +1030,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/163.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/163.jpg', alt: '' },
     read: 'ポラライト',
   },
   {
@@ -1038,7 +1038,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/75.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/75.jpg', alt: '' },
     read: 'ポンコツコンボ',
   },
   {
@@ -1046,7 +1046,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/141.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/141.jpg', alt: '' },
     read: 'マーキュロ',
   },
   {
@@ -1054,7 +1054,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/142.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/142.jpg', alt: '' },
     read: 'マイシュガー',
   },
   {
@@ -1062,7 +1062,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/76.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/76.jpg', alt: '' },
     read: 'マイディア',
   },
   {
@@ -1070,7 +1070,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/143.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/143.jpg', alt: '' },
     read: 'マイノリティアラート',
   },
   {
@@ -1078,7 +1078,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/144.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/144.jpg', alt: '' },
     read: 'マタナゴヤ',
   },
   {
@@ -1086,7 +1086,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/77.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/77.jpg', alt: '' },
     read: 'マッシロナ',
   },
   {
@@ -1094,7 +1094,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/78.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/78.jpg', alt: '' },
     read: 'マネキケチャ',
   },
   {
@@ -1102,7 +1102,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/145.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/145.jpg', alt: '' },
     read: 'マバタキモセズ',
   },
   {
@@ -1110,7 +1110,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/146.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/146.jpg', alt: '' },
     read: 'ミスティア',
   },
   {
@@ -1118,7 +1118,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: false,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/79.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/79.jpg', alt: '' },
     read: 'ミストレす',
   },
   {
@@ -1126,7 +1126,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/147.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/147.jpg', alt: '' },
     read: 'ミラクルファンファーレ！',
   },
   {
@@ -1134,7 +1134,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/148.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/148.jpg', alt: '' },
     read: 'ミルキー',
   },
   {
@@ -1142,7 +1142,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/80.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/80.jpg', alt: '' },
     read: 'ムーブ',
   },
   {
@@ -1150,7 +1150,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/81.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/81.jpg', alt: '' },
     read: 'メイビーミー',
   },
   {
@@ -1158,7 +1158,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/82.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/82.jpg', alt: '' },
     read: 'モノクローん',
   },
   {
@@ -1166,7 +1166,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/149.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/149.jpg', alt: '' },
     read: 'モフルクロス',
   },
   {
@@ -1174,7 +1174,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/83.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/83.jpg', alt: '' },
     read: 'ヤコウセイ',
   },
   {
@@ -1182,7 +1182,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/159.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/159.jpg', alt: '' },
     read: 'ヤンチャン',
   },
   {
@@ -1190,7 +1190,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/84.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/84.jpg', alt: '' },
     read: 'ヨーヨーヨー',
   },
   {
@@ -1198,7 +1198,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/150.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/150.jpg', alt: '' },
     read: 'ラブクラブ',
   },
   {
@@ -1206,7 +1206,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/162.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/162.jpg', alt: '' },
     read: 'ラブミー',
   },
   {
@@ -1214,7 +1214,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/4.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/4.jpg', alt: '' },
     read: 'ラブリードール',
   },
   {
@@ -1222,7 +1222,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/151.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/151.jpg', alt: '' },
     read: 'リクラッシュ',
   },
   {
@@ -1230,7 +1230,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/85.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/85.jpg', alt: '' },
     read: 'リミー',
   },
   {
@@ -1238,7 +1238,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/152.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/152.jpg', alt: '' },
     read: 'リリーワンダー',
   },
   {
@@ -1246,7 +1246,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/86.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/86.jpg', alt: '' },
     read: 'リンセント',
   },
   {
@@ -1254,7 +1254,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/87.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/87.jpg', alt: '' },
     read: 'ルルネージュ',
   },
   {
@@ -1262,7 +1262,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/153.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/153.jpg', alt: '' },
     read: 'レディー',
   },
   {
@@ -1270,7 +1270,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/154.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/154.jpg', alt: '' },
     read: 'レミール',
   },
   {
@@ -1278,7 +1278,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/88.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/88.jpg', alt: '' },
     read: 'ワンダーウィード',
   },
   {
@@ -1286,7 +1286,7 @@ export const artists: ArtistType[] = [
     day1: false,
     day2: false,
     day3: true,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/89.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/89.jpg', alt: '' },
     read: 'ワンファス',
   },
   {
@@ -1294,7 +1294,7 @@ export const artists: ArtistType[] = [
     day1: true,
     day2: true,
     day3: false,
-    img: { src: 'https://sekigahara-idolwars.net/images/2024/artists/90.jpg', alt: '' },
+    img: { src: 'https://lime-light.tv/images/2024/artists/90.jpg', alt: '' },
     read: 'ワンフォニー',
   },
 ]

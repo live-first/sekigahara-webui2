@@ -15,17 +15,17 @@ const MainView = () => {
       <Container maxWidth='lg'>
         <Title english='MAP' japaniese='エリアマップ' />
         <div className='map-img-view'>
-          <Img src='https://sekigahara-idolwars.net/images/2024/map/map.jpg' alt='map1' />
+          <Img src='https://lime-light.tv/images/2024/map/map.jpg' alt='map1' />
           {/* <div className='title-font'>徳川ステージ</div>
-          <img src='https://sekigahara-idolwars.net/images/2024/stage/tokugawa.jpg' alt='map1' />
+          <img src='https://lime-light.tv/images/2024/stage/tokugawa.jpg' alt='map1' />
           <div className='title-font'>豊臣ステージ</div>
-          <img src='https://sekigahara-idolwars.net/images/2024/stage/toyotomi.jpg' alt='map1' />
+          <img src='https://lime-light.tv/images/2024/stage/toyotomi.jpg' alt='map1' />
           <div className='title-font'>戦国ステージ</div>
-          <img src='https://sekigahara-idolwars.net/images/2024/stage/sengoku.jpg' alt='map1' />
+          <img src='https://lime-light.tv/images/2024/stage/sengoku.jpg' alt='map1' />
           <div className='title-font'>桃配ステージ</div>
-          <img src='https://sekigahara-idolwars.net/images/2024/stage/momokubari.jpg' alt='map1' />
+          <img src='https://lime-light.tv/images/2024/stage/momokubari.jpg' alt='map1' />
           <div className='title-font'>下剋上ステージ</div>
-          <img src='https://sekigahara-idolwars.net/images/2024/stage/gekokujo.jpg' alt='map1' /> */}
+          <img src='https://lime-light.tv/images/2024/stage/gekokujo.jpg' alt='map1' /> */}
         </div>
       </Container>
     </div>

@@ -10,7 +10,7 @@ export const Footer = () => {
       <Link href='/' className='flex justify-center pt-4'>
         <Img
           cName='w-[50%] min-w-[200px] max-w-[500px]'
-          src='https://sekigahara-idolwars.net/images/2025/logo.png'
+          src='https://lime-light.tv/images/2025/logo.png'
           alt='logo'
         />
       </Link>

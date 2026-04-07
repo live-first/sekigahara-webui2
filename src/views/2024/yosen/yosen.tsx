@@ -85,7 +85,7 @@ const Yosen2024View = () => {
         <div className='top-view'>
           <Img
             cName='top-view'
-            src='https://sekigahara-idolwars.net/images/2024/yosenview-top.jpeg'
+            src='https://lime-light.tv/images/2024/yosenview-top.jpeg'
             alt='予選会トップ'
           />
         </div>
@@ -94,17 +94,9 @@ const Yosen2024View = () => {
       <Container maxWidth='md'>
         <div className='yosen-rule'>
           <div className='rule-title'>〜 投俵ルール 〜</div>
-          <Img
-            cName='img'
-            src='https://sekigahara-idolwars.net/images/2024/rule2.jpeg'
-            alt='ルール画像'
-          />
+          <Img cName='img' src='https://lime-light.tv/images/2024/rule2.jpeg' alt='ルール画像' />
           <div className='rule-title'>〜 順位別特典 〜</div>
-          <Img
-            cName='img'
-            src='https://sekigahara-idolwars.net/images/2024/tokuten.jpeg'
-            alt='順位別特典'
-          />
+          <Img cName='img' src='https://lime-light.tv/images/2024/tokuten.jpeg' alt='順位別特典' />
         </div>
       </Container>
     </div>

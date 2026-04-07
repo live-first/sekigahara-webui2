@@ -107,17 +107,9 @@ const MainView = () => {
         </div>
         <div className='target-area' id='target-2025-component1'>
           <div className='timetable-top'>
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/app_logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/app_logo.png' alt='logo' />
             <DateView year='2025' month='7' day='19' youbi='土' other='DAY1' />
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/logo.png' alt='logo' />
           </div>
           <div className='timetable-area' id='timetable-master1'>
             <TimeTable
@@ -129,7 +121,7 @@ const MainView = () => {
               open={day1Stage1.open}
               isTimeStringViewLeft={true}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/TOKUGAWA_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/TOKUGAWA_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -140,7 +132,7 @@ const MainView = () => {
               open={day1Stage2.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/TOYOTOMI_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/TOYOTOMI_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -151,7 +143,7 @@ const MainView = () => {
               open={day1Stage3.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/SENGOKU_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/SENGOKU_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -162,7 +154,7 @@ const MainView = () => {
               open={day1Stage4.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/MOMOKUBARI_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/MOMOKUBARI_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -173,7 +165,7 @@ const MainView = () => {
               open={day1Stage5.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={true}
-              img='https://sekigahara-idolwars.net/images/2025/stage/GEGOKUJYO_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/GEGOKUJYO_STAGE.png'
             />
           </div>
         </div>
@@ -191,17 +183,9 @@ const MainView = () => {
         </div>
         <div className='target-area' id='target-2025-component2'>
           <div className='timetable-top'>
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/app_logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/app_logo.png' alt='logo' />
             <DateView year='2025' month='7' day='20' youbi='日' other='DAY2' />
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/logo.png' alt='logo' />
           </div>
           <div className='timetable-area' id='timetable-master2'>
             <TimeTable
@@ -213,7 +197,7 @@ const MainView = () => {
               open={day2Stage1.open}
               isTimeStringViewLeft={true}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/TOKUGAWA_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/TOKUGAWA_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -224,7 +208,7 @@ const MainView = () => {
               open={day2Stage2.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/TOYOTOMI_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/TOYOTOMI_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -235,7 +219,7 @@ const MainView = () => {
               open={day2Stage3.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/SENGOKU_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/SENGOKU_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -246,7 +230,7 @@ const MainView = () => {
               open={day2Stage4.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/MOMOKUBARI_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/MOMOKUBARI_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -257,7 +241,7 @@ const MainView = () => {
               open={day2Stage5.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={true}
-              img='https://sekigahara-idolwars.net/images/2025/stage/GEGOKUJYO_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/GEGOKUJYO_STAGE.png'
             />
           </div>
         </div>
@@ -275,17 +259,9 @@ const MainView = () => {
         </div>
         <div className='target-area' id='target-2025-component3'>
           <div className='timetable-top'>
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/app_logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/app_logo.png' alt='logo' />
             <DateView year='2025' month='7' day='21' youbi='月祝' other='DAY3' />
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/logo.png' alt='logo' />
           </div>
           <div className='timetable-area' id='timetable-master3'>
             <TimeTable
@@ -297,7 +273,7 @@ const MainView = () => {
               open={day3Stage1.open}
               isTimeStringViewLeft={true}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/TOKUGAWA_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/TOKUGAWA_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -308,7 +284,7 @@ const MainView = () => {
               open={day3Stage2.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/TOYOTOMI_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/TOYOTOMI_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -319,7 +295,7 @@ const MainView = () => {
               open={day3Stage3.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/SENGOKU_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/SENGOKU_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -330,7 +306,7 @@ const MainView = () => {
               open={day3Stage4.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={false}
-              img='https://sekigahara-idolwars.net/images/2025/stage/MOMOKUBARI_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/MOMOKUBARI_STAGE.png'
             />
             <TimeTable
               config={config}
@@ -341,7 +317,7 @@ const MainView = () => {
               open={day3Stage5.open}
               isTimeStringViewLeft={false}
               isTimeStringViewRight={true}
-              img='https://sekigahara-idolwars.net/images/2025/stage/GEGOKUJYO_STAGE.png'
+              img='https://lime-light.tv/images/2025/stage/GEGOKUJYO_STAGE.png'
             />
           </div>
         </div>

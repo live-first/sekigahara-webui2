@@ -10,7 +10,7 @@ export const edoEvents: YosenAccordionProps[] = [
     place: 'シアターマーキュリー新宿',
     artists: 'Party chuuuN!／カリスマめんざいふっ！／ビーバイユー',
     ticket: 'https://tiget.net/events/399674',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_11.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_11.JPG',
     image2: '',
   },
   {
@@ -22,7 +22,7 @@ export const edoEvents: YosenAccordionProps[] = [
     place: 'シアターマーキュリー新宿',
     artists: 'Party chuuuN!／青春のフロンティア／アクアリウム。／カリスマめんざいふっ！',
     ticket: 'https://tiget.net/events/400182',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_21.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_21.JPG',
     image2: '',
   },
   {
@@ -34,7 +34,7 @@ export const edoEvents: YosenAccordionProps[] = [
     place: 'シアターマーキュリー新宿',
     artists: 'ビーバイユー／青春のフロンティア／アクアリウム。',
     ticket: 'https://tiget.net/events/400185',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_31.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_31.JPG',
     image2: '',
   },
   {
@@ -47,7 +47,7 @@ export const edoEvents: YosenAccordionProps[] = [
     artists:
       "Party chuuuN!／カリスマめんざいふっ！／ビーバイユー／ルシフェルの園。／STELLASTELLA／Poppin' Parade",
     ticket: 'https://tiget.net/events/400422',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_41.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_41.JPG',
     image2: '',
   },
   {
@@ -60,7 +60,7 @@ export const edoEvents: YosenAccordionProps[] = [
     artists:
       'カリスマめんざいふっ！／ja惹句ck／ラビットビット／チキータ／アクアリウム。／ノルニル／ハレとハレ！＜ゲスト＞ DREAMING MONSTER／ワンダーウィード 天',
     ticket: 'https://tiget.net/events/400781',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_51.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_51.JPG',
     image2: '',
   },
   {
@@ -73,7 +73,7 @@ export const edoEvents: YosenAccordionProps[] = [
     artists:
       "ビーバイユー／≪√PlusF✯rt≫~ﾙｰﾄﾌﾟﾘｭﾌｫｰﾙ~／縷々／ひとつキラリ／アクアリウム。／STELLASTELLA／parfait d'ange／ハレとハレ！／プエラの絶対値＜ゲスト＞ SPRISE",
     ticket: 'https://tiget.net/events/400834',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_61.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_61.JPG',
     image2: '',
   },
   {
@@ -85,7 +85,7 @@ export const edoEvents: YosenAccordionProps[] = [
     place: 'シアターマーキュリー新宿',
     artists: "Party chuuuN!／ja惹句ck／Poppin' Parade／IDOLEST／プエラの絶対値／＜ゲスト＞ SPRISE",
     ticket: 'https://tiget.net/events/400878',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_71.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_71.JPG',
     image2: '',
   },
   {
@@ -97,7 +97,7 @@ export const edoEvents: YosenAccordionProps[] = [
     place: 'シアターマーキュリー新宿',
     artists: 'Party chuuuN!／ja惹句ck／≪√PlusF✯rt≫~ﾙｰﾄﾌﾟﾘｭﾌｫｰﾙ~／縷々／ひとつキラリ',
     ticket: 'https://tiget.net/events/401682',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_81.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_81.JPG',
     image2: '',
   },
   {
@@ -109,7 +109,7 @@ export const edoEvents: YosenAccordionProps[] = [
     place: 'シアターマーキュリー新宿',
     artists: 'Party chuuuN!／ja惹句ck／≪√PlusF✯rt≫~ﾙｰﾄﾌﾟﾘｭﾌｫｰﾙ~／縷々／ひとつキラリ',
     ticket: 'https://tiget.net/events/400878',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_91.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_91.JPG',
     image2: '',
   },
   {
@@ -122,7 +122,7 @@ export const edoEvents: YosenAccordionProps[] = [
     artists:
       "Party chuuuN!／ja惹句ck／Poppin' Parade／アクアリウム。／≪√PlusF✯rt≫~ﾙｰﾄﾌﾟﾘｭﾌｫｰﾙ~／縷々／ひとつキラリ／プエラの絶対値＜ゲスト＞花いろは／なみだ色の消しごむ",
     ticket: 'https://tiget.net/events/402094',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_101.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_101.JPG',
     image2: '',
   },
   {
@@ -135,7 +135,7 @@ export const edoEvents: YosenAccordionProps[] = [
     artists:
       "カリスマめんざいふっ！／ビーバイユー／ja惹句ck／ルシフェルの園。／チキータ／アクアリウム。／奏音コレクト／ノルニル／Poppin' Parade／STELLASTELLA／ハレとハレ！／ラビットビット",
     ticket: 'https://tiget.net/events/402258',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_111.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_111.JPG',
     image2: '',
   },
   {
@@ -148,7 +148,7 @@ export const edoEvents: YosenAccordionProps[] = [
     artists:
       "ビーバイユー／≪√PlusF✯rt≫~ﾙｰﾄﾌﾟﾘｭﾌｫｰﾙ~／縷々／ひとつキラリ／ルシフェルの園。／チキータ／IDOLEST／parfait d'ange／ハレとハレ！／Party chuuuN!",
     ticket: 'https://tiget.net/events/402333',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_121.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_121.JPG',
     image2: '',
   },
   {
@@ -161,7 +161,7 @@ export const edoEvents: YosenAccordionProps[] = [
     artists:
       "Party chuuuN!／ビーバイユー／ja惹句ck／Poppin' Parade／STELLASTELLA／奏音コレクト／IDOLEST／parfait d'ange／ハレとハレ！／ラビットビット",
     ticket: 'https://tiget.net/events/402334',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_131.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_131.JPG',
     image2: '',
   },
   {
@@ -174,7 +174,7 @@ export const edoEvents: YosenAccordionProps[] = [
     artists:
       "Poppin' Parade／青春のフロンティア／ラビットビット／ルシフェルの園。／ノルニル／IDOLEST／縷々／ハレとハレ！",
     ticket: 'https://tiget.net/events/403159',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_141.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_141.JPG',
     image2: '',
   },
   {
@@ -187,7 +187,7 @@ export const edoEvents: YosenAccordionProps[] = [
     artists:
       "カリスマめんざいふっ！／ja惹句ck／青春のフロンティア／ラビットビット／STELLASTELLA／≪√PlusF✯rt≫~ﾙｰﾄﾌﾟﾘｭﾌｫｰﾙ~／ひとつキラリ／Poppin' Parade／parfait d'ange／Party chuuuN!／縷々",
     ticket: 'https://tiget.net/events/403170',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/edo/edo_151.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/edo/edo_151.JPG',
     image2: '',
   },
 ]

@@ -10,7 +10,7 @@ export const owariEvents: YosenAccordionProps[] = [
     place: '名古屋ReNY limited',
     artists: 'なないろ∞ミルキーウェイ／Lollipop♡CHU／Y∀KiN／アクアリウム。',
     ticket: 'https://tiget.net/events/399677',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/owari/owari_11.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/owari/owari_11.JPG',
     image2: '',
   },
   {
@@ -22,7 +22,7 @@ export const owariEvents: YosenAccordionProps[] = [
     place: '名古屋DEEP',
     artists: 'なないろ∞ミルキーウェイ／Lollipop♡CHU／いざ参らん／恋セ界-koiseka-／アクアリウム。',
     ticket: 'https://tiget.net/events/399882',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/owari/owari_21.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/owari/owari_21.JPG',
     image2: '',
   },
   {
@@ -34,7 +34,7 @@ export const owariEvents: YosenAccordionProps[] = [
     place: '名古屋DEEP',
     artists: 'なないろ∞ミルキーウェイ／Lollipop♡CHU／恋セ界-koiseka-／アクアリウム。',
     ticket: 'https://tiget.net/events/399885',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/owari/owari_31.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/owari/owari_31.JPG',
     image2: '',
   },
   {
@@ -47,7 +47,7 @@ export const owariEvents: YosenAccordionProps[] = [
     artists:
       "なないろ∞ミルキーウェイ／Lollipop♡CHU／カリスマめんざいふっ！／いざ参らん／LOTUS MARRY／parfait d'ange＜ゲスト＞ Sweet Alley",
     ticket: 'https://tiget.net/events/401102',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/owari/owari_41.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/owari/owari_41.JPG',
     image2: '',
   },
   {
@@ -59,7 +59,7 @@ export const owariEvents: YosenAccordionProps[] = [
     place: '名古屋DEEP',
     artists: 'カリスマめんざいふっ！／LOTUS MARRY／恋セ界-koiseka-',
     ticket: 'https://tiget.net/events/401384',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/owari/owari_51.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/owari/owari_51.JPG',
     image2: '',
   },
   {
@@ -71,7 +71,7 @@ export const owariEvents: YosenAccordionProps[] = [
     place: '名古屋DEEP',
     artists: 'Y∀KiN／ぷりしえーる／恋セ界-koiseka-',
     ticket: 'https://tiget.net/events/401385',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/owari/owari_61.png',
+    image1: 'https://yosen2025.lime-light.tv/picture/owari/owari_61.png',
     image2: '',
   },
   {
@@ -83,7 +83,7 @@ export const owariEvents: YosenAccordionProps[] = [
     place: '名古屋ライオンリミテッド',
     artists: 'カリスマめんざいふっ！／LOTUS MARRY／恋セ界-koiseka-／Y∀KiN／なないろ∞ミルキーウェイ',
     ticket: 'https://tiget.net/events/402068',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/owari/owari_71.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/owari/owari_71.JPG',
     image2: '',
   },
   {
@@ -95,7 +95,7 @@ export const owariEvents: YosenAccordionProps[] = [
     place: '名古屋ライオンリミテッド',
     artists: 'なないろ∞ミルキーウェイ／Lollipop♡CHU／Y∀KiN／恋セ界-koiseka-',
     ticket: 'https://tiget.net/events/402069',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/owari/owari_81.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/owari/owari_81.JPG',
     image2: '',
   },
   {
@@ -107,7 +107,7 @@ export const owariEvents: YosenAccordionProps[] = [
     place: '名古屋DIVA',
     artists: "なないろ∞ミルキーウェイ／Lollipop♡CHU／いざ参らん／parfait d'ange／Y∀KiN",
     ticket: 'https://tiget.net/events/402879',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/owari/owari_91.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/owari/owari_91.JPG',
     image2: '',
   },
   {
@@ -120,7 +120,7 @@ export const owariEvents: YosenAccordionProps[] = [
     artists:
       'なないろ∞ミルキーウェイ／Lollipop♡CHU／いざ参らん／​​Y∀KiN／LOTUS MARRY／恋セ界-koiseka-',
     ticket: 'https://tiget.net/events/403194',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/owari/owari_101.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/owari/owari_101.JPG',
     image2: '',
   },
   {
@@ -133,7 +133,7 @@ export const owariEvents: YosenAccordionProps[] = [
     artists:
       'なないろ∞ミルキーウェイ／Lollipop♡CHU／いざ参らん／​​Y∀KiN／LOTUS MARRY／恋セ界-koiseka-',
     ticket: 'https://tiget.net/events/403196',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/owari/owari_111.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/owari/owari_111.JPG',
     image2: '',
   },
 ]

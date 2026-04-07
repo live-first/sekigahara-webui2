@@ -38,7 +38,7 @@ const MainView = () => {
             <div className='col-head'>駐車場情報</div>
             <div className='col flex flex-col gap-4'>
               <div className='bus-image'>
-                <Img src='https://sekigahara-idolwars.net/images/2025/parking.jpeg' alt='bus' />
+                <Img src='https://lime-light.tv/images/2025/parking.jpeg' alt='bus' />
               </div>
               <div className='flex flex-col items-center'>
                 <EllipseButton className='bg-sekigahara text-white hover:bg-[#fe7e7e] px-4 w-52'>
@@ -55,7 +55,7 @@ const MainView = () => {
               <div>JR関ケ原駅↔︎桃配運動公園</div>
               <div>金額：片道 ¥600-</div>
               <div className='bus-image'>
-                <Img src='https://sekigahara-idolwars.net/images/2025/bus/bus_info.JPG' alt='bus' />
+                <Img src='https://lime-light.tv/images/2025/bus/bus_info.JPG' alt='bus' />
               </div>
             </div>
           </div>

@@ -52,18 +52,14 @@ const Home = () => {
           {Object.values(imgUrls).map((data, index) => {
             return (
               <SwiperSlide key={index}>
-                <ImgView imgUrl={data} height='500px' backImg='https://sekigahara-idolwars.net/images/2024/home/home-back.png'/>
+                <ImgView imgUrl={data} height='500px' backImg='https://lime-light.tv/images/2024/home/home-back.png'/>
               </SwiperSlide>
             )
           })}
         </Swiper> */}
-        <Img src='https://sekigahara-idolwars.net/images/2024/home/last.png' alt='Thanks' />
+        <Img src='https://lime-light.tv/images/2024/home/last.png' alt='Thanks' />
         <div className='home-outline'>
-          <Img
-            cName='day-svg'
-            src='https://sekigahara-idolwars.net/images/2024/home/day.png'
-            alt=''
-          />
+          <Img cName='day-svg' src='https://lime-light.tv/images/2024/home/day.png' alt='' />
         </div>
       </div>
       <Container maxWidth='md'>
@@ -79,14 +75,11 @@ const Home = () => {
           <Link href='/2024/about'>
             <div className='about-box'>
               <Img
-                src='https://sekigahara-idolwars.net/images/2024/logo/concept-back.png'
+                src='https://lime-light.tv/images/2024/logo/concept-back.png'
                 alt='concept-view'
               />
               <div className='logo'>
-                <Img
-                  src='https://sekigahara-idolwars.net/images/2024/logo/logo_white.png'
-                  alt='logo'
-                />
+                <Img src='https://lime-light.tv/images/2024/logo/logo_white.png' alt='logo' />
               </div>
             </div>
           </Link>
@@ -97,7 +90,7 @@ const Home = () => {
           <div className='grid grid-cols-2 sm:grid-cols-3 gap-2 md:gap-6'>
             <SquareView
               page='/2024/ticket'
-              imgUrl='https://sekigahara-idolwars.net/images/2024/home/back1.jpg'
+              imgUrl='https://lime-light.tv/images/2024/home/back1.jpg'
               alt=''
             >
               <div className='list-item'>
@@ -109,7 +102,7 @@ const Home = () => {
             </SquareView>
             <SquareView
               page='/2024/lineup'
-              imgUrl='https://sekigahara-idolwars.net/images/2024/home/back2.jpg'
+              imgUrl='https://lime-light.tv/images/2024/home/back2.jpg'
               alt=''
             >
               <div className='list-item'>
@@ -121,7 +114,7 @@ const Home = () => {
             </SquareView>
             <SquareView
               page='/2024/live'
-              imgUrl='https://sekigahara-idolwars.net/images/2024/home/back3.jpg'
+              imgUrl='https://lime-light.tv/images/2024/home/back3.jpg'
               alt=''
             >
               <div className='list-item'>
@@ -133,7 +126,7 @@ const Home = () => {
             </SquareView>
             <SquareView
               page='/2024/notice'
-              imgUrl='https://sekigahara-idolwars.net/images/2024/home/back4.jpg'
+              imgUrl='https://lime-light.tv/images/2024/home/back4.jpg'
               alt=''
             >
               <div className='list-item'>
@@ -145,7 +138,7 @@ const Home = () => {
             </SquareView>
             <SquareView
               page='/2024/map'
-              imgUrl='https://sekigahara-idolwars.net/images/2024/home/back5.jpg'
+              imgUrl='https://lime-light.tv/images/2024/home/back5.jpg'
               alt=''
             >
               <div className='list-item'>
@@ -158,7 +151,7 @@ const Home = () => {
 
             <SquareView
               page='/2024/access'
-              imgUrl='https://sekigahara-idolwars.net/images/2024/home/back6.jpg'
+              imgUrl='https://lime-light.tv/images/2024/home/back6.jpg'
               alt=''
             >
               <div className='list-item'>
@@ -170,7 +163,7 @@ const Home = () => {
             </SquareView>
             <SquareView
               page='/2024/news/14'
-              imgUrl='https://sekigahara-idolwars.net/images/2024/home/home8.jpg'
+              imgUrl='https://lime-light.tv/images/2024/home/home8.jpg'
               alt=''
             >
               <div className='list-item'>

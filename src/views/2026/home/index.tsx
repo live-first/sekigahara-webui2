@@ -29,7 +29,7 @@ export const Home2026View = () => {
       <div>
         <video
           className='w-full h-full object-cover'
-          src='https://sekigahara-idolwars.net/images/2026/Sekigahara2026_Aori.mp4'
+          src='https://lime-light.tv/images/2026/Sekigahara2026_Aori.mp4'
           autoPlay
           muted
           loop
@@ -51,12 +51,12 @@ export const Home2026View = () => {
               <ContentTitleView>予戦会情報</ContentTitleView>
               <Frame>
                 <img
-                  src='https://yosen2025.sekigahara-idolwars.net/picture/yosen-top.jpeg'
+                  src='https://yosen2025.lime-light.tv/picture/yosen-top.jpeg'
                   alt='トップ画像'
                   className='w-full mb-6'
                 />
                 <div className='text-center'>
-                  <Link to='https://yosen2025.sekigahara-idolwars.net' target='_blank'>
+                  <Link to='https://yosen2025.lime-light.tv' target='_blank'>
                     <EllipseButton className='bg-sekigahara text-white hover:bg-[#fe7e7e] px-4 w-52'>
                       特設サイトへ ▶︎
                     </EllipseButton>
@@ -77,7 +77,7 @@ export const Home2026View = () => {
             <Frame>
               <div className='flex justify-center'>
                 <Img
-                  src='https://sekigahara-idolwars.net/images/2024/cooperation/girlsbomb_logo.jpg'
+                  src='https://lime-light.tv/images/2024/cooperation/girlsbomb_logo.jpg'
                   alt='Girls Bomb!!'
                   cName='w-1/3'
                 />
@@ -88,14 +88,14 @@ export const Home2026View = () => {
             <ContentTitle>SNS</ContentTitle>
             <div className='flex gap-8 py-8 justify-center'>
               <Link href='https://x.com/_IDOLWARS' className='bg-white rounded-full w-20 h-20 p-4'>
-                <Img src='https://sekigahara-idolwars.net/images/x-logo-black.png' alt='x-logo' />
+                <Img src='https://lime-light.tv/images/x-logo-black.png' alt='x-logo' />
               </Link>
               <Link
                 href='https://www.instagram.com/_idolwars'
                 className='bg-white rounded-full w-20 h-20 p-2'
               >
                 <Img
-                  src='https://sekigahara-idolwars.net/images/Instagram-logo-color.png'
+                  src='https://lime-light.tv/images/Instagram-logo-color.png'
                   alt='instagram-logo'
                 />
               </Link>
@@ -103,10 +103,7 @@ export const Home2026View = () => {
                 href='https://youtube.com/@sekigaharaidolwarspr7582'
                 className='bg-white rounded-full w-20 h-20 p-2 content-center'
               >
-                <Img
-                  src='https://sekigahara-idolwars.net/images/youtube-logo.png'
-                  alt='youtube-logo'
-                />
+                <Img src='https://lime-light.tv/images/youtube-logo.png' alt='youtube-logo' />
               </Link>
             </div>
           </div>
