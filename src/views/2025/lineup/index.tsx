@@ -70,7 +70,7 @@ const LineUp = () => {
           return {
             ...unit,
             img: {
-              src: `https://sekigahara-idolwars.net/images/2025/lineup/${unit.img}`,
+              src: `https://lime-light.tv/images/2025/lineup/${unit.img}`,
               alt: unit.name,
             },
           }

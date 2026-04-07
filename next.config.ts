@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       new URL('https://sekigahara-idolwars.net/**'),
-      new URL('https://yosen2026.sekigahara-idolwars.net/**'),
+      new URL('https://lime-light.tv/**'),
     ],
     unoptimized: true,
   },

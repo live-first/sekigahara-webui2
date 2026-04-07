@@ -1,4 +1,3 @@
-
 .header-body {
   display: flex;
   height: 100%;
@@ -16,30 +15,32 @@
     cursor: pointer;
     z-index: 999;
   }
-  .hamburger-menu>span {
+  .hamburger-menu > span {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     width: 35px;
     height: 4px;
-    background: linear-gradient(135deg, rgb(92, 139, 255) 0%, rgb(255, 163, 240) 100%) 0px 0px / 100% 100%;
-    background: -webkit-linear-gradient(135deg, rgb(92, 139, 255) 0%, rgb(255, 163, 240) 100%) 0px 0px / 100% 100%;
+    background: linear-gradient(135deg, rgb(92, 139, 255) 0%, rgb(255, 163, 240) 100%) 0px 0px /
+      100% 100%;
+    background: -webkit-linear-gradient(135deg, rgb(92, 139, 255) 0%, rgb(255, 163, 240) 100%) 0px
+      0px / 100% 100%;
   }
   .hamburger-menu,
-  .hamburger-menu>span {
-    transition: all .4s;
+  .hamburger-menu > span {
+    transition: all 0.4s;
   }
-  .hamburger-menu>span:nth-child(1) {
+  .hamburger-menu > span:nth-child(1) {
     top: 20%;
   }
-  .hamburger-menu>span:nth-child(2) {
+  .hamburger-menu > span:nth-child(2) {
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
-  .hamburger-menu>span:nth-child(3) {
+  .hamburger-menu > span:nth-child(3) {
     bottom: 20%;
   }
-    
+
   /* --- アニメーションパターン --- */
   #menu01.active span {
     left: 0;
@@ -51,7 +52,7 @@
     left: 200%;
     opacity: 0;
     transform: translateY(10px);
-    animation: active-menu01-bar01 .8s forwards;
+    animation: active-menu01-bar01 0.8s forwards;
   }
   @keyframes active-menu01-bar01 {
     100% {
@@ -129,7 +130,7 @@
       .dropdown__li {
         background-color: #004d80;
         height: 60px;
-        transition: all .3s;
+        transition: all 0.3s;
         position: relative;
       }
       li:hover {
@@ -184,7 +185,9 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background: url('https://sekigahara-idolwars.net/images/2024/icon.png'), linear-gradient(135deg, #ff0404 0%, #ffffff) 0px 0px / 100% 100%;
+  background:
+    url('https://lime-light.tv/images/2024/icon.png'),
+    linear-gradient(135deg, #ff0404 0%, #ffffff) 0px 0px / 100% 100%;
   text-decoration: none;
   background-repeat: no-repeat;
   background-size: contain;

@@ -181,7 +181,7 @@ export const Entry2025DetailView = () => {
                   本年の特典は未定ですが、参考までに昨年の特典は昨年の予戦会ページをご確認ください。
                   <br />
                   <Link
-                    href='https://sekigahara-idolwars.net/2024/yosen'
+                    href='https://lime-light.tv/2024/yosen'
                     className='text-blue-600 flex gap-1 my-4 items-center'
                     target='_blank'
                   >
@@ -381,7 +381,7 @@ export const Entry2025DetailView = () => {
                   <p className='flex flex-col sm:flex-row sm:flex-wrap'>
                     <Link
                       className='text-blue-600 flex gap-1 items-center whitespace-nowrap'
-                      href='https://sekigahara-idolwars.net/doc/プライバシーポリシー.pdf'
+                      href='https://lime-light.tv/doc/プライバシーポリシー.pdf'
                       target='_blank'
                       onClick={() => setPrivacyChecked(true)}
                     >

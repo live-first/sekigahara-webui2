@@ -15,31 +15,31 @@ export const About = () => {
         <div className='pt-20 h-dvh md:pt-28 px-2 md:px-28 lg:px-36 w-full bg-gradient justify-center justify-items-center'>
           <div className='flex top-box relative border-6 rounded-3xl border-sekigahara bg-white'>
             <Img
-              src='https://sekigahara-idolwars.net/images/2025/news/about1.jpg'
+              src='https://lime-light.tv/images/2025/news/about1.jpg'
               alt='top1'
               cName='change rounded-2xl'
               notNext
             />
             <Img
-              src='https://sekigahara-idolwars.net/images/2025/news/about2.jpeg'
+              src='https://lime-light.tv/images/2025/news/about2.jpeg'
               alt='top2'
               cName='change rounded-2xl'
               notNext
             />
             <Img
-              src='https://sekigahara-idolwars.net/images/2025/news/about3.jpeg'
+              src='https://lime-light.tv/images/2025/news/about3.jpeg'
               alt='top3'
               cName='change rounded-2xl'
               notNext
             />
             <Img
-              src='https://sekigahara-idolwars.net/images/2025/news/about4.jpeg'
+              src='https://lime-light.tv/images/2025/news/about4.jpeg'
               alt='top4'
               cName='change rounded-2xl'
               notNext
             />
             <Img
-              src='https://sekigahara-idolwars.net/images/2025/news/about5.jpg'
+              src='https://lime-light.tv/images/2025/news/about5.jpg'
               alt='top5'
               cName='change rounded-2xl'
               notNext
@@ -47,7 +47,7 @@ export const About = () => {
           </div>
         </div>
         <OutlineView
-          logo='https://sekigahara-idolwars.net/images/2025/logo.png'
+          logo='https://lime-light.tv/images/2025/logo.png'
           title='SEKIGAHARA IDOL WARS -関ケ原唄姫合戦2025-'
           date='2025年7月19日(土),20日(日),21日(月祝)'
         />

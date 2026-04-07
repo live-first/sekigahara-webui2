@@ -7,7 +7,7 @@ export const CommingSoonView = (props: PropsWithChildren) => {
 
   return (
     <div className='com-soon'>
-      <Img cName='p-6' src='https://sekigahara-idolwars.net/images/2026/logo_2026.png' alt='logo' />
+      <Img cName='p-6' src='https://lime-light.tv/images/2026/logo_2026.png' alt='logo' />
       <div>{children}</div>
     </div>
   )

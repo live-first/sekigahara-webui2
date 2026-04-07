@@ -13,7 +13,7 @@ export const EdoView = () => {
         open='16:00'
         start='16:30'
         artists='アポロンの翼/ヒトノユメ/マイノリティアラート/FloreRisa-フロレリーサ-/Blancanie/Shupines/えすれある/Lily wonder/カリギュラ'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/16/1.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/16/1.jpeg'
         ticket='https://tiget.net/events/322794'
       />
       <YosenAccordion
@@ -24,7 +24,7 @@ export const EdoView = () => {
         open='11:15'
         start='11:45'
         artists='FloreRisa-フロレリーサ-/Blancanie/えすれある/蓋然性オルトイズム/SUGAR☆VEGA.com /キュン!?恋堕ちキューピッド'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/15/1.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/15/1.jpeg'
         ticket='https://tiget.net/events/322792'
       />
       <YosenAccordion
@@ -35,7 +35,7 @@ export const EdoView = () => {
         open='16:30'
         start='17:00'
         artists='アポロンの翼/ヒトノユメ/キミニハネ/マイノリティアラート/Blancanie/Shupines/My Sugar Light/ハレとハレ！/カリギュラ/SUGAR☆VEGA.com'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/14/1.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/14/1.jpeg'
         ticket='https://tiget.net/events/322555'
       />
       <YosenAccordion
@@ -46,7 +46,7 @@ export const EdoView = () => {
         open='11:15'
         start='11:45'
         artists='アポロンの翼/ヒトノユメ/キミニハネ/FloreRisa-フロレリーサ-/Shupines/Lily wonder /ワガマき/SUGAR☆VEGA.com'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/13/1.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/13/1.jpeg'
         ticket='https://tiget.net/events/322553'
       />
       <YosenAccordion
@@ -57,7 +57,7 @@ export const EdoView = () => {
         open='17:15'
         start='17:45'
         artists='アポロンの翼/もふる×クロス/キミニハネ/マイノリティアラート/Shupines/えすれある/My Sugar Light/Lily wonder/Cent Heaven/Lって何のLですか？'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/12/1.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/12/1.jpeg'
         ticket='https://tiget.net/events/321654'
       />
       <YosenAccordion
@@ -67,8 +67,8 @@ export const EdoView = () => {
         place='TwinBoxAKIHABARA/TwinBoxGARAGE'
         open='18:00'
         artists='マイノリティアラート/Lily wonder/FloreRisa-フロレリーサ-/えすれある/AMOUR/蓋然性オルトイズ/LOVE9LOVE/ハレとハレ！/Cent Heaven/ワガマき/Lって何のLですか？/SUGAR☆VEGA.com/Blancanie'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/11/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/edo/11/2.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/11/1.jpeg'
+        image2='https://lime-light.tv/images/2024/edo/11/2.jpeg'
         ticket='https://tiget.net/events/321503'
       />
       <YosenAccordion
@@ -79,8 +79,8 @@ export const EdoView = () => {
         open='17:15'
         start='17:45'
         artists='もふる×クロス/キミニハネ/Shupines/えすれある/AMOUR/My Sugar Light/Le☆miel/蓋然性オルトイズ/Cent Heaven/Lって何のLですか？'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/10/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/edo/10/2.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/10/1.jpeg'
+        image2='https://lime-light.tv/images/2024/edo/10/2.jpeg'
         ticket='https://tiget.net/events/321384'
       />
       <YosenAccordion
@@ -91,8 +91,8 @@ export const EdoView = () => {
         open='18:15'
         start='18:30'
         artists='アポロンの翼/もふる×クロス/ヒトノユメ/キミニハネ/Le☆miel/ハレとハレ！'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/9/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/edo/9/2.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/9/1.jpeg'
+        image2='https://lime-light.tv/images/2024/edo/9/2.jpeg'
         ticket='https://tiget.net/events/321132'
       />
       <YosenAccordion
@@ -103,8 +103,8 @@ export const EdoView = () => {
         open='11:15'
         start='11:45'
         artists='アポロンの翼/もふる×クロス/ヒトノユメ/キミニハネ/えすれある/SITRA./Le☆miel/SUGAR☆VEGA.com/ハレとハレ！/ワガマき/キュン!?恋堕ちキューピッド/カリギュラ/Blancanie'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/8/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/edo/8/2.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/8/1.jpeg'
+        image2='https://lime-light.tv/images/2024/edo/8/2.jpeg'
         ticket='https://tiget.net/events/321130'
       />
       <YosenAccordion
@@ -115,8 +115,8 @@ export const EdoView = () => {
         open='16:30'
         start='17:00'
         artists='もふる×クロス/ヒトノユメ/キミニハネ/FloreRisa-フロレリーサ-/Blancanie/SITRA./Lily wonder/蓋然性オルトイズ/LOVE9LOVE/SUGAR☆VEGA.com'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/7/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/edo/7/2.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/7/1.jpeg'
+        image2='https://lime-light.tv/images/2024/edo/7/2.jpeg'
         ticket='https://tiget.net/events/320932'
       />
 
@@ -128,8 +128,8 @@ export const EdoView = () => {
         open='11:15'
         start='11:45'
         artists='アポロンの翼/もふる×クロス/ヒトノユメ/FloreRisa-フロレリーサ-/えすれある/Lily wonder/My Sugar Light'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/6/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/edo/6/2.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/6/1.jpeg'
+        image2='https://lime-light.tv/images/2024/edo/6/2.jpeg'
         ticket='https://tiget.net/events/320931'
       />
 
@@ -141,8 +141,8 @@ export const EdoView = () => {
         open='18:30'
         start='19:00'
         artists='もふる×クロス/マイノリティアラート/えすれある/My Sugar Light/Cent Heaven'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/5/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/edo/5/2.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/5/1.jpeg'
+        image2='https://lime-light.tv/images/2024/edo/5/2.jpeg'
         ticket='https://tiget.net/events/320694'
       />
 
@@ -154,8 +154,8 @@ export const EdoView = () => {
         open='18:00'
         start='18:30'
         artists='もふる×クロス/FloreRisa-フロレリーサ-/Shupines/Lily wonder/LOVE9LOVE'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/4/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/edo/4/2.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/4/1.jpeg'
+        image2='https://lime-light.tv/images/2024/edo/4/2.jpeg'
         ticket='https://tiget.net/events/320242'
       />
 
@@ -167,8 +167,8 @@ export const EdoView = () => {
         open='17:00'
         start='17:30'
         artists='アポロンの翼/ヒトノユメ/キミニハネ/マイノリティアラート/Blancanie/Shupines/Lily wonder/ハレとハレ！'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/3/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/edo/3/2.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/3/1.jpeg'
+        image2='https://lime-light.tv/images/2024/edo/3/2.jpeg'
         ticket='https://tiget.net/events/319997'
       />
 
@@ -178,8 +178,8 @@ export const EdoView = () => {
         date='2024年5月12日（日）'
         place='TwinBoxGARAGE'
         artists='もふる×クロス/ヒトノユメ/キミニハネ/Lily wonder/蓋然性オルトイズ'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/2/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/edo/2/2.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/2/1.jpeg'
+        image2='https://lime-light.tv/images/2024/edo/2/2.jpeg'
         ticket='https://tiget.net/events/319996'
       />
 
@@ -191,8 +191,8 @@ export const EdoView = () => {
         start='16:15'
         place='シアターマーキュリー新宿'
         artists='アポロンの翼/もふる×クロス/ヒトノユメ/キミニハネ/マイノリティアラート/Blancanie/Shupines/えすれある/Lily wonder/My Sugar Light/蓋然性オルトイズ/SUGAR☆VEGA.com'
-        image1='https://sekigahara-idolwars.net/images/2024/edo/1/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/edo/1/2.jpeg'
+        image1='https://lime-light.tv/images/2024/edo/1/1.jpeg'
+        image2='https://lime-light.tv/images/2024/edo/1/2.jpeg'
         ticket='https://tiget.net/events/319635'
       />
     </div>

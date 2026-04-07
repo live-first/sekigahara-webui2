@@ -186,7 +186,7 @@ export const news2025: LegacyNewsType[] = [
       'イベント公式アプリが誕生‼️',
       '',
       '👇🏻インストールはこちらから👇🏻',
-      'https://app.sekigahara-idolwars.net',
+      'https://app.lime-light.tv',
       '',
       '◾️手順',
       '①アプリを開く',
@@ -325,8 +325,8 @@ export const news2025: LegacyNewsType[] = [
     date: '2025.06.11',
     title: '⚔️チケット詳細発表⚔️',
     context: ['⚔️チケット詳細発表⚔️', '', '', ''],
-    urls: ['https://tiget.net/events/407817', 'https://sekigahara-idolwars.net/ticket'],
-    img: ['https://sekigahara-idolwars.net/images/2025/ticket.jpg'],
+    urls: ['https://tiget.net/events/407817', 'https://lime-light.tv/ticket'],
+    img: ['https://lime-light.tv/images/2025/ticket.jpg'],
   },
   {
     id: 9,
@@ -343,7 +343,7 @@ export const news2025: LegacyNewsType[] = [
     ],
     urls: [],
     img: [
-      'https://sekigahara-idolwars.net/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E4%B8%83%E5%B8%83%E9%99%A3.jpg',
+      'https://lime-light.tv/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E4%B8%83%E5%B8%83%E9%99%A3.jpg',
     ],
   },
   {
@@ -382,7 +382,7 @@ export const news2025: LegacyNewsType[] = [
     ],
     urls: [],
     img: [
-      'https://sekigahara-idolwars.net/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E5%85%AD%E5%B8%83%E9%99%A3.jpg',
+      'https://lime-light.tv/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E5%85%AD%E5%B8%83%E9%99%A3.jpg',
     ],
   },
   {
@@ -431,7 +431,7 @@ export const news2025: LegacyNewsType[] = [
     ],
     urls: [],
     img: [
-      'https://sekigahara-idolwars.net/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E4%BA%94%E5%B8%83%E9%99%A3.jpg',
+      'https://lime-light.tv/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E4%BA%94%E5%B8%83%E9%99%A3.jpg',
     ],
   },
   {
@@ -470,7 +470,7 @@ export const news2025: LegacyNewsType[] = [
     ],
     urls: [],
     img: [
-      'https://sekigahara-idolwars.net/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E5%9B%9B%E5%B8%83%E9%99%A3.jpg',
+      'https://lime-light.tv/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E5%9B%9B%E5%B8%83%E9%99%A3.jpg',
     ],
   },
   {
@@ -509,7 +509,7 @@ export const news2025: LegacyNewsType[] = [
     ],
     urls: [],
     img: [
-      'https://sekigahara-idolwars.net/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E4%B8%89%E5%B8%83%E9%99%A3.jpg',
+      'https://lime-light.tv/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E4%B8%89%E5%B8%83%E9%99%A3.jpg',
     ],
   },
   {
@@ -548,7 +548,7 @@ export const news2025: LegacyNewsType[] = [
     ],
     urls: [],
     img: [
-      'https://sekigahara-idolwars.net/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E4%BA%8C%E5%B8%83%E9%99%A3.jpg',
+      'https://lime-light.tv/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E4%BA%8C%E5%B8%83%E9%99%A3.jpg',
     ],
   },
   {
@@ -582,7 +582,7 @@ export const news2025: LegacyNewsType[] = [
     ],
     urls: [],
     img: [
-      'https://sekigahara-idolwars.net/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E4%B8%80%E5%B8%83%E9%99%A3.jpg',
+      'https://lime-light.tv/images/2025/news/%E9%96%A2%E3%82%B1%E5%8E%9F%E5%94%84%E5%A7%AB%E5%90%88%E6%88%A62025_%E7%AC%AC%E4%B8%80%E5%B8%83%E9%99%A3.jpg',
     ],
   },
   {
@@ -607,8 +607,8 @@ export const news2025: LegacyNewsType[] = [
       '新たな夏の幕開けに相応しい唄姫は',
       '私たちだ。',
     ],
-    urls: ['https://sekigahara-idolwars.net/entry'],
-    img: ['https://yosen2025.sekigahara-idolwars.net/picture/yosen-20250405.jpeg'],
+    urls: ['https://lime-light.tv/entry'],
+    img: ['https://yosen2025.lime-light.tv/picture/yosen-20250405.jpeg'],
   },
   {
     id: 1,
@@ -635,6 +635,6 @@ export const news2025: LegacyNewsType[] = [
       '一緒に戦いましょう⚔️',
     ],
     urls: [],
-    img: ['https://yosen2025.sekigahara-idolwars.net/picture/yosen-20250405.jpeg'],
+    img: ['https://yosen2025.lime-light.tv/picture/yosen-20250405.jpeg'],
   },
 ]

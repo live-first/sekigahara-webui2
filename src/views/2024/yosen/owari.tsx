@@ -13,7 +13,7 @@ export const OwariView = () => {
         open='17:30'
         start='18:00'
         artists='究極人形/OS☆K/AMOUR/ミラクルファンファーレ！/PrincessGarden-NAGOYA-'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/12/1.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/12/1.jpeg'
         ticket='https://tiget.net/events/322798'
       />
       <YosenAccordion
@@ -24,7 +24,7 @@ export const OwariView = () => {
         open='13:00'
         start='13:30'
         artists='究極人形/AQA/AMOUR/ミラクルファンファーレ！/PrincessGarden-NAGOYA-'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/11/1.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/11/1.jpeg'
         ticket='https://tiget.net/events/322796'
       />
       <YosenAccordion
@@ -35,7 +35,7 @@ export const OwariView = () => {
         open='18:00'
         start='18:30'
         artists='究極人形/AQA/OS☆K/PrincessGarden-NAGOYA-'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/10/1.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/10/1.jpeg'
         ticket='https://tiget.net/events/322560'
       />
       <YosenAccordion
@@ -46,7 +46,7 @@ export const OwariView = () => {
         open='14:00'
         start='14:30'
         artists='究極人形/AQA'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/9/1.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/9/1.jpeg'
         ticket='https://tiget.net/events/322558'
       />
       <YosenAccordion
@@ -57,8 +57,8 @@ export const OwariView = () => {
         open='17:30'
         start='18:00'
         artists='究極人形/AMOUR/PrincessGarden-NAGOYA-/AQA/ミラクルファンファーレ！/マイノリティアラート/OS☆K'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/8/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/owari/8/2.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/8/1.jpeg'
+        image2='https://lime-light.tv/images/2024/owari/8/2.jpeg'
         ticket='https://tiget.net/events/321143'
       />
       <YosenAccordion
@@ -69,8 +69,8 @@ export const OwariView = () => {
         open='13:00'
         start='13:30'
         artists='究極人形/AMOUR/PrincessGarden-NAGOYA-/Cent Heaven'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/7/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/owari/7/2.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/7/1.jpeg'
+        image2='https://lime-light.tv/images/2024/owari/7/2.jpeg'
         ticket='https://tiget.net/events/321142'
       />
       <YosenAccordion
@@ -81,8 +81,8 @@ export const OwariView = () => {
         open='17:45'
         start='18:15'
         artists='AQA/OS☆K/AMOUR/Le☆miel/PrincessGarden-NAGOYA-/ミラクルファンファーレ！'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/6/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/owari/6/2.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/6/1.jpeg'
+        image2='https://lime-light.tv/images/2024/owari/6/2.jpeg'
         ticket='https://tiget.net/events/320944'
       />
       <YosenAccordion
@@ -93,8 +93,8 @@ export const OwariView = () => {
         open='13:00'
         start='13:30'
         artists='Le☆miel/PrincessGarden-NAGOYA-/Cent Heaven/究極人形'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/5/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/owari/5/2.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/5/1.jpeg'
+        image2='https://lime-light.tv/images/2024/owari/5/2.jpeg'
         ticket='https://tiget.net/events/320942'
       />
       <YosenAccordion
@@ -105,8 +105,8 @@ export const OwariView = () => {
         open='17:45'
         start='18:15'
         artists='究極人形/AQA/AMOUR/Le☆miel/ミラクルファンファーレ！/PrincessGarden-NAGOYA-/Cent Heaven'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/4/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/owari/4/2.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/4/1.jpeg'
+        image2='https://lime-light.tv/images/2024/owari/4/2.jpeg'
         ticket='https://tiget.net/events/320462'
       />
       <YosenAccordion
@@ -115,8 +115,8 @@ export const OwariView = () => {
         date='2024年5月12日（日）'
         place='名古屋DEEP'
         artists='究極人形/AMOUR/SITRA./Le☆miel'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/3/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/owari/3/2.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/3/1.jpeg'
+        image2='https://lime-light.tv/images/2024/owari/3/2.jpeg'
         ticket='https://tiget.net/events/319999'
       />
       <YosenAccordion
@@ -127,8 +127,8 @@ export const OwariView = () => {
         open='17:00'
         start='17:30'
         artists='AQA/OS☆K/Le☆miel/ミラクルファンファーレ！'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/2/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/owari/2/2.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/2/1.jpeg'
+        image2='https://lime-light.tv/images/2024/owari/2/2.jpeg'
         ticket='https://tiget.net/events/319807'
       />
       <YosenAccordion
@@ -139,8 +139,8 @@ export const OwariView = () => {
         open='12:00'
         start='12:30'
         artists='究極人形/AMOUR/AQA/<ゲスト>mistress'
-        image1='https://sekigahara-idolwars.net/images/2024/owari/1/1.jpeg'
-        image2='https://sekigahara-idolwars.net/images/2024/owari/1/2.jpeg'
+        image1='https://lime-light.tv/images/2024/owari/1/1.jpeg'
+        image2='https://lime-light.tv/images/2024/owari/1/2.jpeg'
         ticket='https://tiget.net/events/319806'
       />
     </div>

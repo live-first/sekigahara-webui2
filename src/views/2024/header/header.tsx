@@ -15,11 +15,7 @@ const Header = () => {
   return (
     <div className='header-body'>
       <Link href='/2024' className='logo'>
-        <Img
-          cName='logo'
-          src='https://sekigahara-idolwars.net/images/2024/logo/headerlogo.svg'
-          alt='logo'
-        />
+        <Img cName='logo' src='https://lime-light.tv/images/2024/logo/headerlogo.svg' alt='logo' />
       </Link>
       <div className='menu-nav-pc'>
         <Menu displayMode={'inline-flex'} />

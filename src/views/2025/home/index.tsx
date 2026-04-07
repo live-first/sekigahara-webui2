@@ -44,16 +44,13 @@ export const Home2025View = () => {
                   <ImgView
                     imgUrl={data}
                     height='500px'
-                    backImg='https://sekigahara-idolwars.net/images/2025/topBack.png'
+                    backImg='https://lime-light.tv/images/2025/topBack.png'
                   />
                 </SwiperSlide>
               )
             })}
           </Swiper> */}
-          <Img
-            src='https://sekigahara-idolwars.net/images/2025/sekigahara_thanks_top.png'
-            alt='top'
-          />
+          <Img src='https://lime-light.tv/images/2025/sekigahara_thanks_top.png' alt='top' />
         </div>
         <Container maxWidth='md'>
           <div className='flex flex-col gap-8'>
@@ -70,12 +67,12 @@ export const Home2025View = () => {
               <ContentTitleView>予戦会情報</ContentTitleView>
               <Frame>
                 <img
-                  src='https://yosen2025.sekigahara-idolwars.net/picture/yosen-top.jpeg'
+                  src='https://yosen2025.lime-light.tv/picture/yosen-top.jpeg'
                   alt='トップ画像'
                   className='w-full mb-6'
                 />
                 <div className='text-center'>
-                  <Link to='https://yosen2025.sekigahara-idolwars.net' target='_blank'>
+                  <Link to='https://yosen2025.lime-light.tv' target='_blank'>
                     <EllipseButton className='bg-sekigahara text-white hover:bg-[#fe7e7e] px-4 w-52'>
                       特設サイトへ ▶︎
                     </EllipseButton>
@@ -105,11 +102,7 @@ export const Home2025View = () => {
                     alt='関ケ原アプリ'
                   />
                   <div className='flex self-center w-1/2'>
-                    <Link
-                      href='https://app.sekigahara-idolwars.net'
-                      target='_blank'
-                      className='w-full'
-                    >
+                    <Link href='https://app.lime-light.tv' target='_blank' className='w-full'>
                       <EllipseButton className='bg-sekigahara text-white w-full hover:bg-[#fe7e7e] px-4'>
                         アプリへ
                       </EllipseButton>
@@ -183,14 +176,14 @@ export const Home2025View = () => {
                   href='https://x.com/_IDOLWARS'
                   className='bg-white rounded-full w-20 h-20 p-4'
                 >
-                  <Img src='https://sekigahara-idolwars.net/images/x-logo-black.png' alt='x-logo' />
+                  <Img src='https://lime-light.tv/images/x-logo-black.png' alt='x-logo' />
                 </Link>
                 <Link
                   href='https://www.instagram.com/_idolwars'
                   className='bg-white rounded-full w-20 h-20 p-2'
                 >
                   <Img
-                    src='https://sekigahara-idolwars.net/images/Instagram-logo-color.png'
+                    src='https://lime-light.tv/images/Instagram-logo-color.png'
                     alt='instagram-logo'
                   />
                 </Link>
@@ -198,10 +191,7 @@ export const Home2025View = () => {
                   href='https://youtube.com/@sekigaharaidolwarspr7582'
                   className='bg-white rounded-full w-20 h-20 p-2 content-center'
                 >
-                  <Img
-                    src='https://sekigahara-idolwars.net/images/youtube-logo.png'
-                    alt='youtube-logo'
-                  />
+                  <Img src='https://lime-light.tv/images/youtube-logo.png' alt='youtube-logo' />
                 </Link>
               </div>
             </div>

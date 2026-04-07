@@ -16,7 +16,7 @@ const MainView = () => {
       <Container maxWidth='md'>
         <Title english='TICKET' japaniese='チケット情報' />
         <div className='ticket-img-view'>
-          <Img src='https://sekigahara-idolwars.net/images/2024/home/ticket.jpg' alt='ticket1' />
+          <Img src='https://lime-light.tv/images/2024/home/ticket.jpg' alt='ticket1' />
         </div>
         <Link href='https://tiget.net/events/330277'>
           <div className='ticket-link-btn'>チケットの購入はこちら</div>

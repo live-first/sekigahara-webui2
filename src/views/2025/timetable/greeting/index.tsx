@@ -130,17 +130,9 @@ const MainView = () => {
         <Title english='GREETING' japaniese='物販・特典会情報' />
         <div className='target-area mt-10'>
           <div className='timetable-top'>
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/app_logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/app_logo.png' alt='logo' />
             <DateView year='2025' month='7' day='19' youbi='土' other='DAY1' />
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/logo.png' alt='logo' />
           </div>
           <div className='timetable-area'>
             <TimeTable
@@ -438,17 +430,9 @@ const MainView = () => {
 
         <div className='target-area mt-10'>
           <div className='timetable-top'>
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/app_logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/app_logo.png' alt='logo' />
             <DateView year='2025' month='7' day='20' youbi='日' other='DAY2' />
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/logo.png' alt='logo' />
           </div>
           <div className='timetable-area'>
             <TimeTable
@@ -746,17 +730,9 @@ const MainView = () => {
 
         <div className='target-area mt-10'>
           <div className='timetable-top'>
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/app_logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/app_logo.png' alt='logo' />
             <DateView year='2025' month='7' day='21' youbi='月祝' other='DAY3' />
-            <Img
-              cName='logo'
-              src='https://sekigahara-idolwars.net/images/2025/logo.png'
-              alt='logo'
-            />
+            <Img cName='logo' src='https://lime-light.tv/images/2025/logo.png' alt='logo' />
           </div>
           <div className='timetable-area'>
             <TimeTable

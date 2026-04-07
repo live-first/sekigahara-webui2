@@ -18,7 +18,7 @@ export const Header = () => {
         <Link href='/2025' className='flex flex-col h-full'>
           <Img
             cName='h-[44px] w-auto'
-            src='https://sekigahara-idolwars.net/images/2025/logo.png'
+            src='https://lime-light.tv/images/2025/logo.png'
             alt='logo'
             notNext
           />

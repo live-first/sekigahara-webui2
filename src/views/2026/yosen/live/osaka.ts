@@ -10,7 +10,7 @@ export const osakaEvents: YosenAccordionProps[] = [
     place: '京橋Arc',
     artists: 'LOTUS MARRY／むげんこんぜ／Qu♡Aly／ぷりしえーる／ゼロキョリハーツ',
     ticket: 'https://tiget.net/events/399890',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/osaka/osaka_11.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/osaka/osaka_11.JPG',
     image2: '',
   },
   {
@@ -23,7 +23,7 @@ export const osakaEvents: YosenAccordionProps[] = [
     artists:
       'LOTUS MARRY／むげんこんぜ／ふぁんたす！／ぷりしえーる／ゼロキョリハーツ／あおぞらをキミに／Qu♡Aly',
     ticket: 'https://tiget.net/events/399893',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/osaka/osaka_21.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/osaka/osaka_21.JPG',
     image2: '',
   },
   {
@@ -35,7 +35,7 @@ export const osakaEvents: YosenAccordionProps[] = [
     place: '京橋Arc',
     artists: 'ゼロキョリハーツ／Qu♡Aly／ふぁんたす！',
     ticket: 'https://tiget.net/events/401449',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/osaka/osaka_31.png',
+    image1: 'https://yosen2025.lime-light.tv/picture/osaka/osaka_31.png',
     image2: '',
   },
   {
@@ -47,7 +47,7 @@ export const osakaEvents: YosenAccordionProps[] = [
     place: '京橋Arc',
     artists: 'ゼロキョリハーツ／Qu♡Aly／ふぁんたす！＜ゲスト＞NEO BREAK',
     ticket: 'https://tiget.net/events/401451',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/osaka/osaka_41.png',
+    image1: 'https://yosen2025.lime-light.tv/picture/osaka/osaka_41.png',
     image2: '',
   },
   {
@@ -59,7 +59,7 @@ export const osakaEvents: YosenAccordionProps[] = [
     place: '京橋Arc',
     artists: 'アクアリウム。／ゼロキョリハーツ／あおぞらをキミ',
     ticket: 'https://tiget.net/events/402070',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/osaka/osaka_51.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/osaka/osaka_51.JPG',
     image2: '',
   },
   {
@@ -71,7 +71,7 @@ export const osakaEvents: YosenAccordionProps[] = [
     place: '京橋Arc',
     artists: 'むげんこんぜ／Qu♡Aly／ふぁんたす！／ゼロキョリハーツ＜ゲスト＞NEO BREAK',
     ticket: 'https://tiget.net/events/402072',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/osaka/osaka_61.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/osaka/osaka_61.JPG',
     image2: '',
   },
   {
@@ -83,7 +83,7 @@ export const osakaEvents: YosenAccordionProps[] = [
     place: '京橋Arc',
     artists: 'LOTUS MARRY／ゼロキョリハーツ／Qu♡Aly／ぷりしえーる',
     ticket: 'https://tiget.net/events/402904',
-    image1: 'https://yosen2025.sekigahara-idolwars.net/picture/osaka/osaka_71.JPG',
+    image1: 'https://yosen2025.lime-light.tv/picture/osaka/osaka_71.JPG',
     image2: '',
   },
 ]
