@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export default function YosenArtist(props: { params: any }) {
-  const { params } = props
+export default async function YosenArtist(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params
   return <HalfMenuLayout menu={<MenuView />} main={<YosenArtistsDetailView id={params.id} />} />
 }

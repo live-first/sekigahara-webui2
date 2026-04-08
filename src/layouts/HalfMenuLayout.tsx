@@ -1,6 +1,8 @@
 'use client'
 
-import { ReactNode } from 'react'
+import { cn } from '@/components/utils'
+import { ReactNode, useState } from 'react'
+import { IoIosArrowDropleft, IoIosArrowDropright } from 'react-icons/io'
 
 type HalfMenuLayoutProps = {
   header?: ReactNode
@@ -10,6 +12,12 @@ type HalfMenuLayoutProps = {
 }
 
 export const HalfMenuLayout = ({ header, menu, main, footer }: HalfMenuLayoutProps) => {
+  const [open, isOpen] = useState(false)
+
+  const handleClick = () => {
+    isOpen(!open)
+  }
+
   return (
     <div className='h-screen flex flex-col bg-gradient-to-b from-gray-900 to-gray-800 text-white'>
       {header && (
@@ -18,8 +26,20 @@ export const HalfMenuLayout = ({ header, menu, main, footer }: HalfMenuLayoutPro
         </header>
       )}
       <div className='flex'>
-        {menu && <div className='flex flex-col sticky top-0'>{menu}</div>}
-        {main && <main className='flex-1 h-screen overflow-scroll bg-gray-200'>{main}</main>}
+        {menu && (
+          <div className='flex md:flex-col fixed z-10 md:sticky top-0'>
+            <div className={cn(open ? '' : 'hidden md:flex')}>{menu}</div>
+            <button className='w-20 h-20 bg-[#ff3c5c9e] md:hidden' onClick={handleClick}>
+              {open ? (
+                <IoIosArrowDropleft className='w-full h-full' />
+              ) : (
+                <IoIosArrowDropright className='w-full h-full' />
+              )}
+            </button>
+          </div>
+        )}
+
+        {main && <main className={cn('flex-1 h-screen overflow-scroll bg-gray-200')}>{main}</main>}
       </div>
       {footer && <footer className='h-16 flex items-center justify-center'>{footer}</footer>}
     </div>
