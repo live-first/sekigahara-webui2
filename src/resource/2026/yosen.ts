@@ -41,6 +41,8 @@ export const osakaLive = [
   { id: 'osaka-5', label: '【5】5/17（日）京橋Arc 昼公演' },
   { id: 'osaka-6', label: '【6】5/17（日）京橋Arc 夜公演' },
   { id: 'osaka-7', label: '【7】5/22（金）京橋Arc 夜公演' },
-  { id: 'osaka-8', label: '【8】5/29（金）京橋Arc 夜公演' },
-  { id: 'osaka-9', label: '【9】5/30（土）FANJtwice 夜公演' },
+  { id: 'osaka-8', label: '【8】5/24（日）京橋Arc 昼公演' },
+  { id: 'osaka-9', label: '【9】5/24（日）京橋Arc 夜公演' },
+  { id: 'osaka-10', label: '【10】5/29（金）京橋Arc 夜公演' },
+  { id: 'osaka-11', label: '【11】5/30（土）FANJtwice 夜公演' },
 ]
