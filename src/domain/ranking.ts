@@ -20,8 +20,14 @@ export type RankingUnit = UnitType & {
 
 export type UnitType = {
   name: string
+  yomi?: string
   img: ImgType
+  content?: string
+  movie?: string
   x?: string
+  insta?: string
+  tiktok?: string
+  other?: string
 }
 
 export const UnitInit: UnitType = {
