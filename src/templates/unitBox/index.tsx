@@ -20,7 +20,7 @@ export const UnitBox = (props: UnitProps) => {
         />
       </div>
       <div className='text-sekigahara text-xl font-bold text-center h-15'>
-        <p className='whitespace-pre-wrap h-full content-center'>{name}</p>
+        <p className='whitespace-pre-wrap h-full content-center break-all'>{name}</p>
       </div>
       {x && (
         <div className='flex gap-4 justify-center'>
