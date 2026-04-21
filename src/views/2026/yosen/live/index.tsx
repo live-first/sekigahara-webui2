@@ -38,6 +38,9 @@ export const YosenLiveView = () => {
         </Box>
         <CustomTabPanel value={value} index={0}>
           <div className='p-4 bg-edo_bg border-x-2 border-x-edo border-b-2 border-b-edo'>
+            {edoEvents.length === 0 && (
+              <p className='text-center text-black'>現在、イベントはありません。</p>
+            )}
             {edoEvents.map((event, index) => (
               <YosenAccordion {...event} key={`edo-${index}`} />
             ))}
@@ -45,6 +48,9 @@ export const YosenLiveView = () => {
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
           <div className='p-4 bg-owari_bg border-x-2 border-x-owari border-b-2 border-b-owari'>
+            {owariEvents.length === 0 && (
+              <p className='text-center text-black'>現在、イベントはありません。</p>
+            )}
             {owariEvents.map((event, index) => (
               <YosenAccordion {...event} key={`owari-${index}`} />
             ))}
@@ -52,6 +58,9 @@ export const YosenLiveView = () => {
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
           <div className='p-4 bg-osaka_bg border-x-2 border-x-osaka border-b-2 border-b-osaka'>
+            {osakaEvents.length === 0 && (
+              <p className='text-center text-black'>現在、イベントはありません。</p>
+            )}
             {osakaEvents.map((event, index) => (
               <YosenAccordion {...event} key={`osaka-${index}`} />
             ))}
