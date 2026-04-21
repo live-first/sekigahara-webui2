@@ -27,17 +27,20 @@ export const HalfMenuLayout = ({ header, menu, main, footer }: HalfMenuLayoutPro
       )}
       <div className='flex'>
         {menu && (
-          <div className='flex md:flex-col fixed z-10 md:sticky top-0'>
+          <div className={cn('flex md:flex-col z-10 md:sticky top-0', open ? 'fixed' : '')}>
             <div className={cn(open ? '' : 'hidden md:flex')}>{menu}</div>
-            <button className='w-20 h-20 bg-[#ff3c5c9e] md:hidden' onClick={handleClick}>
+            <button className='w-10 h-full flex bg-sekigahara md:hidden' onClick={handleClick}>
               {open ? (
                 <IoIosArrowDropleft className='w-full h-full' />
               ) : (
-                <IoIosArrowDropright className='w-full h-full' />
+                <div className='flex flex-col'>
+                  <IoIosArrowDropright className='w-full h-full' />
+                </div>
               )}
             </button>
           </div>
         )}
+        {open && <div className='w-10 h-full'></div>}
 
         {main && <main className={cn('flex-1 h-screen overflow-scroll bg-gray-200')}>{main}</main>}
       </div>
