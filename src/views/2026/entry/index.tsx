@@ -16,7 +16,7 @@ import { Img } from '@/components/Image'
 export const Entry2026View = () => {
   const [emailStatusMessage, setEmailStatusMessage] = useState<boolean>(false)
   const [error, setError] = useState<boolean>(false)
-  const [isSubmit, setSubmit] = useState<boolean>(false)
+  // const [isSubmit, setSubmit] = useState<boolean>(false)
   const EntrySchema = z.object({
     company: company,
     group_name: group_name,
@@ -30,8 +30,8 @@ export const Entry2026View = () => {
   const sendEmail = async (data: ContactType) => {
     setEmailStatusMessage(false)
     setError(false)
-    setSubmit(true)
-    setTimeout(() => setSubmit(false), 5000)
+    // setSubmit(true)
+    // setTimeout(() => setSubmit(false), 5000)
     try {
       init('IdTWr2VgMdRiCW1AG')
       await send('service_lurdshc', 'sekigahara_pre_entry', data)
@@ -46,7 +46,8 @@ export const Entry2026View = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors, isValid, isSubmitting },
+    formState: { errors },
+    // formState: { errors, isValid, isSubmitting },
   } = useForm<ContactType>({
     mode: 'onChange',
     resolver: zodResolver(EntrySchema),
@@ -72,6 +73,9 @@ export const Entry2026View = () => {
         <Frame>
           <form onSubmit={handleSubmit((e) => sendEmail(e))}>
             <div className='flex flex-col gap-4'>
+              <Alert severity='error' className='mt-4'>
+                関ケ原唄姫合戦2026予戦会のエントリーは締め切りとなりました。たくさんのご応募ありがとうございました。
+              </Alert>
               <TextFieldForm
                 title='ユニット名'
                 required
@@ -108,7 +112,8 @@ export const Entry2026View = () => {
               />
               <button
                 type='submit'
-                disabled={!isValid || isSubmitting || isSubmit}
+                // disabled={!isValid || isSubmitting || isSubmit}
+                disabled={true}
                 className='bg-slate-800 hover:bg-slate-600 rounded px-4 py-2 text-white  disabled:bg-gray-300 md:self-center'
               >
                 送信する

@@ -6,14 +6,14 @@ import Link from 'next/link'
 import { Img } from '@/components/Image/index.tsx'
 import { Frame } from '@/components/Frame/index.tsx'
 import { NewsList } from '@/templates/newsList'
-import { useRouter } from 'next/navigation'
+// import { useRouter } from 'next/navigation'
 import { useNewsApi } from '@/api/newsApi'
 import { NewsContentsType } from '@/domain/news'
 import { useEffect, useRef } from 'react'
-import banner from '@/image/2026/yosenkai2026_hp_banner.jpg'
+// import banner from '@/image/2026/yosenkai2026_hp_banner.jpg'
 
 export const Home2026View = () => {
-  const router = useRouter()
+  // const router = useRouter()
   const { getNews } = useNewsApi()
   const news: NewsContentsType[] = getNews.data
     ? (getNews.data.contents as unknown as NewsContentsType[])
@@ -64,14 +64,14 @@ export const Home2026View = () => {
                 </div>
               </Frame>
             </div> */}
-          <div>
+          {/* <div>
             <ContentTitle>予戦会エントリー</ContentTitle>
             <div className='flex justify-center py-8'>
               <button onClick={() => router.push('/entry')} className='hover:cursor-pointer'>
                 <Img src={banner.src} alt='banner' />
               </button>
             </div>
-          </div>
+          </div> */}
           <div>
             <ContentTitle>協力</ContentTitle>
             <Frame>
