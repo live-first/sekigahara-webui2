@@ -73,14 +73,14 @@ export const YosenArtistsDetailView = (props: { id: string | number }) => {
           </Link>
         )}
       </div>
-      <div className='flex justify-self-center max-w-4xl'>
+      <div className='flex justify-center justify-self-center max-w-4xl w-full'>
         {detail.withColle && (
-          <Link href={`https://www.withlive.jp/cast_item.php?id=${detail.withColle}`}>
-            <div className='flex bg-white border-2 border-blue-900 rounded-3xl text-blue-900 py-6 px-24 text-4xl gap-4 items-center hover:bg-blue-900 hover:text-white'>
+          <Link href={`https://www.withlive.jp/cast_item.php?id=${detail.withColle}`} className='w-4/5'>
+            <div className='flex bg-white border-2 border-blue-900 rounded-3xl text-blue-900 py-6 text-xl md:text-4xl w-full gap-4 items-center justify-center hover:bg-blue-900 hover:text-white'>
               <Img
                 src='https://lime-light.tv/images/with_collection_icon.png'
                 alt='Withコレ'
-                cName='rounded-full w-24 h-24'
+                cName='rounded-full w-16 h-16 md:w-24 md:h-24'
                 notNext
               />
               Withコレ　→
