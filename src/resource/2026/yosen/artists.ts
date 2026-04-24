@@ -38,7 +38,7 @@ export const artists: UnitProps[] = [
       alt: 'IDOL★ST∀R MINE',
     },
     content:
-      '2020年2月デビュー。今年3/29のワンマンライブで研究生2名が昇格し全員正規メンバーの6人体制に。<br />昨年9月より冠ラジオ番組「IDOL★ST∀R MINEのIDOL★SPark Radio」を毎月第１月曜日20:30から30分間MID-FM76.1にて放送中。<br />関ケ原唄姫合戦には2021,2022,2023年に出演！<br />今回、メンバーが増えて今の6人で挑戦したいと思い、3年ぶりの予戦会参加です！<br /><br />メンバー：雅ことめ（赤色）・結夢かえ（黄色）・陽翠はつき（白色）・神凪桃亜（ピンク色）・佐条菖（紫色）・橘羽うか（水色）',
+      '2020年2月デビュー。今年3/29のワンマンライブで研究生2名が昇格し全員正規メンバーの6人体制に。<br /><br /><br />昨年9月より冠ラジオ番組「IDOL★ST∀R MINEのIDOL★SPark Radio」を毎月第１月曜日20:30から30分間MID-FM76.1にて放送中。<br /><br />関ケ原唄姫合戦には2021,2022,2023年に出演！<br />今回、メンバーが増えて今の6人で挑戦したいと思い、3年ぶりの予戦会参加です！<br /><br /><strong>メンバー：</strong>雅ことめ（赤色）・結夢かえ（黄色）・陽翠はつき（白色）・神凪桃亜（ピンク色）・佐条菖（紫色）・橘羽うか（水色）',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/IDOL_STAR_MINE.mov',
     x: 'IDOL_STAR_MINE',
     insta: '',
@@ -54,7 +54,7 @@ export const artists: UnitProps[] = [
       alt: 'ADMIRAL×BANQUET',
     },
     content:
-      '2025.7.17デビュー。<br />『統率せよ、心を。魅了せよ、世界を。』<br /><br/>2026.2.10に渋谷Starlougeで開催した1stワンマンライブは満員を達成。<br /><br />アドバンならではの規格外の楽曲クオリティで、近年のアイドルシーンへ鋭く切り込む。',
+      '2025.7.17デビュー。<br /><br />『統率せよ、心を。魅了せよ、世界を。』<br /><br /><br/>2026.2.10に渋谷Starlougeで開催した1stワンマンライブは満員を達成。<br /><br /><br />アドバンならではの規格外の楽曲クオリティで、近年のアイドルシーンへ鋭く切り込む。',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/adban_official.mov',
     x: 'adban_official',
     insta: '',
@@ -86,26 +86,27 @@ export const artists: UnitProps[] = [
       alt: 'anemoreel',
     },
     content:
-      '2025年11月3日、心斎橋VARONにて3組での対バン形式でデビューライブを開催。約170名動員。<br /><br />平均年齢20才、平均身長152cm。<br /><br />大阪を拠点として活動している7人組アイドルグループ。<br /><br />「どこか懐かしい青春と思い出を」をコンセプトとして、片想いの歌詞や初々しい恋愛曲を中心に爽やかなイメージで活動しています。<br /><br />爽やかで清楚な世界観を軸にしながらも、ライブでは明るくエネルギッシュなメンバーが全力でパフォーマンスする“清楚×シャカリキ”なギャップが武器です。<br /><br />3月から定期公演、5月には大阪MUSEにて半年ワンマンライブを行う予定です。',
+      '2025年11月3日、心斎橋VARONにて3組での対バン形式でデビューライブを開催。約170名動員。<br /><br />平均年齢20才、平均身長152cm。<br /><br />大阪を拠点として活動している7人組アイドルグループ。<br /><br /><strong>「どこか懐かしい青春と思い出を」</strong>をコンセプトとして、片想いの歌詞や初々しい恋愛曲を中心に爽やかなイメージで活動しています。<br /><br />爽やかで清楚な世界観を軸にしながらも、ライブでは明るくエネルギッシュなメンバーが全力でパフォーマンスする“清楚×シャカリキ”なギャップが武器です。<br /><br />3月から定期公演、5月には大阪MUSEにて半年ワンマンライブを行う予定です。',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/anemoreel.mp4',
     x: 'anemoreel',
-    insta: '@anemoreel_official',
-    tiktok: '@anemoreel',
+    insta: 'https://www.instagram.com/anemoreel/',
+    tiktok: 'https://www.tiktok.com/@anemoreel_official',
     other: '',
     withColle: 'LCckb63PnsUjP6IPWo0BfWGyzko1',
   },
   {
-    name: 'Aproof【未提出】',
+    name: 'Aproof',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/Aproof.jpg',
       alt: 'Aproof',
     },
-    content: '',
+    content:
+      '<strong>"ライブパフォーマンス"</strong>で魅せるグループ<br /><br /><br />永瀬かのん / 陽山そら / 桜木姫奈 / 雨宮あんな / 星奈すず<br /><br />の5人組Aproofです！<br /><br /><br />私たちAproofは、楽曲を歌って踊るだけじゃなく、Showのように流れるライブパフォーマンス。<br />ライブ全体を通してファンの皆様に夢を届けるグループです。<br /><br />楽曲一つ一つにストーリー性があり<br />同じ曲でも、セットリストによって感じ方、見方、受け取り方が変わり、何回でも見たくなる！<br /><br />そんなライブになっています。<br /><br />「幸せの上書き」のコンセプトにあるように<br />ファンの皆さんとの思い出を一つでも多く増やしていけるよに<br /><br />そして、1人でも多くの方に私たちのパフォーマンスをお届け出来るよう一丸となって頑張ります！<br /><br />',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/.mov',
-    x: '',
-    insta: '',
-    tiktok: '',
+    x: 'aproof_official',
+    insta: 'https://www.instagram.com/aproof_official/',
+    tiktok: 'https://www.tiktok.com/@aproof__official',
     other: '',
     withColle: '4gTqLJhE8VeSkl5SQeq1rAqflq62',
   },
@@ -165,7 +166,7 @@ export const artists: UnitProps[] = [
       alt: 'iROTORiDOLLY',
     },
     content:
-      '『あなたの毎日に彩りを』をコンセプトに活動している2025.11.22デビューのグループです。<br /><br />赤担当 藍羽のあ<br />ピンク担当 花野かほ<br />黄色担当 犬音うらら<br />水色担当 幸希なこ<br />オレンジ担当 川野笑菜<br />青担当 水城彩希<br />紫担当 橘ぜら<br />の7人組',
+      '<strong>『あなたの毎日に彩りを』</strong>をコンセプトに活動している2025.11.22デビューのグループです。<br /><br /><br /><strong>メンバー</strong><br/>赤担当 藍羽のあ<br />ピンク担当 花野かほ<br />黄色担当 犬音うらら<br />水色担当 幸希なこ<br />オレンジ担当 川野笑菜<br />青担当 水城彩希<br />紫担当 橘ぜら<br />の7人組',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/iROTORiDOLLY_of.mp4',
     x: 'iROTORiDOLLY_of',
     insta: '',
@@ -226,7 +227,7 @@ export const artists: UnitProps[] = [
       alt: 'Coloration',
     },
     content:
-      '2025年2月27日デビュー、「心に溶け込む彩りに」をコンセプトに東京拠点で活動してる正統派王道アイドルグループです。<br /><br />Colorationメンバー<br />・有明つき  (ありあけつき)<br />メンバーカラー：オレンジ<br />出身地：三重県<br />・篠宮きき (しのみやきき)<br />メンバーカラー：イエロー<br />出身地：神奈川県<br />・花園もえ (はなぞのもえ)<br />メンバーカラー：ライトブルー<br />出身地：大阪府<br />・藤咲ゆら(ふじさきゆら)<br />メンバーカラー：パープル<br />出身地：静岡県',
+      '2025年2月27日デビュー、<strong>「心に溶け込む彩りに」</strong>をコンセプトに東京拠点で活動してる正統派王道アイドルグループです。<br /><br /><br /><strong>Colorationメンバー</strong><br />・有明つき  (ありあけつき)<br />メンバーカラー：オレンジ<br />出身地：三重県<br /><br />・篠宮きき (しのみやきき)<br />メンバーカラー：イエロー<br />出身地：神奈川県<br /><br />・花園もえ (はなぞのもえ)<br />メンバーカラー：ライトブルー<br />出身地：大阪府<br /><br />・藤咲ゆら(ふじさきゆら)<br />メンバーカラー：パープル<br />出身地：静岡県<br /><br />',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/coloration_n.mp4',
     x: 'coloration_n',
     insta: 'https://www.instagram.com/coloration_n?igsh=MWVibjc2OTlpYnFsYw==',
@@ -322,7 +323,7 @@ export const artists: UnitProps[] = [
       alt: 'Squall Line',
     },
     content:
-      'きらめく雨粒は、やがて心を打つスコールへ。<br /><br />メンバー：柴山ゆち、東雲きゃん、神楽まつり、兎咲とうか、そして5月より月守ゆらを新メンバーに加え<br />更に勢いを増す、関西拠点の正統派アイドルユニットです。',
+      'きらめく雨粒は、やがて心を打つスコールへ。<br /><br /><br /><strong>メンバー：</strong>柴山ゆち、東雲きゃん、神楽まつり、兎咲とうか、そして5月より月守ゆらを新メンバーに加え<br /><strong>更に勢いを増す、関西拠点の正統派アイドルユニットです。</strong><br />',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/squallline_oa.mov',
     x: 'squallline_oa',
     insta: '',
@@ -363,16 +364,17 @@ export const artists: UnitProps[] = [
     withColle: 'WixrxoFPBRMKvIjx69jRCZk4DV33',
   },
   {
-    name: 'tune time capsule【未提出】',
+    name: 'tune time capsule',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/tune time capsule.png',
       alt: 'tune time capsule',
     },
-    content: '',
+    content:
+      '関西から全国へと活躍の場を広げるアイドルグループ「カラフルスクリーム」を輩出したノースサウンド / Nord Tune Recordsから、今年5月6日にデビュー。<br /><br /><strong>“この一瞬を、未来に残す。”</strong>一緒に過ごした時間やそのときの気持ちを、ただの思い出で終わらせない。<br /> <br />今という瞬間をあなたのこれからに繋げていくアイドルグループ。',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/.mov',
-    x: '',
-    insta: '',
+    x: 'tunetimecapsule',
+    insta: '@_tunetimecapsule',
     tiktok: '',
     other: '',
     withColle: '',
@@ -384,7 +386,7 @@ export const artists: UnitProps[] = [
       alt: 'にとくり。',
     },
     content:
-      '王道×清楚系をコンセプトに、爽やかで甘酸っぱい楽曲からキャッチーで盛り上がる楽曲まで幅広いパフォーマンスが見所です！',
+      '<strong>王道×清楚系</strong>をコンセプトに、<br /><br />爽やかで甘酸っぱい楽曲から<br />キャッチーで盛り上がる楽曲まで<br /><br />幅広いパフォーマンスが見所です！',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/Neatandclean727.mp4',
     x: 'Neatandclean727',
     insta: '',
@@ -396,7 +398,7 @@ export const artists: UnitProps[] = [
     name: 'New Crown【未提出】',
     yomi: '',
     img: {
-      src: 'https://sekigahara-idolwars.net/2026/yosen/artists/New Crown.png',
+      src: 'https://sekigahara-idolwars.net/2026/yosen/artists/New Crown.jpg',
       alt: 'New Crown',
     },
     content: '',
@@ -415,7 +417,7 @@ export const artists: UnitProps[] = [
       alt: 'Nody',
     },
     content:
-      'コンセプト:ハイパーメロウポップアイドル<br />活動期間:2024.5.30〜<br />実績:2025.5.29 1周年単独公演梅田クアトロ実施<br />来月5/29に単独公演心斎橋BIGCAT公演開催',
+      'コンセプト:<strong>ハイパーメロウポップアイドル</strong><br /><br />活動期間: 2024.5.30〜<br /><br />実績: 2025.5.29 1周年単独公演梅田クアトロ実施<br /><br />来月5/29に単独公演心斎橋BIGCAT公演開催<br />',
     x: 'no_day_official',
     insta: '',
     tiktok: 'https://www.tiktok.com/@no_dy_official?_r=1&_t=ZS-95gsFBtdQCi',
@@ -444,7 +446,7 @@ export const artists: UnitProps[] = [
       alt: 'Harley Queen',
     },
     content:
-      '2021年4月29日に結成し、2023年12月30日の活動休止を経て、<br />2025年9月13日に事務所移転も伴い、新たな気持ちで活動開始しました。<br />HarleyQueenはステージと客席が一体となって盛り上がることのできるライブパフォーマンスが最大の魅力です。<br />是非、ライブで声を出したり、一緒に踊ったりしてください！<br />暑い夏に熱いパフォーマンスを届けたいので応援よろしくお願い致します！<br /><br />メンバー<br />北川らん<br />担当カラー：青色<br />Xアカウント：@Harley_Ran<br /><br />水城かぐや<br />担当カラー：赤色<br />Xアカウント：@harley_kaguya<br /><br />卯月えり<br />担当カラー：白色<br />Xアカウント：@Harley_eri_',
+      '2021年4月29日に結成し、2023年12月30日の活動休止を経て、<br />2025年9月13日に事務所移転も伴い、新たな気持ちで活動開始しました。<br />HarleyQueenはステージと客席が一体となって盛り上がることのできるライブパフォーマンスが最大の魅力です。<br />是非、ライブで声を出したり、一緒に踊ったりしてください！<br />暑い夏に熱いパフォーマンスを届けたいので応援よろしくお願い致します！<br /><br /><strong>メンバー</strong><br />北川らん<br />担当カラー：青色<br />Xアカウント：@Harley_Ran<br /><br />水城かぐや<br />担当カラー：赤色<br />Xアカウント：@harley_kaguya<br /><br />卯月えり<br />担当カラー：白色<br />Xアカウント：@Harley_eri_',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/Harley_Queen_3.mp4',
     x: 'Harley_Queen_3',
     insta: '',
@@ -476,12 +478,12 @@ export const artists: UnitProps[] = [
       alt: 'ひとつキラリ',
     },
     content:
-      'キラリと光る、たった一つの誇りになりたい。<br />あなたのために、WONDER CUTENESS OVERLOAD!!【奇跡の可愛さがすぎる】<br /><br />活動開始日<br />2025年2月24日<br /><br />メンバー紹介<br />如月蓮華　【赤】 グループ唯一の金髪ぎゃる<br />七宮夜々　【黄色】天真爛漫わがままムードメーカー<br />時禾ろり　【ピンク】 <br />キラリの煽り担当甘えん坊わんちゃん<br />月下恋　【水色】 踊れるほんわかよちよちペンギン<br />リア　【白】 韓国から来たあざといお姫ちゃま<br />爽音ひなた　【青】キラリの朝の顔、爽やかダンサー！<br /><br />実績<br />2025年 関ケ原唄姫合戦 予戦会突破・出場',
+      'キラリと光る、たった一つの誇りになりたい。<br />あなたのために、WONDER CUTENESS OVERLOAD!!【奇跡の可愛さがすぎる】<br /><br /><strong>活動開始日</strong><br />2025年2月24日<br /><br /><strong>メンバー紹介</strong><br />如月蓮華　【赤】 グループ唯一の金髪ぎゃる<br />七宮夜々　【黄色】天真爛漫わがままムードメーカー<br />時禾ろり　【ピンク】 <br />キラリの煽り担当甘えん坊わんちゃん<br />月下恋　【水色】 踊れるほんわかよちよちペンギン<br />リア　【白】 韓国から来たあざといお姫ちゃま<br />爽音ひなた　【青】キラリの朝の顔、爽やかダンサー！<br /><br /><strong>実績</strong><br />2025年 関ケ原唄姫合戦 予戦会突破・出場<br />',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/hitotsukirari.mp4',
     x: 'hitotsukirari',
     insta: '',
     tiktok: '',
-    other: 'https://youtube.com/channel/UCny3YZG9GYJmIfQaalQKUdQ?si=L8ZWXwSLIff5sKvS',
+    youtube: 'https://youtube.com/channel/UCny3YZG9GYJmIfQaalQKUdQ?si=L8ZWXwSLIff5sKvS',
     withColle: '3HqK7glCVsR7HUNXdNwfLcHjzNc2',
   },
   {
@@ -539,7 +541,7 @@ export const artists: UnitProps[] = [
       alt: 'BrainBeat',
     },
     content:
-      'BrainBeatは、\“ピュア×ギャル\”というアンビバレントな魅力を武器に、「どんな困難にも抗い、何度でもステージへ、何度でも前へ」を掲げて活動するアイドルグループです。<br />2025年1月31日に始動。現在は、ぽれあ・ひな・さやの3名を中心に活動しております。ユーロビートや重低音を軸とした高揚感ある楽曲と、熱量でフロアを巻き込むライブを強みとして、一つひとつのステージを積み重ねてまいりました。<br /> <br/>決して平坦ではない道のりの中でも立ち止まらず、自分たちの“好き”と覚悟で前に進み続けていることが、今のBrainBeatの一番の核です。<br />そして関ケ原唄姫合戦は、グループ結成時から思い描いてきた夢の舞台の一つでもあります。<br /><br />この予戦会もただの挑戦ではなく、本気で夏へつなげるための勝負の場だと思っております。<br/>一度見たら忘れられない熱量で「このグループを本戦で見たい」と思っていただけるライブをお届けいたします！',
+      'BrainBeatは、<strong>\“ピュア×ギャル\”</strong>というアンビバレントな魅力を武器に、<strong>「どんな困難にも抗い、何度でもステージへ、何度でも前へ」</strong>を掲げて活動するアイドルグループです。<br /><br /><br />2025年1月31日に始動。現在は、ぽれあ・ひな・さやの3名を中心に活動しております。<br />ユーロビートや重低音を軸とした高揚感ある楽曲と、熱量でフロアを巻き込むライブを強みとして、一つひとつのステージを積み重ねてまいりました。<br /> <br/>決して平坦ではない道のりの中でも立ち止まらず、自分たちの“好き”と覚悟で前に進み続けていることが、今のBrainBeatの一番の核です。<br />そして関ケ原唄姫合戦は、グループ結成時から思い描いてきた夢の舞台の一つでもあります。<br /><br />この予戦会もただの挑戦ではなく、本気で夏へつなげるための勝負の場だと思っております。<br/>一度見たら忘れられない熱量で「このグループを本戦で見たい」と思っていただけるライブをお届けいたします！',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/brainbeat_idol.mp4',
     x: 'brainbeat_idol',
     insta: '',
@@ -613,7 +615,7 @@ export const artists: UnitProps[] = [
     name: 'BabyDolls【未提出】',
     yomi: '',
     img: {
-      src: 'https://sekigahara-idolwars.net/2026/yosen/artists/BabyDolls.png',
+      src: 'https://sekigahara-idolwars.net/2026/yosen/artists/BabyDoll.png',
       alt: 'BabyDolls',
     },
     content: '',
@@ -692,7 +694,7 @@ export const artists: UnitProps[] = [
       alt: 'めろでぃらびっと',
     },
     content:
-      '2026年4月19日にデビューした、元LOVE9LOVE「おうかなつ」プロデュースの関西エリアで活動しているアイドルグループになります。<br />アイドルオタクアイドルとして活動していた「おうかなつ」の経験を基に集まった全員前世無し未経験者で揃った可愛らしい王道系７人組のグループです。<br />関西人らしい明るいキャラで可愛さをお届け出来るように頑張ります。',
+      '2026年4月19日にデビューした、元LOVE9LOVE「おうかなつ」プロデュースの関西エリアで活動しているアイドルグループになります。<br /><br /><br />アイドルオタクアイドルとして活動していた「おうかなつ」の経験を基に集まった全員前世無し未経験者で揃った可愛らしい王道系７人組のグループです。<br /><br /><br />関西人らしい明るいキャラで可愛さをお届け出来るように頑張ります。',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/melorabbi.mov',
     x: 'melorabbi',
     insta: '',
@@ -720,7 +722,7 @@ export const artists: UnitProps[] = [
     name: '夕凪のスピカ【未提出】',
     yomi: '',
     img: {
-      src: 'https://sekigahara-idolwars.net/2026/yosen/artists/夕凪のスピカ.jpg',
+      src: 'https://sekigahara-idolwars.net/2026/yosen/artists/夕凪のスピカ.jpeg',
       alt: '夕凪のスピカ',
     },
     content: '',
@@ -765,7 +767,7 @@ export const artists: UnitProps[] = [
     name: 'Lumi Prima【未提出】',
     yomi: '',
     img: {
-      src: 'https://sekigahara-idolwars.net/2026/yosen/artists/Lumi Prima.jpg',
+      src: 'https://sekigahara-idolwars.net/2026/yosen/artists/Lumi Prima.jpeg',
       alt: 'Lumi Prima',
     },
     content: '',
@@ -799,7 +801,7 @@ export const artists: UnitProps[] = [
       alt: 'Re:M!ND',
     },
     content:
-      '『あなたの記憶に残る』をコンセプトに活動している2025.11.22デビューのグループです。<br /><br />赤担当 蘭カレン<br />ピンク担当 花宮美玲<br />オレンジ担当 彩木春華<br />水色担当 科乃あお<br />紫担当 音瀬夢香<br />白担当　春日野珠理<br />の6人組',
+      '<strong>『あなたの記憶に残る』</strong>をコンセプトに活動している2025.11.22デビューのグループです。<br /><br /><br /><strong>メンバー</strong><br />赤担当 蘭カレン<br />ピンク担当 花宮美玲<br />オレンジ担当 彩木春華<br />水色担当 科乃あお<br />紫担当 音瀬夢香<br />白担当　春日野珠理<br />の6人組',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/ReMIND_info.mp4',
     x: 'ReMIND_info',
     insta: '',
@@ -814,11 +816,11 @@ export const artists: UnitProps[] = [
       alt: 'わんみゅーず！',
     },
     content:
-      '2025年12月12日デビュー！<br />大阪拠点 テーマパークコンセプトのわんみゅーず！です！<br />メロディレッド担当 甘苺るう (あまいるう)<br />ときめきぴんく担当 兎月みあい (うづきみあい)<br />レモネードイエロー担当 日奈こゆ (ひなこゆ)<br />わがままぱーぷる担当 天和あもね (てんのあもね)<br />わたあめらいとぶるー担当 空音りのん (そらねりのん)<br />3月16日に追加メンバーとなった<br />おこじょほわいと担当 柊羽夏 (ひいらぎはな)<br /><br />からなる6人組アイドルグループ！<br />アー写のデザイン制作から加工編集、衣装デザイン、イベントフライヤー、チェキ券やグッズイラストやデザイン、曲の作詞等 18歳の甘苺るうが全て制作しプロデュースしています。<br /><br />歌担当やダンス担当、可愛い担当や美人で推したいお笑い(？！)担当、人類の垣根を越える奇想天外担当など<br />1人残らず個性が強すぎる仲良しグループ！<br />個人の個性に限らず楽曲もいろんなジャンルが楽しめます！<br /><br />テレビ大阪主催「はばたけアイドルフェス」シリーズにも出演<br /><br />今回初めての大きな舞台への挑戦です！',
+      '2025年12月12日デビュー！<br /><strong>大阪拠点 テーマパークコンセプト</strong>のわんみゅーず！です！<br /><br />メロディレッド担当 甘苺るう (あまいるう)<br />ときめきぴんく担当 兎月みあい (うづきみあい)<br />レモネードイエロー担当 日奈こゆ (ひなこゆ)<br />わがままぱーぷる担当 天和あもね (てんのあもね)<br />わたあめらいとぶるー担当 空音りのん (そらねりのん)<br />3月16日に追加メンバーとなった<br />おこじょほわいと担当 柊羽夏 (ひいらぎはな)<br /><br />からなる6人組アイドルグループ！<br />アー写のデザイン制作から加工編集、衣装デザイン、イベントフライヤー、チェキ券やグッズイラストやデザイン、曲の作詞等 18歳の甘苺るうが全て制作しプロデュースしています。<br /><br />歌担当やダンス担当、可愛い担当や美人で推したいお笑い(？！)担当、人類の垣根を越える奇想天外担当など<br />1人残らず個性が強すぎる仲良しグループ！<br />個人の個性に限らず楽曲もいろんなジャンルが楽しめます！<br /><br />テレビ大阪主催「はばたけアイドルフェス」シリーズにも出演<br /><br />今回初めての大きな舞台への挑戦です！',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/onemuseofficial.mp4',
     x: 'onemuseofficial',
     insta: '@onemuse_official',
-    tiktok: '@onemuseofficial',
+    tiktok: 'https://www.tiktok.com/@onemuseofficial',
     other: 'https://lit.link/onemuse',
     withColle: '5UhLVOX0SBemqfarxRZ1mujGNd13',
   },
