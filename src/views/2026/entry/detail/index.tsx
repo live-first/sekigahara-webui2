@@ -222,7 +222,7 @@ export const Entry2026DetailView = () => {
                 </li>
                 <li>
                   ・METALIVEを期間中<Marker theme='yellow'>（5/1〜5/31）</Marker>で
-                  <Marker theme='pink'>30時間以上</Marker>の配信ができること
+                  <Marker theme='pink'>20時間以上</Marker>の配信ができること
                 </li>
                 <li>
                   ・With コレを期間中<Marker theme='yellow'>（4/20〜5/31）</Marker>で

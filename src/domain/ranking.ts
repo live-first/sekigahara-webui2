@@ -27,7 +27,9 @@ export type UnitType = {
   x?: string
   insta?: string
   tiktok?: string
+  youtube?: string
   other?: string
+  withColle?: string
 }
 
 export const UnitInit: UnitType = {

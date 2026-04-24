@@ -33,9 +33,7 @@ export const HalfMenuLayout = ({ header, menu, main, footer }: HalfMenuLayoutPro
               {open ? (
                 <IoIosArrowDropleft className='w-full h-full' />
               ) : (
-                <div className='flex flex-col'>
-                  <IoIosArrowDropright className='w-full h-full' />
-                </div>
+                <IoIosArrowDropright className='w-full h-full' />
               )}
             </button>
           </div>

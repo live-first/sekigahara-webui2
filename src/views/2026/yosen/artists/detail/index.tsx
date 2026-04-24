@@ -13,13 +13,13 @@ export const YosenArtistsDetailView = (props: { id: string | number }) => {
     return <div>Artist not found</div>
   }
   return (
-    <div className='pb-12'>
+    <div className='pb-24'>
       <Img src={detail.img.src} alt={detail.img.alt} />
       <div className='text-sekigahara text-4xl font-bold text-center pt-4'>
         <p className='whitespace-pre-wrap h-full content-center'>{detail.name}</p>
         {detail.yomi && <p className='text-black font-normal text-sm'>（読み：{detail.yomi}）</p>}
       </div>
-      <Panel className='my-6 mx-2 md:mx-12 lg:mx-24'>
+      <Panel className='my-12 mx-2 md:mx-12 max-w-4xl justify-self-center'>
         <div
           className='whitespace-normal break-all text-black'
           dangerouslySetInnerHTML={{
@@ -33,7 +33,7 @@ export const YosenArtistsDetailView = (props: { id: string | number }) => {
           <video src={detail.movie} controls />
         </div>
       )}
-      <div className='flex gap-8 py-8 justify-center'>
+      <div className='flex gap-8 py-12 justify-center'>
         {detail.x && (
           <Link href={`https://x.com/${detail.x}`} className='bg-white rounded-full w-20 h-20 p-4'>
             <Img src='https://lime-light.tv/images/x-logo-black.png' alt='x-logo' />
@@ -52,6 +52,18 @@ export const YosenArtistsDetailView = (props: { id: string | number }) => {
             <Img src='https://lime-light.tv/images/TikTok.png' alt='tiktok-logo' cName='w-4/5' />
           </Link>
         )}
+        {detail.youtube && (
+          <Link
+            href={detail.youtube}
+            className='bg-white rounded-full w-20 h-20 p-2 content-center justify-items-center'
+          >
+            <Img
+              src='https://lime-light.tv/images/youtube-logo.png'
+              alt='youtube-logo'
+              cName='w-4/5'
+            />
+          </Link>
+        )}
         {detail.other && (
           <Link
             href={detail.other}
@@ -61,6 +73,24 @@ export const YosenArtistsDetailView = (props: { id: string | number }) => {
           </Link>
         )}
       </div>
+      <div className='flex justify-self-center max-w-4xl'>
+        {detail.withColle && (
+          <Link href={`https://www.withlive.jp/cast_item.php?id=${detail.withColle}`}>
+            <div className='flex bg-white border-2 border-blue-900 rounded-3xl text-blue-900 py-6 px-24 text-4xl gap-4 items-center hover:bg-blue-900 hover:text-white'>
+              <Img
+                src='https://lime-light.tv/images/with_collection_icon.png'
+                alt='Withコレ'
+                cName='rounded-full w-24 h-24'
+                notNext
+              />
+              Withコレ　→
+            </div>
+          </Link>
+        )}
+      </div>
+      <Link href='/artists' className='flex justify-center text-sekigahara text-lg font-bold mt-6'>
+        ← 出演者一覧へ
+      </Link>
     </div>
   )
 }

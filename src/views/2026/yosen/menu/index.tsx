@@ -37,7 +37,7 @@ export const MenuView = () => {
           ランキング
         </MenuContents>
       </Link>
-      <Link href='/' target='_blank'>
+      <Link href='https://www.withlive.jp/cast_ranking_sekigahara2026.html' target='_blank'>
         <MenuContents>
           <Img
             src='https://lime-light.tv/images/with_collection_icon.png'
@@ -54,7 +54,7 @@ export const MenuView = () => {
       <Link href='/artists'>
         <MenuContents>
           <GiMicrophone />
-          参戦者
+          出演者
         </MenuContents>
       </Link>
       <Link href='/rules'>
