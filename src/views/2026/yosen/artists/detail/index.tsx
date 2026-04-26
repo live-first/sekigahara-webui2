@@ -19,7 +19,7 @@ export const YosenArtistsDetailView = (props: { id: string | number }) => {
         <p className='whitespace-pre-wrap h-full content-center'>{detail.name}</p>
         {detail.yomi && <p className='text-black font-normal text-sm'>（読み：{detail.yomi}）</p>}
       </div>
-      <Panel className='my-12 mx-2 md:mx-12 max-w-4xl w-full justify-self-center'>
+      <Panel className='my-12 md:mx-12 max-w-4xl w-full justify-self-center'>
         <div
           className='whitespace-normal break-all text-black w-full'
           dangerouslySetInnerHTML={{

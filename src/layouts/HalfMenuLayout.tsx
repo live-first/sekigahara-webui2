@@ -19,7 +19,7 @@ export const HalfMenuLayout = ({ header, menu, main, footer }: HalfMenuLayoutPro
   }
 
   return (
-    <div className='h-screen flex flex-col bg-gradient-to-b from-gray-900 to-gray-800 text-white'>
+    <div className='h-screen overflow-hidden flex flex-col bg-gradient-to-b from-gray-900 to-gray-800 text-white'>
       {header && (
         <header className='h-16 flex items-center justify-center text-xl font-bold'>
           {header}

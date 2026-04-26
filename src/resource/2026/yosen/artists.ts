@@ -17,17 +17,18 @@ export const artists: UnitProps[] = [
     withColle: 'eAPPfu1xaOU7kkY4X8ZSfzYoB813',
   },
   {
-    name: "I's Merry Go Round【未提出】",
+    name: "I's Merry Go Round",
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/I_s Merry Go Round.jpeg',
       alt: 'I_s Merry Go Round',
     },
-    content: '',
-    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/.mov',
-    x: '',
+    content:
+      '<strong>“回り続ける物語”</strong>をコンセプトに活動する<br />キラキラ王道系アイドルグループです。<br /><br />楽曲・ビジュアルともに世界観を大切にしながら、<br />誰でも楽しめるキャッチーな楽曲と、<br />一体感のあるライブパフォーマンスを強みとしています。<br /><br />初めてご覧いただく方にも楽しんでいただけるステージを大切に、<br />どの会場でもしっかりと空気を作れるグループを目指しています。<br /><br />関ヶ原予戦会、<br />このステージに懸けて本気で挑みます！<br /><br /><strong>Member</strong><br />恋羽しお（<a href="https://x.com/imgr_shio" target="_blank">@imgr_shio</a>)<br />優木萌々花（<a href="https://x.com/imgr_momoka" target="_blank">@imgr_momoka</a>)<br />甘音にこり（<a href="https://x.com/imgr_nicori" target="_blank">@imgr_nicori</a>)<br />',
+    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/imgr_official.mp4',
+    x: 'imgr_official',
     insta: '',
-    tiktok: '',
+    tiktok: 'https://www.tiktok.com/@i_merry_go_rouno',
     other: '',
     withColle: 'lNfjJi4W4JXKat6hbQ9eBVYEFE72',
   },
@@ -112,14 +113,14 @@ export const artists: UnitProps[] = [
   },
 
   {
-    name: '@youuuuu!!!【未提出】',
+    name: '@youuuuu!!!',
     yomi: 'あっとゆー',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/@youuuuu!!!.png',
       alt: '@youuuuu!!!',
     },
     content:
-      '東京発！あっとゆー間にあなたを虜💘 4人組アイドルグループ！<br /><br />2025.09.22デビュー<br /><br />月乃星愛<br />樹波由依<br />薄明かりん<br />立花なの<br /><br /><br />実績<br />Summer jungle出演',
+      '<strong>東京発！あっとゆー間にあなたを虜💘 4人組アイドルグループ！</strong><br /><br />2025.09.22デビュー<br /><br /><strong>メンバー</strong><br />月乃星愛<br />樹波由依<br />薄明かりん<br />立花なの<br /><br /><br /><strong>実績</strong><br />Summer jungle出演',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/youuuuu_info.mov',
     x: 'youuuuu_info',
     insta: '',
@@ -175,18 +176,19 @@ export const artists: UnitProps[] = [
     withColle: 'TPerbnL7VjcP4zm4oTd21qbfEJH3',
   },
   {
-    name: '「いつかのネバーランド」【未提出】',
+    name: '「いつかのネバーランド」',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/「いつかのネバーランド」.jpg',
       alt: '「いつかのネバーランド」',
     },
-    content: '',
-    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/.mov',
-    x: '',
+    content:
+      '<br />🧚‍♂️「いつかのネバーランド」💐<br /><br /><br />ーーーーーーーーーー<br /><br />2025.10.09 Debut<br /><br />『大人にならない子供たち』をテーマに<br />終わりなき冒険を描く<br />- DREAM FUTURE BASS - を唄う7人組アイドルグループ<br /><br />時間が止まった国「ネバーランド」で、<br />夢の続きを探しにいこう。<br /><br />ーーーーーーーーーー<br /><br /><br />👤 Member<br /><br />💜 心月琉愛（みづき るな）<br /><br />🖤 美菜木緒音（みなぎ おと）<br /><br />🧡 喜多川ゆあ（きたがわ ゆあ）<br /><br />🤍 霧矢きら（きりや きら）<br /><br />❤️ 恋花みり（こはな みり）<br /><br />💛 あん。<br /><br />🩷 黒瀬ふりる（くろせ ふりる）<br /><br />ーーーーーーーーーー<br /><br /><br />📢 Information<br /><br />🧚‍♂️ 1st Anniversary One-Man Live<br />📅 2026.10.08（木）<br />📍 恵比寿CreAto<br />📖『空想未来 -白紙に、君の声を-』<br /><br />ーーーーーーーーーー<br /><br /><br />💿 New Release<br /><br />5.29（金）💕「メロメロケット」🚀<br />8.27（木）💫「ソラリス」💫<br /><br />ーーーーーーーーーー<br /><br /><br />🎤 主催公演「未完成ミライ」<br />6.22（月） / 7.17（金） / 9.25（金）<br /><br />ーーーーーーーーーー<br /><br />',
+    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/ITNV__info.mov',
+    x: 'ITNV__info',
     insta: '',
-    tiktok: '',
-    other: '',
+    tiktok: 'https://www.tiktok.com/@itnv_info',
+    other: 'https://www.itsukano-neverland.com',
     withColle: 'IPrH2cL5L9QeLFQqa6qzq7r7Fxs2',
   },
   {
@@ -339,7 +341,7 @@ export const artists: UnitProps[] = [
       alt: 'Chuu♡Cute',
     },
     content:
-      'Chuu♡Cuteは、2025年7月11日にデビューした、まりちゅうこと長澤茉里奈プロデュースの6人組アイドルグループ。<br />リーダーでミントグリーン担当の橋本乃依は、俳優業に加えラジオパーソナリティーとしても活躍中。<br />サブリーダーでピンク担当の早川真由は、グラビアでも注目を集めている。<br />レッド担当の高橋遥花は、俳優活動に加え、テレビ埼玉「REDS TV GGR」にてアシスタントMCを務めるなど幅広く活動。<br />さらに2026年2月には、ベイビーブルー担当・吉田野乃、ホワイトラベンダー担当・大森あみ、イエロー担当・松本麗花が新たに加入。<br />6人体制となり、さらなる進化を遂げたChuu♡Cute。<br />それぞれの“かわいい”が重なり、一つの輝きを放つ彼女たちにぜひご注目ください。',
+      'Chuu♡Cuteは、2025年7月11日にデビューした、まりちゅうこと長澤茉里奈プロデュースの6人組アイドルグループ。<br /><br /><br />リーダーでミントグリーン担当の橋本乃依は、俳優業に加えラジオパーソナリティーとしても活躍中。<br /><br />サブリーダーでピンク担当の早川真由は、グラビアでも注目を集めている。<br /><br />レッド担当の高橋遥花は、俳優活動に加え、テレビ埼玉「REDS TV GGR」にてアシスタントMCを務めるなど幅広く活動。<br /><br />さらに2026年2月には、ベイビーブルー担当・吉田野乃、ホワイトラベンダー担当・大森あみ、イエロー担当・松本麗花が新たに加入。<br /><br /><br />6人体制となり、さらなる進化を遂げたChuu♡Cute。<br /><br /><strong>それぞれの“かわいい”が重なり、一つの輝きを放つ彼女たちにぜひご注目ください。</strong>',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/chuu_cute_.mov',
     x: 'chuu_cute_',
     insta: 'https://www.instagram.com/chuucute.official?igsh=MmdkbHd2cnN4Njg0&utm_source=qr',
@@ -395,17 +397,18 @@ export const artists: UnitProps[] = [
     withColle: 'lhNlLHC25Xheqfm1RATXkcrl0I33',
   },
   {
-    name: 'New Crown【未提出】',
+    name: 'New Crown',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/New Crown.jpg',
       alt: 'New Crown',
     },
-    content: '',
-    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/.mov',
-    x: '',
+    content:
+      '2024年12月にデビュー。<br /><br /><strong>“新時代の1番になる！”</strong>という想いを込め、「New Crown」と名付けられました。<br /><br /><br />TikTokフォロワー約35万人のりぃあんがメンバー兼プロデューサーを務め、個性豊かでビジュアルの強いメンバーが揃っています！<br /><br />タイプの異なる可愛さなので、きっとあなたも推しメンが見つかるはず！<br /><br /><br />2026年2月に行われた新体制お披露目ワンマンライブでは約300人を動員。<br />今年はさらなる飛躍を目指して活動していきます！<br />',
+    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/newcrown_idol.mov',
+    x: 'newcrown_idol',
     insta: '',
-    tiktok: '',
+    tiktok: 'https://www.tiktok.com/@newcrown.official?_r=1&_t=ZS-95kWSv41Uxx',
     other: '',
     withColle: '',
   },
@@ -464,7 +467,7 @@ export const artists: UnitProps[] = [
     content:
       'HIGH＝高い、ハイクオリティーな<br />S（STYLE）→独自のとらわれないスタイル、表現<br />P（PERFORMANCE）→音楽、演技、ダンス、エンタメ<br />Y（YOUTH）→いつまでも忘れない子供心やまっすぐな思い<br />＝SPY→時に応じて”七変化、何者にでもなれる<br />私たちが欲しいのはみんなの笑顔、感動、勇気、元気、などそんな幸せを感じてもらえる瞬間！<br /><br /><br />アイドルの固定概念を180度変える<br />彼女達のメッセージ性高く熱いステージ、<br />言語の壁なんか飛び越え様々なエンタメで<br />国境を越えて愛される最強のエンタメ集団に！<br /><br /><br /><strong>2024年</strong><br />・1stアルバムリリース<br />・レコ発東名阪福ツアー<br />・＠JAM EXPO出演<br /><br /><strong>2025年</strong><br />・ベビタピメンバー加入<br />・ベビタピフェスin国立代々木競技場第二体育館 出演<br />・小学館〝ちゃお〟掲載<br />・大阪万博ステージ 出演<br /><br />2026.9.9 BIGCATワンマン開催！<br /><br />',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/tenseishitaspd.mov',
-    x: 'https://x.com/tenseishitaspd',
+    x: 'tenseishitaspd',
     insta: '',
     tiktok: 'https://www.tiktok.com/@spadochan0613?_r=1&_t=ZS-95fhKdGtoDy',
     other: '',
@@ -526,7 +529,7 @@ export const artists: UnitProps[] = [
       alt: 'FIRST DREAM',
     },
     content:
-      '”私とあなたの夢を叶えにいく 初めて描いたあの日の想いを抱いて”<br /><br />「青春」と「夢」を描く楽曲派アイドルグループ<br /><br />佐藤湖々音、桜井明花、北山瑞姫、綾瀬かりんの４人で夢を叶える旅路を歩む<br />',
+      '<strong>”私とあなたの夢を叶えにいく 初めて描いたあの日の想いを抱いて”</strong><br /><br />「青春」と「夢」を描く楽曲派アイドルグループ<br /><br />佐藤湖々音、桜井明花、北山瑞姫、綾瀬かりんの４人で夢を叶える旅路を歩む<br />',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/firstdream_bte.mov',
     x: 'firstdream_bte',
     insta:
@@ -590,7 +593,7 @@ export const artists: UnitProps[] = [
       alt: 'vVibe!',
     },
     content:
-      '2024年7月結成、可愛いだけでは終わらない“高ヴァイブス型”5人組アイドル・vVibe!。<br /><br />王道アイドルらしい華やかさを持ちながら、対バンで空気を塗り替えるライブ力と、楽曲ごとに表情を変える幅広い世界観を武器に活動中。<br /><br />メンバーそれぞれの個性が立った楽曲とステージ、思わず巻き込まれるコール・mixの一体感、そして初見でも熱くなれるライブがvVibe!の魅力です。<br /><br />関ヶ原唄姫合戦2026予戦会では、この熱をもっと大きな景色へ繋げるために本気で挑戦します。ぜひvVibe!を知ってください。<br /><br />',
+      '2024年7月結成、<strong>可愛いだけでは終わらない“高ヴァイブス型”5人組アイドル・vVibe!</strong>。<br /><br />王道アイドルらしい華やかさを持ちながら、対バンで空気を塗り替えるライブ力と、楽曲ごとに表情を変える幅広い世界観を武器に活動中。<br /><br />メンバーそれぞれの個性が立った楽曲とステージ、思わず巻き込まれるコール・mixの一体感、そして初見でも熱くなれるライブがvVibe!の魅力です。<br /><br />関ヶ原唄姫合戦2026予戦会では、この熱をもっと大きな景色へ繋げるために本気で挑戦します。ぜひvVibe!を知ってください。<br /><br />',
     movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/vvibemuse.mov',
     x: 'vvibemuse',
     insta: '',
@@ -644,33 +647,35 @@ export const artists: UnitProps[] = [
     withColle: '',
   },
   {
-    name: 'MiDi ON!【未提出】',
+    name: 'MiDi ON!',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/MiDi ON!.jpeg',
       alt: 'MiDi ON!',
     },
-    content: '',
-    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/.mov',
-    x: '',
+    content:
+      '2024.6.22デビュー<br /><br /><strong>“沸ける”曲から”沁みる”曲まで</strong>、オリジナル楽曲を多数構え都内を中心に活動中<br /><br /><strong>メンバー</strong ><br />赤担当 丸山りん<br />オレンジ担当 月乃ちえみ<br />白担当 白玉みこ<br />緑担当一ノ瀬ひかり',
+    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/MiDiON_official.mp4',
+    x: 'MiDiON_official',
     insta: '',
     tiktok: '',
     other: '',
     withColle: 'r7rL4X1hw7edtEl57uPShhlqEz22',
   },
   {
-    name: 'Maycry Liz【未提出】',
+    name: 'Maycry Liz',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/Maycry Liz.jpeg',
       alt: 'Maycry Liz',
     },
-    content: '',
-    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/.mov',
-    x: '',
+    content:
+      '令和Emotionalアイドル<br /><br /><strong>90年代J-popシーンの"エモい"メロディーライン<br />　　　　　　×<br />最新且つ重厚なCLUB、BANDサウンド</strong><br /><br />あふれかえるアイドルオーシャンに一石を投じるニュースクールアイドル<br /><br />From NagoyaからFrom Japanへ',
+    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/stax_pro.mov',
+    x: 'stax_pro',
     insta: '',
     tiktok: '',
-    other: '',
+    other: 'https://stax-p.com/',
     withColle: '',
   },
   {
@@ -721,15 +726,16 @@ export const artists: UnitProps[] = [
     withColle: 'MQK23hLDApMZVrrXJz7J9gdAR5A3',
   },
   {
-    name: '夕凪のスピカ【未提出】',
+    name: '夕凪のスピカ',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/夕凪のスピカ.jpeg',
       alt: '夕凪のスピカ',
     },
-    content: '',
-    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/.mov',
-    x: '',
+    content:
+      '2026.4.2 デビュー<br /><br />名古屋を拠点に活動する王道系5人組。<br /><br /><br /><strong>メンバー</strong><br />叶夢 らら (かなめ らら)<br />メンバーカラー:紫<br /><br />詠星 らんか (えいせい らんか)<br />メンバーカラー:緑<br /><br />西野 萌夏 (にしの もえか)<br />メンバーカラー:ピンク<br /><br />瑠璃川 もも (るりかわ もも)<br />メンバーカラー:水色<br /><br />柚香 まい (ゆずか まい)<br />メンバーカラー:黄色<br /><br />',
+    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/yunagi_spica.mp4',
+    x: 'yunagi_spica',
     insta: '',
     tiktok: '',
     other: '',
@@ -781,17 +787,18 @@ export const artists: UnitProps[] = [
     withColle: '',
   },
   {
-    name: 'LEVEL7【未提出】',
+    name: 'LEVEL7',
     yomi: '',
     img: {
-      src: 'https://sekigahara-idolwars.net/2026/yosen/artists/level7.jpg',
+      src: 'https://sekigahara-idolwars.net/2026/yosen/artists/LEVEL7.jpeg',
       alt: 'LEVEL7',
     },
-    content: '',
-    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/.mov',
-    x: '',
-    insta: '',
-    tiktok: '',
+    content:
+      '<strong>かっこよさも可愛さも自在に操る、変幻自在のスパイ系アイドル「LEVEL7」。</strong><br /><br />2023年8月18日にデビューし、渋谷Veatsや恵比寿リキッドルームでのワンマンライブを満員で成功、さらに今年2月のZepp Shinjukuでは1000人以上を動員するなど勢いは加速し続けている。<br /><br />メンバーはYUME・SAYA・RIZUMU・MISA・MIHARUの5人。<br /><br />個性と実力を兼ね備えた今注目のグループ。<br /><br />あなたの心を奪うミッションは、すでに始まっている?!<br /><br />',
+    movie: 'https://lime-light.tv/images/2026/yosen/artists/movie/level7_koshiki.mov',
+    x: 'level7_koshiki',
+    insta: 'https://www.instagram.com/level7__official/',
+    tiktok: 'https://www.tiktok.com/@level7777777?_t=8dmoT5ypEzx&_r=1',
     other: '',
     withColle: '',
   },

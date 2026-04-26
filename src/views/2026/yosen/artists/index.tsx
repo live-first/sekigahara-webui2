@@ -13,7 +13,7 @@ export const YosenArtistsView = () => {
         {artists.map((artist, index) => (
           <Grid size={{ xs: 6, sm: 6, md: 4 }} key={`artist-${index}`}>
             <SlideUpAnimation>
-              <Link href={`/artists/${artist.x}`} target='_blank'>
+              <Link href={`/artists/${artist.x}`}>
                 <UnitBox name={artist.name} img={artist.img} />
               </Link>
             </SlideUpAnimation>
