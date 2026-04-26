@@ -2,7 +2,7 @@ import { UnitProps } from '@/templates/unitBox'
 
 export const artists: UnitProps[] = [
   {
-    name: 'AiMEL!!-あいめる-【未提出】',
+    name: 'AiMEL!!-あいめる-',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/AiMEL!!-あいめる-.jpg',
@@ -145,7 +145,7 @@ export const artists: UnitProps[] = [
     withColle: 'sirgD1H5dbcrTgTbtYPrQHpKAec2',
   },
   {
-    name: 'INOiZe↯【未提出】',
+    name: 'INOiZe↯',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/INOiZe↯.jpeg',
@@ -207,7 +207,7 @@ export const artists: UnitProps[] = [
     withColle: 'myfF2TxBLvRv7romQFNmDOPyZGu1',
   },
   {
-    name: 'Otomeria【未提出】',
+    name: 'Otomeria',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/Otomeria.png',
@@ -287,7 +287,7 @@ export const artists: UnitProps[] = [
     withColle: 'gXy3zCbnF1WGwSaABNZlv5g399k1',
   },
   {
-    name: '逆転ねこぱんちっ！【未提出】',
+    name: '逆転ねこぱんちっ！',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/逆転ねこぱんちっ！.png',
@@ -428,7 +428,7 @@ export const artists: UnitProps[] = [
     withColle: 'cuBgyymEpgbfSHqIW7ALcxMaq9X2',
   },
   {
-    name: 'NEOTOKYO-TRIBE【未提出】',
+    name: 'NEOTOKYO-TRIBE',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/NEOTOKYO-TRIBE.jpeg',
@@ -507,7 +507,7 @@ export const artists: UnitProps[] = [
     withColle: 'R2JdPyP1jnO2zHi3lvH1RhPrAAk1',
   },
   {
-    name: '秘密結社フローリス【未提出】',
+    name: '秘密結社フローリス',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/秘密結社フローリス.jpg',
@@ -555,7 +555,7 @@ export const artists: UnitProps[] = [
     withColle: 'bJHUwVCBUGYh7r4no9TgMCv5b913',
   },
   {
-    name: 'BLUE REGRET。【未提出】',
+    name: 'BLUE REGRET。',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/BLUE REGRET。.png',
@@ -602,7 +602,7 @@ export const artists: UnitProps[] = [
     withColle: '',
   },
   {
-    name: 'プラチナリボン【未提出】',
+    name: 'プラチナリボン',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/プラチナリボン.jpeg',
@@ -617,7 +617,7 @@ export const artists: UnitProps[] = [
     withColle: '',
   },
   {
-    name: 'BabyDolls【未提出】',
+    name: 'BabyDolls',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/BabyDoll.png',
@@ -632,7 +632,7 @@ export const artists: UnitProps[] = [
     withColle: '',
   },
   {
-    name: 'Mihiro【未提出】',
+    name: 'Mihiro',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/Mihiro.jpeg',
@@ -772,7 +772,7 @@ export const artists: UnitProps[] = [
     withColle: 'CpYfCHdzayWXTkJUR1wfs49Qcpu1',
   },
   {
-    name: 'Lumi Prima【未提出】',
+    name: 'Lumi Prima',
     yomi: '',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/Lumi Prima.jpeg',
