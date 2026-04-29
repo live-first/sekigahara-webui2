@@ -1,5 +1,8 @@
+'use client'
+
 import { Img } from '@/components/Image'
 import { Panel } from '@/components/Panel'
+import { YouTube } from '@/components/YouTube'
 import { artists } from '@/resource/2026/yosen/artists'
 import Link from 'next/link'
 import { FaLink } from 'react-icons/fa'
@@ -29,10 +32,11 @@ export const YosenArtistsDetailView = (props: { id: string | number }) => {
       </Panel>
 
       {detail.movie && (
-        <div className='flex justify-self-center max-w-4xl'>
-          <video src={detail.movie} controls />
+        <div className='flex justify-self-center max-w-5xl'>
+          <YouTube videoId={detail.movie} title={`${detail.name} 意気込み動画`} />
         </div>
       )}
+
       <div className='flex gap-8 py-18 justify-center'>
         {detail.x && (
           <Link href={`https://x.com/${detail.x}`} className='bg-white rounded-full w-20 h-20 p-4'>
@@ -75,7 +79,10 @@ export const YosenArtistsDetailView = (props: { id: string | number }) => {
       </div>
       <div className='flex justify-center justify-self-center max-w-4xl w-full'>
         {detail.withColle && (
-          <Link href={`https://www.withlive.jp/cast_item.php?id=${detail.withColle}`} className='w-4/5'>
+          <Link
+            href={`https://www.withlive.jp/cast_item.php?id=${detail.withColle}`}
+            className='w-4/5'
+          >
             <div className='flex bg-white border-2 border-blue-900 rounded-3xl text-blue-900 py-6 text-xl md:text-4xl w-full gap-4 items-center justify-center hover:bg-blue-900 hover:text-white'>
               <Img
                 src='https://lime-light.tv/images/with_collection_icon.png'
