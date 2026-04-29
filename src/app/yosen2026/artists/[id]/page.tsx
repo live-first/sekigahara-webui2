@@ -10,5 +10,5 @@ export async function generateStaticParams() {
 
 export default async function YosenArtist(props: { params: Promise<{ id: string }> }) {
   const params = await props.params
-  return <HalfMenuLayout main={<YosenArtistsDetailView id={params.id} />} />
+  return <HalfMenuLayout allView={<YosenArtistsDetailView id={params.id} />} />
 }

@@ -8,10 +8,11 @@ type HalfMenuLayoutProps = {
   header?: ReactNode
   menu?: ReactNode
   main?: ReactNode
+  allView?: ReactNode
   footer?: ReactNode
 }
 
-export const HalfMenuLayout = ({ header, menu, main, footer }: HalfMenuLayoutProps) => {
+export const HalfMenuLayout = ({ header, menu, main, allView, footer }: HalfMenuLayoutProps) => {
   const [open, isOpen] = useState(false)
 
   const handleClick = () => {
@@ -41,6 +42,7 @@ export const HalfMenuLayout = ({ header, menu, main, footer }: HalfMenuLayoutPro
         {open && <div className='w-10 h-full'></div>}
 
         {main && <main className={cn('flex-1 h-screen md:ml-0 overflow-scroll bg-gray-200', open ? 'ml-0' : 'ml-10')}>{main}</main>}
+        {allView && <div className='flex-1 h-screen md:ml-0 overflow-scroll bg-gray-200'>{allView}</div>}
       </div>
       {footer && <footer className='h-16 flex items-center justify-center'>{footer}</footer>}
     </div>
