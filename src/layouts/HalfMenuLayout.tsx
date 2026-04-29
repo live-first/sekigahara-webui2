@@ -19,7 +19,7 @@ export const HalfMenuLayout = ({ header, menu, main, footer }: HalfMenuLayoutPro
   }
 
   return (
-    <div className='h-screen overflow-hidden flex flex-col bg-gradient-to-b from-gray-900 to-gray-800 text-white'>
+    <div className='h-full overflow-hidden flex flex-col bg-gradient-to-b from-gray-900 to-gray-800 text-white'>
       {header && (
         <header className='h-16 flex items-center justify-center text-xl font-bold'>
           {header}
@@ -27,9 +27,9 @@ export const HalfMenuLayout = ({ header, menu, main, footer }: HalfMenuLayoutPro
       )}
       <div className='flex'>
         {menu && (
-          <div className={cn('flex md:flex-col z-10 md:sticky top-0', open ? 'fixed' : '')}>
+          <div className={cn('fixed flex md:flex-col z-10 md:sticky top-0')}>
             <div className={cn(open ? '' : 'hidden md:flex')}>{menu}</div>
-            <button className='w-10 h-full flex bg-sekigahara md:hidden' onClick={handleClick}>
+            <button className='w-10 h-screen md:h-full flex bg-sekigahara md:hidden' onClick={handleClick}>
               {open ? (
                 <IoIosArrowDropleft className='w-full h-full' />
               ) : (
@@ -40,7 +40,7 @@ export const HalfMenuLayout = ({ header, menu, main, footer }: HalfMenuLayoutPro
         )}
         {open && <div className='w-10 h-full'></div>}
 
-        {main && <main className={cn('flex-1 h-screen overflow-scroll bg-gray-200')}>{main}</main>}
+        {main && <main className={cn('flex-1 h-screen md:ml-0 overflow-scroll bg-gray-200', open ? 'ml-0' : 'ml-10')}>{main}</main>}
       </div>
       {footer && <footer className='h-16 flex items-center justify-center'>{footer}</footer>}
     </div>
