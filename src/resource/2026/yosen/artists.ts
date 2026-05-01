@@ -147,13 +147,13 @@ export const artists: UnitProps[] = [
   },
   {
     name: 'INOiZe↯',
-    yomi: 'いず',
+    yomi: 'いのいず',
     img: {
       src: 'https://sekigahara-idolwars.net/2026/yosen/artists/INOiZe↯.jpeg',
       alt: 'INOiZe↯',
     },
     content:
-      '『心のノイズを引き金に。闇を撃ち、未来を変える。』をコンセプトに2025年11月22日より活動開始！<br /><br /><br />"私のトリコになってみる？"<br /><br />ローズレット担当 白百合彩美<br /><br /><br />"かなにハマるしかなくない？"<br /><br />黄色担当 陽葵華菜<br /><br /><br />からなる2人グループ',
+      '<strong>『心のノイズを引き金に。闇を撃ち、未来を変える。』をコンセプトに2025年11月22日より活動開始！</strong><br /><br />ローズレッド担当 白百合彩美(<a href="https://x.com/ami_shirayuri" target="_blank">@ami_shirayuri</a>)<br /><br />黄色担当 陽葵華菜(<a href="https://x.com/himakana_925" target="_blank">@himakana_925</a>)<br /><br />',
     movie: 'moX-rht8iUo',
     x: 'hf_inoize',
     insta: '',
